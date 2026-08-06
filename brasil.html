@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brasil em Alta — Rede Diz Paulínia</title>
+<style>
+  :root{
+    --navy:#142850;
+    --navy-light:#1f3a6e;
+    --orange:#FF6B35;
+    --teal:#2EC4B6;
+    --bg:#F7F5F2;
+    --card:#FFFFFF;
+    --text:#1B1B1B;
+    --muted:#6B7280;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:'Segoe UI', system-ui, -apple-system, Arial, sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.6;
+  }
+  a{text-decoration:none;color:inherit;}
+  img{max-width:100%;display:block;}
+  .container{max-width:1100px;margin:0 auto;padding:0 24px;}
+
+  header{
+    background:var(--navy);
+    color:#fff;
+    position:sticky;
+    top:0;
+    z-index:100;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+  }
+  .nav-wrap{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:16px 24px;
+    max-width:1100px;
+    margin:0 auto;
+  }
+  .logo{
+    font-size:22px;
+    font-weight:800;
+    display:flex;
+    align-items:baseline;
+    gap:6px;
+  }
+  .logo span.diz{color:var(--orange);}
+  .logo small{
+    display:block;
+    font-size:11px;
+    font-weight:400;
+    letter-spacing:2px;
+    color:var(--teal);
+    text-transform:uppercase;
+  }
+  nav ul{
+    list-style:none;
+    display:flex;
+    gap:28px;
+  }
+  nav a{
+    font-size:14px;
+    font-weight:600;
+    opacity:.9;
+    transition:opacity .2s;
+  }
+  nav a:hover{opacity:1;color:var(--orange);}
+  .menu-toggle{display:none;background:none;border:none;color:#fff;font-size:26px;cursor:pointer;}
+
+  @media (max-width:800px){
+    nav ul{
+      position:absolute;
+      top:64px;
+      left:0;
+      right:0;
+      background:var(--navy-light);
+      flex-direction:column;
+      padding:16px 24px;
+      display:none;
+      gap:16px;
+    }
+    nav ul.open{display:flex;}
+    .menu-toggle{display:block;}
+  }
+
+  section{padding:70px 0;}
+  .section-title{
+    text-align:center;
+    margin-bottom:12px;
+    font-size:32px;
+    font-weight:800;
+    color:var(--navy);
+  }
+  .section-sub{
+    text-align:center;
+    color:var(--muted);
+    max-width:560px;
+    margin:0 auto 30px;
+  }
+  .voltar{
+    display:block;
+    text-align:center;
+    margin-bottom:44px;
+    color:var(--orange);
+    font-weight:700;
+    font-size:14px;
+  }
+
+  .grid-3{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
+    gap:26px;
+  }
+  .noticia-card{
+    display:block;
+    background:var(--card);
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 4px 14px rgba(20,40,80,.06);
+    transition:transform .15s;
+  }
+  .noticia-card:hover{transform:translateY(-4px);}
+  .noticia-foto{
+    height:170px;
+    width:100%;
+    object-fit:cover;
+  }
+  .noticia-body{padding:20px;}
+  .tag{
+    display:inline-block;
+    font-size:11px;
+    font-weight:700;
+    color:var(--orange);
+    text-transform:uppercase;
+    letter-spacing:.5px;
+    margin-bottom:8px;
+  }
+  .noticia-body h3{font-size:16px;margin-bottom:8px;color:var(--navy);}
+  .noticia-body p{font-size:13.5px;color:var(--muted);}
+  .noticia-data{
+    font-size:11.5px;
+    color:var(--muted);
+    margin-top:10px;
+    display:block;
+  }
+
+  footer{
+    background:#0d1b33;
+    color:#aab4c7;
+    text-align:center;
+    padding:28px 20px;
+    font-size:13px;
+  }
+  footer strong{color:#fff;}
+
+  .manchetes-bar{background:var(--navy-light);display:flex;align-items:center;overflow:hidden;height:42px;border-bottom:1px solid rgba(255,255,255,.08);}
+  .manchetes-label{flex:0 0 auto;display:flex;align-items:center;gap:6px;background:var(--orange);color:#fff;font-size:11px;font-weight:800;letter-spacing:.5px;padding:0 16px;height:100%;text-transform:uppercase;white-space:nowrap;}
+  .manchetes-label .dot{width:7px;height:7px;border-radius:50%;background:#fff;animation:pulse 1.4s infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.3;}}
+  .manchetes-viewport{flex:1;overflow:hidden;height:100%;position:relative;}
+  .manchetes-track{display:flex;align-items:center;height:100%;white-space:nowrap;animation:scrollLeft 45s linear infinite;width:max-content;}
+  .manchetes-viewport:hover .manchetes-track{animation-play-state:paused;}
+  @keyframes scrollLeft{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
+  .manchete-item{display:inline-flex;align-items:center;gap:8px;padding:0 28px;font-size:13.5px;color:#fff;font-weight:600;text-decoration:none;}
+  .manchete-item .escopo-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;}
+  .manchete-item .escopo-dot.paulinia{background:var(--orange);}
+  .manchete-item .escopo-dot.brasil{background:var(--teal);}
+  .manchete-item:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav-wrap">
+    <a href="index.html" class="logo">
+      Rede<span class="diz">Diz</span>
+      <small style="margin-left:6px;">Paulínia</small>
+    </a>
+    <nav>
+      <ul id="navList">
+        <li><a href="index.html#topo">Início</a></li>
+        <li><a href="index.html#noticias">Notícias Paulínia</a></li>
+        <li><a href="index.html#brasil">Brasil em Alta</a></li>
+        <li><a href="arquivo.html">Arquivo</a></li>
+        <li><a href="index.html#comercio">Comércio Local</a></li>
+        <li><a href="index.html#cultura">Cultura &amp; Eventos</a></li>
+        <li><a href="index.html#sobre">Sobre</a></li>
+        <li><a href="index.html#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" onclick="document.getElementById('navList').classList.toggle('open')">☰</button>
+  </div>
+</header>
+
+<div class="manchetes-bar">
+  <div class="manchetes-label"><span class="dot"></span>Manchetes</div>
+  <div class="manchetes-viewport">
+    <div class="manchetes-track" id="manchetesTrack"></div>
+  </div>
+</div>
+
+
+<section>
+  <div class="container">
+    <h1 class="section-title">Brasil em Alta — Rede Diz Paulínia</h1>
+    <p class="section-sub">As notícias de maior repercussão do Brasil, atualizadas duas vezes por dia (8h e 15h). <a href="index.html#noticias" style="color:var(--orange);font-weight:700;">Ver notícias de Paulínia &rarr;</a></p>
+    <a href="index.html" class="voltar">&larr; Voltar pro início</a>
+
+    <div class="grid-3">
+      <a class="noticia-card" href="materia.html?id=2026-08-04-eua-revogam-visto-embaixadora">
+        <img class="noticia-foto" src="https://i.metroimg.com/cEiHEju8W4EndQyAxdaviKjqy7IEvUXgX1XPDvv5n0I/w:600/q:85/f:webp/plain/https://images.metroimg.com/2025/05/27122630/un7843660-29139353.jpg" alt="EUA revogam visto da embaixadora do Brasil em Washington">
+        <div class="noticia-body">
+          <span class="tag">Política</span>
+          <h3>EUA revogam visto da embaixadora do Brasil em Washington</h3>
+          <p>O governo Trump cancelou nesta terça-feira (4) o visto de Maria Luiza Viotti, embaixadora brasileira nos Estados Unidos, alegando demora do Brasil em aprovar o novo embaixador americano. Ela não precisa deixar o país imediatamente.</p>
+          <span class="noticia-data">04/08/2026</span>
+        </div>
+      </a>
+      <a class="noticia-card" href="materia.html?id=2026-08-04-incendio-industria-itaquaquecetuba">
+        <img class="noticia-foto" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/WhatsApp-Image-2026-08-04-at-16.56.07-1.jpeg?w=1200&h=630&crop=1" alt="Incêndio de grandes proporções atinge indústria química em SP">
+        <div class="noticia-body">
+          <span class="tag">Polícia</span>
+          <h3>Incêndio de grandes proporções atinge indústria química em SP</h3>
+          <p>Um incêndio de grande magnitude atingiu nesta terça-feira (4) uma fábrica de solventes em Itaquaquecetuba, na Grande São Paulo. Dezoito viaturas dos Bombeiros combatem as chamas perto de 24 tanques de produtos inflamáveis. Não há feridos.</p>
+          <span class="noticia-data">04/08/2026</span>
+        </div>
+      </a>
+      <a class="noticia-card" href="materia.html?id=2026-08-04-grupo-planejava-explosivo-debate-presidencial">
+        <img class="noticia-foto" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/WhatsApp-Image-2026-08-04-at-09.12.47.jpeg?w=1200&h=630&crop=1" alt="Grupo é investigado por planejar atentado em debate presidencial">
+        <div class="noticia-body">
+          <span class="tag">Polícia</span>
+          <h3>Grupo é investigado por planejar atentado em debate presidencial</h3>
+          <p>A Polícia Civil do DF deflagrou a operação Rede Interrompida contra um grupo suspeito de planejar colocar explosivos em um prédio onde aconteceria um debate presidencial durante as eleições. Foram cumpridos oito mandados em cinco estados.</p>
+          <span class="noticia-data">04/08/2026</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p><strong>Rede Diz Paulínia</strong> — Notícias, comércio e cultura da nossa cidade.</p>
+  <p>Um projeto COM\C · Edição de 04/08/2026</p>
+</footer>
+
+
+<script>
+(function(){
+  var track = document.getElementById('manchetesTrack');
+  if(!track) return;
+  fetch('noticias.json').then(function(r){ return r.json(); }).then(function(lista){
+    var itens = (lista || []).slice(0, 10);
+    if(itens.length === 0){ track.closest('.manchetes-bar').style.display = 'none'; return; }
+    function esc(s){ var d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
+    function itemHtml(it){
+      var cls = it.escopo === 'brasil' ? 'brasil' : 'paulinia';
+      return '<a class="manchete-item" href="materia.html?id=' + encodeURIComponent(it.id) + '"><span class="escopo-dot ' + cls + '"></span>' + esc(it.titulo) + '</a>';
+    }
+    var html = itens.map(itemHtml).join('');
+    track.innerHTML = html + html;
+  }).catch(function(){
+    track.closest('.manchetes-bar').style.display = 'none';
+  });
+})();
+</script>
+</body>
+</html>
