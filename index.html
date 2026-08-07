@@ -5,663 +5,674 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rede Diz Paulínia — Notícias, Comércio e Cultura da nossa cidade</title>
 <style>
-  :root{
-    --navy:#142850;
-    --navy-light:#1f3a6e;
-    --orange:#FF6B35;
-    --teal:#2EC4B6;
-    --bg:#F7F5F2;
-    --card:#FFFFFF;
-    --text:#1B1B1B;
-    --muted:#6B7280;
-  }
-  *{box-sizing:border-box;margin:0;padding:0;}
-  body{
-    font-family:'Segoe UI', system-ui, -apple-system, Arial, sans-serif;
-    background:var(--bg);
-    color:var(--text);
-    line-height:1.6;
-  }
-  a{text-decoration:none;color:inherit;}
-  img{max-width:100%;display:block;}
-  .container{max-width:1100px;margin:0 auto;padding:0 24px;}
+:root{
+--navy:#142850;
+--navy-light:#1f3a6e;
+--orange:#FF6B35;
+--teal:#2EC4B6;
+--bg:#F7F5F2;
+--card:#FFFFFF;
+--text:#1B1B1B;
+--muted:#6B7280;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{
+font-family:'Segoe UI', system-ui, -apple-system, Arial, sans-serif;
+background:var(--bg);
+color:var(--text);
+line-height:1.6;
+}
+a{text-decoration:none;color:inherit;}
+img{max-width:100%;display:block;}
+.container{max-width:1100px;margin:0 auto;padding:0 24px;}
 
-  /* HEADER */
-  header{
-    background:var(--navy);
-    color:#fff;
-    position:sticky;
-    top:0;
-    z-index:100;
-    box-shadow:0 2px 10px rgba(0,0,0,.15);
-  }
-  .nav-wrap{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:16px 24px;
-    max-width:1100px;
-    margin:0 auto;
-  }
-  .logo{
-    font-size:22px;
-    font-weight:800;
-    display:flex;
-    align-items:baseline;
-    gap:6px;
-  }
-  .logo span.diz{color:var(--orange);}
-  .logo small{
-    display:block;
-    font-size:11px;
-    font-weight:400;
-    letter-spacing:2px;
-    color:var(--teal);
-    text-transform:uppercase;
-  }
-  nav ul{
-    list-style:none;
-    display:flex;
-    gap:28px;
-  }
-  nav a{
-    font-size:14px;
-    font-weight:600;
-    opacity:.9;
-    transition:opacity .2s;
-  }
-  nav a:hover{opacity:1;color:var(--orange);}
-  .menu-toggle{display:none;background:none;border:none;color:#fff;font-size:26px;cursor:pointer;}
+/* HEADER */
+header{
+background:var(--navy);
+color:#fff;
+position:sticky;
+top:0;
+z-index:100;
+box-shadow:0 2px 10px rgba(0,0,0,.15);
+}
+.nav-wrap{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:16px 24px;
+max-width:1100px;
+margin:0 auto;
+}
+.logo{
+font-size:22px;
+font-weight:800;
+display:flex;
+align-items:baseline;
+gap:6px;
+}
+.logo span.diz{color:var(--orange);}
+.logo small{
+display:block;
+font-size:11px;
+font-weight:400;
+letter-spacing:2px;
+color:var(--teal);
+text-transform:uppercase;
+}
+nav ul{
+list-style:none;
+display:flex;
+gap:28px;
+}
+nav a{
+font-size:14px;
+font-weight:600;
+opacity:.9;
+transition:opacity .2s;
+}
+nav a:hover{opacity:1;color:var(--orange);}
+.menu-toggle{display:none;background:none;border:none;color:#fff;font-size:26px;cursor:pointer;}
 
-  @media (max-width:800px){
-    nav ul{
-      position:absolute;
-      top:64px;
-      left:0;
-      right:0;
-      background:var(--navy-light);
-      flex-direction:column;
-      padding:16px 24px;
-      display:none;
-      gap:16px;
-    }
-    nav ul.open{display:flex;}
-    .menu-toggle{display:block;}
-  }
+@media (max-width:800px){
+nav ul{
+position:absolute;
+top:64px;
+left:0;
+right:0;
+background:var(--navy-light);
+flex-direction:column;
+padding:16px 24px;
+display:none;
+gap:16px;
+}
+nav ul.open{display:flex;}
+.menu-toggle{display:block;}
+}
 
-  /* HERO */
-  .hero{
-    background:linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 60%, var(--teal) 140%);
-    color:#fff;
-    padding:80px 24px 70px;
-    text-align:center;
-  }
-  .hero h1{
-    font-size:clamp(28px,5vw,46px);
-    font-weight:800;
-    margin-bottom:16px;
-  }
-  .hero h1 .accent{color:var(--orange);}
-  .hero p{
-    max-width:620px;
-    margin:0 auto 30px;
-    font-size:18px;
-    opacity:.92;
-  }
-  .btn{
-    display:inline-block;
-    padding:14px 30px;
-    border-radius:30px;
-    font-weight:700;
-    font-size:15px;
-    transition:transform .15s, box-shadow .15s;
-  }
-  .btn-primary{
-    background:var(--orange);
-    color:#fff;
-    box-shadow:0 6px 16px rgba(255,107,53,.35);
-  }
-  .btn-primary:hover{transform:translateY(-2px);}
-  .btn-outline{
-    border:2px solid #fff;
-    color:#fff;
-    margin-left:12px;
-  }
-  .btn-outline:hover{background:#fff;color:var(--navy);}
+/* HERO */
+.hero{
+background:linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 60%, var(--teal) 140%);
+color:#fff;
+padding:80px 24px 70px;
+text-align:center;
+}
+.hero h1{
+font-size:clamp(28px,5vw,46px);
+font-weight:800;
+margin-bottom:16px;
+}
+.hero h1 .accent{color:var(--orange);}
+.hero p{
+max-width:620px;
+margin:0 auto 30px;
+font-size:18px;
+opacity:.92;
+}
+.btn{
+display:inline-block;
+padding:14px 30px;
+border-radius:30px;
+font-weight:700;
+font-size:15px;
+transition:transform .15s, box-shadow .15s;
+}
+.btn-primary{
+background:var(--orange);
+color:#fff;
+box-shadow:0 6px 16px rgba(255,107,53,.35);
+}
+.btn-primary:hover{transform:translateY(-2px);}
+.btn-outline{
+border:2px solid #fff;
+color:#fff;
+margin-left:12px;
+}
+.btn-outline:hover{background:#fff;color:var(--navy);}
 
-  /* SECTIONS */
-  section{padding:70px 0;}
-  .section-title{
-    text-align:center;
-    margin-bottom:12px;
-    font-size:32px;
-    font-weight:800;
-    color:var(--navy);
-  }
-  .section-sub{
-    text-align:center;
-    color:var(--muted);
-    max-width:560px;
-    margin:0 auto 44px;
-  }
-  .badge-exemplo{
-    display:inline-block;
-    background:var(--teal);
-    color:#fff;
-    font-size:11px;
-    font-weight:700;
-    padding:3px 10px;
-    border-radius:12px;
-    letter-spacing:.5px;
-    text-transform:uppercase;
-    margin-bottom:10px;
-  }
+/* SECTIONS */
+section{padding:70px 0;}
+.section-title{
+text-align:center;
+margin-bottom:12px;
+font-size:32px;
+font-weight:800;
+color:var(--navy);
+}
+.section-sub{
+text-align:center;
+color:var(--muted);
+max-width:560px;
+margin:0 auto 44px;
+}
+.badge-exemplo{
+display:inline-block;
+background:var(--teal);
+color:#fff;
+font-size:11px;
+font-weight:700;
+padding:3px 10px;
+border-radius:12px;
+letter-spacing:.5px;
+text-transform:uppercase;
+margin-bottom:10px;
+}
 
-  /* DESTAQUES */
-  .destaques{
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(230px,1fr));
-    gap:24px;
-  }
-  .destaque-card{
-    background:var(--card);
-    border-radius:14px;
-    padding:28px 22px;
-    text-align:center;
-    box-shadow:0 4px 18px rgba(20,40,80,.07);
-    transition:transform .2s;
-  }
-  .destaque-card:hover{transform:translateY(-6px);}
-  .destaque-card .icon{font-size:34px;margin-bottom:14px;}
-  .destaque-card h3{font-size:17px;margin-bottom:8px;color:var(--navy);}
-  .destaque-card p{font-size:14px;color:var(--muted);}
+/* DESTAQUES */
+.destaques{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(230px,1fr));
+gap:24px;
+}
+.destaque-card{
+background:var(--card);
+border-radius:14px;
+padding:28px 22px;
+text-align:center;
+box-shadow:0 4px 18px rgba(20,40,80,.07);
+transition:transform .2s;
+}
+.destaque-card:hover{transform:translateY(-6px);}
+.destaque-card .icon{font-size:34px;margin-bottom:14px;}
+.destaque-card h3{font-size:17px;margin-bottom:8px;color:var(--navy);}
+.destaque-card p{font-size:14px;color:var(--muted);}
 
-  /* NOTÍCIAS */
-  .noticias-bg{background:#fff;}
-  .grid-3{
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
-    gap:26px;
-  }
-  .noticia-card{
-    display:block;
-    background:var(--bg);
-    border-radius:14px;
-    overflow:hidden;
-    box-shadow:0 4px 14px rgba(20,40,80,.06);
-    transition:transform .15s;
-  }
-  .noticia-card:hover{transform:translateY(-4px);}
-  .noticia-img{
-    height:150px;
-    background:linear-gradient(135deg,var(--navy),var(--teal));
-    display:flex;align-items:center;justify-content:center;
-    color:#fff;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;
-  }
-  .noticia-foto{
-    height:170px;
-    width:100%;
-    object-fit:cover;
-  }
-  .noticia-fonte{
-    font-size:11.5px;
-    color:var(--muted);
-    margin-top:10px;
-  }
-  .noticia-fonte a{color:var(--orange);font-weight:600;}
-  .noticia-body{padding:20px;}
-  .tag{
-    display:inline-block;
-    font-size:11px;
-    font-weight:700;
-    color:var(--orange);
-    text-transform:uppercase;
-    letter-spacing:.5px;
-    margin-bottom:8px;
-  }
-  .noticia-body h3{font-size:16px;margin-bottom:8px;color:var(--navy);}
-  .noticia-body p{font-size:13.5px;color:var(--muted);}
+/* NOTÍCIAS */
+.noticias-bg{background:#fff;}
+.grid-3{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
+gap:26px;
+}
+.noticia-card{
+display:block;
+background:var(--bg);
+border-radius:14px;
+overflow:hidden;
+box-shadow:0 4px 14px rgba(20,40,80,.06);
+transition:transform .15s;
+}
+.noticia-card:hover{transform:translateY(-4px);}
+.noticia-img{
+height:150px;
+background:linear-gradient(135deg,var(--navy),var(--teal));
+display:flex;align-items:center;justify-content:center;
+color:#fff;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;
+}
+.noticia-foto{
+height:170px;
+width:100%;
+object-fit:cover;
+}
+.noticia-fonte{
+font-size:11.5px;
+color:var(--muted);
+margin-top:10px;
+}
+.noticia-fonte a{color:var(--orange);font-weight:600;}
+.noticia-body{padding:20px;}
+.tag{
+display:inline-block;
+font-size:11px;
+font-weight:700;
+color:var(--orange);
+text-transform:uppercase;
+letter-spacing:.5px;
+margin-bottom:8px;
+}
+.noticia-body h3{font-size:16px;margin-bottom:8px;color:var(--navy);}
+.noticia-body p{font-size:13.5px;color:var(--muted);}
 
-  /* COMÉRCIO LOCAL */
-  .categorias{
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(150px,1fr));
-    gap:16px;
-    margin-bottom:46px;
-  }
-  .categoria{
-    background:var(--card);
-    border-radius:12px;
-    padding:18px;
-    text-align:center;
-    font-weight:700;
-    font-size:14px;
-    color:var(--navy);
-    border:2px solid transparent;
-    transition:border .2s;
-  }
-  .categoria:hover{border-color:var(--orange);}
-  .categoria .icon{font-size:26px;display:block;margin-bottom:8px;}
+/* COMÉRCIO LOCAL */
+.categorias{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(150px,1fr));
+gap:16px;
+margin-bottom:46px;
+}
+.categoria{
+background:var(--card);
+border-radius:12px;
+padding:18px;
+text-align:center;
+font-weight:700;
+font-size:14px;
+color:var(--navy);
+border:2px solid transparent;
+transition:border .2s;
+}
+.categoria:hover{border-color:var(--orange);}
+.categoria .icon{font-size:26px;display:block;margin-bottom:8px;}
 
-  .cta-box{
-    background:var(--navy);
-    color:#fff;
-    border-radius:16px;
-    padding:40px;
-    text-align:center;
-  }
-  .cta-box h3{font-size:22px;margin-bottom:10px;}
-  .cta-box p{opacity:.85;margin-bottom:24px;}
+.cta-box{
+background:var(--navy);
+color:#fff;
+border-radius:16px;
+padding:40px;
+text-align:center;
+}
+.cta-box h3{font-size:22px;margin-bottom:10px;}
+.cta-box p{opacity:.85;margin-bottom:24px;}
 
-  /* CULTURA */
-  .cultura-bg{background:#fff;}
-  .cultura-item{
-    display:flex;
-    gap:20px;
-    align-items:flex-start;
-    padding:22px 0;
-    border-bottom:1px solid #eee;
-  }
-  .cultura-item:last-child{border-bottom:none;}
-  .cultura-icon{
-    min-width:52px;height:52px;border-radius:50%;
-    background:var(--teal);color:#fff;
-    display:flex;align-items:center;justify-content:center;
-    font-size:22px;
-  }
-  .cultura-item h3{color:var(--navy);font-size:17px;margin-bottom:6px;}
-  .cultura-item p{color:var(--muted);font-size:14.5px;}
+/* CULTURA */
+.cultura-bg{background:#fff;}
+.cultura-item{
+display:flex;
+gap:20px;
+align-items:flex-start;
+padding:22px 0;
+border-bottom:1px solid #eee;
+}
+.cultura-item:last-child{border-bottom:none;}
+.cultura-icon{
+min-width:52px;height:52px;border-radius:50%;
+background:var(--teal);color:#fff;
+display:flex;align-items:center;justify-content:center;
+font-size:22px;
+}
+.cultura-item h3{color:var(--navy);font-size:17px;margin-bottom:6px;}
+.cultura-item p{color:var(--muted);font-size:14.5px;}
 
-  /* SOBRE */
-  .sobre-grid{
-    display:grid;
-    grid-template-columns:1.1fr .9fr;
-    gap:50px;
-    align-items:center;
-  }
-  @media(max-width:760px){.sobre-grid{grid-template-columns:1fr;}}
-  .sobre-grid h2{color:var(--navy);font-size:28px;margin-bottom:18px;}
-  .sobre-grid p{margin-bottom:14px;color:var(--text);}
-  .sobre-stats{
-    background:var(--card);
-    border-radius:16px;
-    padding:30px;
-    box-shadow:0 4px 18px rgba(20,40,80,.08);
-  }
-  .stat{
-    display:flex;justify-content:space-between;align-items:center;
-    padding:14px 0;border-bottom:1px solid #eee;
-  }
-  .stat:last-child{border-bottom:none;}
-  .stat b{color:var(--orange);font-size:22px;}
+/* SOBRE */
+.sobre-grid{
+display:grid;
+grid-template-columns:1.1fr .9fr;
+gap:50px;
+align-items:center;
+}
+@media(max-width:760px){.sobre-grid{grid-template-columns:1fr;}}
+.sobre-grid h2{color:var(--navy);font-size:28px;margin-bottom:18px;}
+.sobre-grid p{margin-bottom:14px;color:var(--text);}
+.sobre-stats{
+background:var(--card);
+border-radius:16px;
+padding:30px;
+box-shadow:0 4px 18px rgba(20,40,80,.08);
+}
+.stat{
+display:flex;justify-content:space-between;align-items:center;
+padding:14px 0;border-bottom:1px solid #eee;
+}
+.stat:last-child{border-bottom:none;}
+.stat b{color:var(--orange);font-size:22px;}
 
-  /* CONTATO */
-  .contato-bg{
-    background:linear-gradient(135deg,var(--navy),var(--navy-light));
-    color:#fff;
-    text-align:center;
-  }
-  .contato-bg .section-title, .contato-bg .section-sub{color:#fff;}
-  .contato-bg .section-sub{opacity:.85;}
-  .redes{
-    display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-top:10px;
-  }
-  .rede-btn{
-    background:rgba(255,255,255,.1);
-    border:1px solid rgba(255,255,255,.3);
-    padding:14px 26px;
-    border-radius:30px;
-    font-weight:700;
-    font-size:14px;
-    transition:background .2s;
-  }
-  .rede-btn:hover{background:var(--orange);border-color:var(--orange);}
+/* CONTATO */
+.contato-bg{
+background:linear-gradient(135deg,var(--navy),var(--navy-light));
+color:#fff;
+text-align:center;
+}
+.contato-bg .section-title, .contato-bg .section-sub{color:#fff;}
+.contato-bg .section-sub{opacity:.85;}
+.redes{
+display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-top:10px;
+}
+.rede-btn{
+background:rgba(255,255,255,.1);
+border:1px solid rgba(255,255,255,.3);
+padding:14px 26px;
+border-radius:30px;
+font-weight:700;
+font-size:14px;
+transition:background .2s;
+}
+.rede-btn:hover{background:var(--orange);border-color:var(--orange);}
 
-  footer{
-    background:#0d1b33;
-    color:#aab4c7;
-    text-align:center;
-    padding:28px 20px;
-    font-size:13px;
-  }
-  footer strong{color:#fff;}
+footer{
+background:#0d1b33;
+color:#aab4c7;
+text-align:center;
+padding:28px 20px;
+font-size:13px;
+}
+footer strong{color:#fff;}
 
-  .manchetes-bar{background:var(--navy-light);display:flex;align-items:center;overflow:hidden;height:42px;border-bottom:1px solid rgba(255,255,255,.08);}
-  .manchetes-label{flex:0 0 auto;display:flex;align-items:center;gap:6px;background:var(--orange);color:#fff;font-size:11px;font-weight:800;letter-spacing:.5px;padding:0 16px;height:100%;text-transform:uppercase;white-space:nowrap;}
-  .manchetes-label .dot{width:7px;height:7px;border-radius:50%;background:#fff;animation:pulse 1.4s infinite;}
-  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.3;}}
-  .manchetes-viewport{flex:1;overflow:hidden;height:100%;position:relative;}
-  .manchetes-track{display:flex;align-items:center;height:100%;white-space:nowrap;animation:scrollLeft 45s linear infinite;width:max-content;}
-  .manchetes-viewport:hover .manchetes-track{animation-play-state:paused;}
-  @keyframes scrollLeft{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
-  .manchete-item{display:inline-flex;align-items:center;gap:8px;padding:0 28px;font-size:13.5px;color:#fff;font-weight:600;text-decoration:none;}
-  .manchete-item .escopo-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;}
-  .manchete-item .escopo-dot.paulinia{background:var(--orange);}
-  .manchete-item .escopo-dot.brasil{background:var(--teal);}
-  .manchete-item:hover{text-decoration:underline;}
+.manchetes-bar{background:var(--navy-light);display:flex;align-items:center;overflow:hidden;height:42px;border-bottom:1px solid rgba(255,255,255,.08);}
+.manchetes-label{flex:0 0 auto;display:flex;align-items:center;gap:6px;background:var(--orange);color:#fff;font-size:11px;font-weight:800;letter-spacing:.5px;padding:0 16px;height:100%;text-transform:uppercase;white-space:nowrap;}
+.manchetes-label .dot{width:7px;height:7px;border-radius:50%;background:#fff;animation:pulse 1.4s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:.3;}}
+.manchetes-viewport{flex:1;overflow:hidden;height:100%;position:relative;}
+.manchetes-track{display:flex;align-items:center;height:100%;white-space:nowrap;animation:scrollLeft 45s linear infinite;width:max-content;}
+.manchetes-viewport:hover .manchetes-track{animation-play-state:paused;}
+@keyframes scrollLeft{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
+.manchete-item{display:inline-flex;align-items:center;gap:8px;padding:0 28px;font-size:13.5px;color:#fff;font-weight:600;text-decoration:none;}
+.manchete-item .escopo-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;}
+.manchete-item .escopo-dot.paulinia{background:var(--orange);}
+.manchete-item .escopo-dot.brasil{background:var(--teal);}
+.manchete-item:hover{text-decoration:underline;}
 
-  .destaques-principais{padding:44px 0 6px;}
-  .dp-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:22px;}
-  @media(max-width:800px){.dp-grid{grid-template-columns:1fr;}}
-  .dp-principal{position:relative;border-radius:14px;overflow:hidden;display:block;min-height:380px;background:var(--navy);color:#fff;}
-  .dp-principal img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;}
-  .dp-principal .dp-overlay{position:relative;z-index:2;background:linear-gradient(to top, rgba(10,20,40,.94) 15%, rgba(10,20,40,.25) 65%, rgba(10,20,40,0));height:100%;min-height:380px;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;}
-  .dp-principal .tag{display:inline-block;background:var(--orange);color:#fff;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;text-transform:uppercase;letter-spacing:.4px;width:fit-content;}
-  .dp-principal h2{font-size:26px;font-weight:800;margin:12px 0 8px;line-height:1.28;}
-  .dp-principal p{font-size:14.5px;opacity:.92;line-height:1.5;}
-  .dp-secundarias{display:flex;flex-direction:column;gap:14px;}
-  .dp-sec-item{display:flex;gap:14px;background:var(--card);border-radius:12px;overflow:hidden;box-shadow:0 2px 10px rgba(20,40,80,.06);transition:transform .15s;}
-  .dp-sec-item:hover{transform:translateX(3px);}
-  .dp-sec-item img{width:104px;height:84px;object-fit:cover;flex-shrink:0;}
-  .dp-sec-item .dp-sec-body{padding:10px 14px 10px 0;display:flex;flex-direction:column;justify-content:center;gap:4px;}
-  .dp-sec-item .tag{font-size:10px;font-weight:700;color:var(--orange);text-transform:uppercase;letter-spacing:.4px;}
-  .dp-sec-item h3{font-size:13.5px;color:var(--navy);line-height:1.32;font-weight:700;}
+.destaques-principais{padding:44px 0 6px;}
+.dp-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:22px;}
+@media(max-width:800px){.dp-grid{grid-template-columns:1fr;}}
+.dp-principal{position:relative;border-radius:14px;overflow:hidden;display:block;min-height:380px;background:var(--navy);color:#fff;}
+.dp-principal img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;}
+.dp-principal .dp-overlay{position:relative;z-index:2;background:linear-gradient(to top, rgba(10,20,40,.94) 15%, rgba(10,20,40,.25) 65%, rgba(10,20,40,0));height:100%;min-height:380px;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;}
+.dp-principal .tag{display:inline-block;background:var(--orange);color:#fff;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;text-transform:uppercase;letter-spacing:.4px;width:fit-content;}
+.dp-principal h2{font-size:26px;font-weight:800;margin:12px 0 8px;line-height:1.28;}
+.dp-principal p{font-size:14.5px;opacity:.92;line-height:1.5;}
+.dp-secundarias{display:flex;flex-direction:column;gap:14px;}
+.dp-sec-item{display:flex;gap:14px;background:var(--card);border-radius:12px;overflow:hidden;box-shadow:0 2px 10px rgba(20,40,80,.06);transition:transform .15s;}
+.dp-sec-item:hover{transform:translateX(3px);}
+.dp-sec-item img{width:104px;height:84px;object-fit:cover;flex-shrink:0;}
+.dp-sec-item .dp-sec-body{padding:10px 14px 10px 0;display:flex;flex-direction:column;justify-content:center;gap:4px;}
+.dp-sec-item .tag{font-size:10px;font-weight:700;color:var(--orange);text-transform:uppercase;letter-spacing:.4px;}
+.dp-sec-item h3{font-size:13.5px;color:var(--navy);line-height:1.32;font-weight:700;}
 </style>
 </head>
 <body>
 
+
 <header>
-  <div class="nav-wrap">
-    <a href="#topo" class="logo">
-      Rede<span class="diz">Diz</span>
-      <small style="margin-left:6px;">Paulínia</small>
-    </a>
-    <nav>
-      <ul id="navList">
-        <li><a href="#topo">Início</a></li>
-        <li><a href="#noticias">Notícias Paulínia</a></li>
-        <li><a href="#brasil">Brasil em Alta</a></li>
-        <li><a href="arquivo.html">Arquivo</a></li>
-        <li><a href="#comercio">Comércio Local</a></li>
-        <li><a href="#cultura">Cultura &amp; Eventos</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-    <button class="menu-toggle" onclick="document.getElementById('navList').classList.toggle('open')">☰</button>
-  </div>
+<div class="nav-wrap">
+<a href="#topo" class="logo">
+Rede<span class="diz">Diz</span>
+<small style="margin-left:6px;">Paulínia</small>
+</a>
+<nav>
+<ul id="navList">
+<li><a href="#topo">Início</a></li>
+<li><a href="#noticias">Notícias Paulínia</a></li>
+<li><a href="#brasil">Brasil em Alta</a></li>
+<li><a href='/arquivo'>Arquivo</a></li>
+<li><a href="#comercio">Comércio Local</a></li>
+<li><a href="#cultura">Cultura &amp; Eventos</a></li>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#contato">Contato</a></li>
+</ul>
+</nav>
+<button class="menu-toggle" onclick="document.getElementById('navList').classList.toggle('open')">☰</button>
+</div>
 </header>
 
+
 <div class="manchetes-bar">
-  <div class="manchetes-label"><span class="dot"></span>Manchetes</div>
-  <div class="manchetes-viewport">
-    <div class="manchetes-track" id="manchetesTrack"></div>
-  </div>
+<div class="manchetes-label"><span class="dot"></span>Manchetes</div>
+<div class="manchetes-viewport">
+<div class="manchetes-track" id="manchetesTrack"></div>
+</div>
 </div>
 
 
-
 <section class="destaques-principais" id="destaquesPrincipaisSection">
-  <div class="container">
-    <h2 class="section-title" style="text-align:left;font-size:22px;margin-bottom:20px;">Principais notícias</h2>
-    <div class="dp-grid"></div>
-  </div>
+<div class="container">
+<h2 class="section-title" style="text-align:left;font-size:22px;margin-bottom:20px;">Principais notícias</h2>
+<div class="dp-grid"></div>
+</div>
 </section>
+
 <section id="topo" class="hero">
-  <div class="container">
-    <h1>Paulínia tem muito a <span class="accent">dizer.</span></h1>
-    <p>Notícias, comércio local e cultura da nossa cidade, tudo em uma rede só. Feito por quem cresceu aqui, pra quem vive aqui.</p>
-    <a href="#comercio" class="btn btn-primary">Conhecer o Comércio Local</a>
-    <a href="#contato" class="btn btn-outline">Seguir no Instagram</a>
-  </div>
+<div class="container">
+<h1>Paulínia tem muito a <span class="accent">dizer.</span></h1>
+<p>Notícias, comércio local e cultura da nossa cidade, tudo em uma rede só. Feito por quem cresceu aqui, pra quem vive aqui.</p>
+<a href="#comercio" class="btn btn-primary">Conhecer o Comércio Local</a>
+<a href="#contato" class="btn btn-outline">Seguir no Instagram</a>
+</div>
 </section>
 
 <section>
-  <div class="container">
-    <div class="destaques">
-      <div class="destaque-card">
-        <div class="icon">📰</div>
-        <h3>Notícias &amp; Utilidade Pública</h3>
-        <p>Trânsito, serviços, avisos e o que está acontecendo na cidade, direto ao ponto.</p>
-      </div>
-      <div class="destaque-card">
-        <div class="icon">🏪</div>
-        <h3>Comércio Local</h3>
-        <p>Vitrine para os negócios de Paulínia — de restaurante a prestador de serviço.</p>
-      </div>
-      <div class="destaque-card">
-        <div class="icon">🎭</div>
-        <h3>Cultura &amp; Eventos</h3>
-        <p>Agenda, festivais, história e curiosidades sobre a cidade que a gente ama.</p>
-      </div>
-    </div>
-  </div>
+<div class="container">
+<div class="destaques">
+<div class="destaque-card">
+<div class="icon">📰</div>
+<h3>Notícias &amp; Utilidade Pública</h3>
+<p>Trânsito, serviços, avisos e o que está acontecendo na cidade, direto ao ponto.</p>
+</div>
+<div class="destaque-card">
+<div class="icon">🏪</div>
+<h3>Comércio Local</h3>
+<p>Vitrine para os negócios de Paulínia — de restaurante a prestador de serviço.</p>
+</div>
+<div class="destaque-card">
+<div class="icon">🎭</div>
+<h3>Cultura &amp; Eventos</h3>
+<p>Agenda, festivais, história e curiosidades sobre a cidade que a gente ama.</p>
+</div>
+</div>
+</div>
 </section>
 
 <section id="noticias" class="noticias-bg">
-  <div class="container">
-    <h2 class="section-title">Notícias</h2>
-    <p class="section-sub">O que está rolando em Paulínia agora.</p>
-    <div class="grid-3">
-      <a class="noticia-card" href="materia.html?id=2026-08-03-feirao-emprego-2026">
-        <img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/paulinia-realiza-1-feirao-de-empregos-com-mais-de-800-vagas-na-segunda-feira-3-46f7c.jpg" alt="800 vagas no Feirão de Emprego 2026">
-        <div class="noticia-body">
-          <span class="tag">Emprego</span>
-          <h3>800 vagas no Feirão de Emprego 2026</h3>
-          <p>Paulínia realiza hoje (3/8), das 9h às 16h, o 1º Feirão de Emprego do ano, no Paço Municipal. São mais de 800 vagas de 40 empresas, com entrevistas presenciais na hora.</p>
-        </div>
-      </a>
-      <a class="noticia-card" href="materia.html?id=2026-08-03-agua-cheiro-mofo">
-        <img class="noticia-foto" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEDHNmG63jqYL6Z7AqYTbf5XMZ0pny1G2L25FFOr7wClvAYz9y43lY0Dt-XFIpAuz1GCPS7VUqyyyso58_5rrZekTeD7yXCSF-u-pEuGNvujrwe2p_4k6k30ZZTdjWfDkKZtiv9DrMtC-9FosORZL_40PhQP_J0QQhGUB6oZayn9yhS27YWT_jdCFHVhg/s1080/1000323741.jpg" alt="Água com cheiro de mofo nas torneiras">
-        <div class="noticia-body">
-          <span class="tag">Utilidade Pública</span>
-          <h3>Água com cheiro de mofo nas torneiras</h3>
-          <p>Moradores voltaram a reclamar de água com forte cheiro de mofo saindo da torneira essa semana. A Sabesp diz que intensificou o monitoramento e garante que a água segue dentro do padrão.</p>
-        </div>
-      </a>
-      <a class="noticia-card" href="materia.html?id=2026-08-03-romu-procurados-justica">
-        <img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/romu-captura-dois-procurados-pela-justica-neste-sabado-em-paulinia-62aae.jpg" alt="ROMU prende dois procurados pela Justiça">
-        <div class="noticia-body">
-          <span class="tag">Segurança Pública</span>
-          <h3>ROMU prende dois procurados pela Justiça</h3>
-          <p>A Guarda Municipal capturou dois homens com mandado de prisão em aberto durante patrulhamento no último sábado: um por furto e outro condenado por tráfico.</p>
-        </div>
-      </a>
-      <a class="noticia-card" href="materia.html?id=2026-08-03-manutencao-asfaltica-bairros">
-        <img class="noticia-foto" src="https://www.paulinia.sp.gov.br/fotos/774003e5c5ae0526504cd81482100a9a.jpg" alt="Prefeitura inicia manutenção asfáltica em bairros">
-        <div class="noticia-body">
-          <span class="tag">Mobilidade Urbana</span>
-          <h3>Prefeitura inicia manutenção asfáltica em bairros</h3>
-          <p>A Secretaria de Obras começou a Operação Tapa-Buraco e a recuperação da malha asfáltica em Jardim Amélia, Jardim Leonor, Bom Retiro e Portal Medieval.</p>
-        </div>
-      </a>
-      <a class="noticia-card" href="materia.html?id=2026-08-03-autora-paulinia-flip">
-        <img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/autora-que-atua-em-paulinia-estreia-na-flip-com-livro-sobre-identidade-e-universo-feminino-442db.jpg" alt="Dentista de Paulínia estreia livro na Flip">
-        <div class="noticia-body">
-          <span class="tag">Cultura &amp; Eventos</span>
-          <h3>Dentista de Paulínia estreia livro na Flip</h3>
-          <p>Salete Fernandes, cirurgiã-dentista que atua em Paulínia, lançou "Entre Silêncios" na 24ª Flip, em Paraty. O livro reúne poemas e prosas sobre identidade e memória.</p>
-        </div>
-      </a>
-    </div>
-    <p style="text-align:center;margin-top:34px;"><a href="arquivo.html" class="btn btn-outline" style="border-color:var(--navy);color:var(--navy);">Ver arquivo completo de notícias</a></p>
-  </div>
+<div class="container">
+<h2 class="section-title">Notícias</h2>
+<p class="section-sub">O que está rolando em Paulínia agora.</p>
+<div class="grid-3">
+<a class="noticia-card" href="/materia?id=2026-08-07-agosto-lilas-ruth-manus">
+<img class="noticia-foto" src="https://www.paulinia.sp.gov.br/fotos/979bf143de580e45db839fe0e2b7d59c.jpg" alt="Paulínia abre Agosto Lilás hoje com palestra gratuita de Ruth Manus">
+<div class="noticia-body">
+<span class="tag">Comunidade</span>
+<h3>Paulínia abre Agosto Lilás hoje com palestra gratuita de Ruth Manus</h3>
+<p>A Secretaria da Mulher abre hoje (7), às 10h, a campanha Agosto Lilás com a palestra &quot;As microviolências e a exaustão feminina&quot;, da advogada e escritora Ruth Manus, no Auditório Carlos Tontoli. Entrada é gratuita e a campanha segue com ações pela cidade até o fim do mês.</p>
+</div>
+</a>
+<a class="noticia-card" href="/materia?id=2026-08-07-milacron-fabrica-betel">
+<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/milacron-inaugura-nova-fabrica-na-regiao-de-betel-em-paulinia-ee90c.jpg" alt="Fabricante americana Milacron inaugura fábrica no Betel">
+<div class="noticia-body">
+<span class="tag">Economia</span>
+<h3>Fabricante americana Milacron inaugura fábrica no Betel</h3>
+<p>A Milacron, empresa dos Estados Unidos especializada em equipamentos para transformação de plásticos, abriu uma nova unidade fabril na região do Betel, em Paulínia. O espaço soma showroom, estoque ampliado de peças e reforço no suporte técnico a clientes da América do Sul.</p>
+</div>
+</a>
+<a class="noticia-card" href="/materia?id=2026-08-07-golpe-idosa-banco">
+<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/dupla-e-presa-apos-tentativa-de-golpe-contra-idosa-em-agencia-bancaria-de-paulinia-f1695.jpg" alt="Dupla é presa após tentar aplicar golpe da falsa carta de crédito em idosa">
+<div class="noticia-body">
+<span class="tag">Segurança Pública</span>
+<h3>Dupla é presa após tentar aplicar golpe da falsa carta de crédito em idosa</h3>
+<p>Uma mulher de 75 anos desconfiou a tempo de uma suposta negociação de carta de crédito e evitou cair no golpe de dois homens em uma agência bancária no Centro de Paulínia. A Guarda Municipal prendeu a dupla em flagrante; ambos têm antecedentes por roubo, estelionato e furto.</p>
+</div>
+</a>
+<a class="noticia-card" href="/materia?id=2026-08-07-obito-influenza-2026">
+<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/paulinia-registra-o-primeiro-obito-por-influenza-em-2026-3f667.jpg" alt="Paulínia registra primeiro óbito por influenza em 2026">
+<div class="noticia-body">
+<span class="tag">Utilidade Pública</span>
+<h3>Paulínia registra primeiro óbito por influenza em 2026</h3>
+<p>A Prefeitura confirmou a primeira morte por influenza do ano em Paulínia: um homem de 75 anos, com comorbidades e não vacinado contra a gripe. Entre janeiro e agosto, a cidade já somou 40 internações por Síndrome Respiratória Aguda Grave ligada ao vírus.</p>
+</div>
+</a>
+<a class="noticia-card" href="/materia?id=2026-08-07-unicamp-vestibular-paulinia">
+<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/unicamp-abre-inscricoes-para-o-vestibular-2027-com-provas-tambem-em-paulinia-b52a7.jpg" alt="Paulínia vai sediar provas do Vestibular Unicamp pela primeira vez">
+<div class="noticia-body">
+<span class="tag">Comunidade</span>
+<h3>Paulínia vai sediar provas do Vestibular Unicamp pela primeira vez</h3>
+<p>A Comvest abriu inscrições para o Vestibular Unicamp 2027 e incluiu Paulínia entre as cidades que vão aplicar a prova da primeira fase pela primeira vez na história. As inscrições vão até 31 de agosto, com provas marcadas para 18 de outubro.</p>
+</div>
+</a>
+</div>
+<p style="text-align:center;margin-top:34px;"><a href="arquivo.html" class="btn btn-outline" style="border-color:var(--navy);color:var(--navy);">Ver arquivo completo de notícias</a></p>
+</div>
 </section>
 
 <section id="brasil" class="noticias-bg" style="background:#fff;">
-  <div class="container">
-    <h2 class="section-title">Brasil em Alta</h2>
-    <p class="section-sub">As notícias que estão bombando no Brasil agora — os assuntos que todo mundo tá comentando.</p>
-    <div class="grid-3" id="brasil-grid">
-      <a class="noticia-card" href="materia.html?id=2026-08-04-eua-revogam-visto-embaixadora">
-        <img class="noticia-foto" src="https://i.metroimg.com/cEiHEju8W4EndQyAxdaviKjqy7IEvUXgX1XPDvv5n0I/w:600/q:85/f:webp/plain/https://images.metroimg.com/2025/05/27122630/un7843660-29139353.jpg" alt="EUA revogam visto da embaixadora do Brasil em Washington">
-        <div class="noticia-body">
-          <span class="tag">Política</span>
-          <h3>EUA revogam visto da embaixadora do Brasil em Washington</h3>
-          <p>O governo Trump cancelou nesta terça-feira (4) o visto de Maria Luiza Viotti, embaixadora brasileira nos Estados Unidos, alegando demora do Brasil em aprovar o novo embaixador americano. Ela não precisa deixar o país imediatamente.</p>
-        </div>
-      </a>
-      <a class="noticia-card" href="materia.html?id=2026-08-04-incendio-industria-itaquaquecetuba">
-        <img class="noticia-foto" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/WhatsApp-Image-2026-08-04-at-16.56.07-1.jpeg?w=1200&h=630&crop=1" alt="Incêndio de grandes proporções atinge indústria química em SP">
-        <div class="noticia-body">
-          <span class="tag">Polícia</span>
-          <h3>Incêndio de grandes proporções atinge indústria química em SP</h3>
-          <p>Um incêndio de grande magnitude atingiu nesta terça-feira (4) uma fábrica de solventes em Itaquaquecetuba, na Grande São Paulo. Dezoito viaturas dos Bombeiros combatem as chamas perto de 24 tanques de produtos inflamáveis. Não há feridos.</p>
-        </div>
-      </a>
-      <a class="noticia-card" href="materia.html?id=2026-08-04-grupo-planejava-explosivo-debate-presidencial">
-        <img class="noticia-foto" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/WhatsApp-Image-2026-08-04-at-09.12.47.jpeg?w=1200&h=630&crop=1" alt="Grupo é investigado por planejar atentado em debate presidencial">
-        <div class="noticia-body">
-          <span class="tag">Polícia</span>
-          <h3>Grupo é investigado por planejar atentado em debate presidencial</h3>
-          <p>A Polícia Civil do DF deflagrou a operação Rede Interrompida contra um grupo suspeito de planejar colocar explosivos em um prédio onde aconteceria um debate presidencial durante as eleições. Foram cumpridos oito mandados em cinco estados.</p>
-        </div>
-      </a>
-    </div>
-    <p style="text-align:center;margin-top:34px;"><a href="brasil.html" class="btn btn-outline" style="border-color:var(--navy);color:var(--navy);">Ver arquivo completo — Brasil em Alta</a></p>
-  </div>
+<div class="container">
+<h2 class="section-title">Brasil em Alta</h2>
+<p class="section-sub">As notícias que estão bombando no Brasil agora — os assuntos que todo mundo tá comentando.</p>
+<div class="grid-3" id="brasil-grid">
+<a class="noticia-card" href="/materia?id=2026-08-07-ciclone-bomba-brasil">
+<img class="noticia-foto" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/WhatsApp-Image-2026-08-06-at-19.06.32.jpeg?w=1200&amp;h=630&amp;crop=1" alt="Ciclone bomba já provoca tornado no RS e coloca SP e RJ em alerta">
+<div class="noticia-body">
+<span class="tag">Viral</span>
+<h3>Ciclone bomba já provoca tornado no RS e coloca SP e RJ em alerta</h3>
+<p>O ciclone bomba que o Inmet vinha monitorando desde o início da semana já gerou um tornado entre Pedro Osório e Pelotas, no Rio Grande do Sul. Nesta sexta e no sábado, São Paulo e Rio de Janeiro entram na rota de rajadas que podem passar de 90 km/h.</p>
+</div>
+</a>
+<a class="noticia-card" href="/materia?id=2026-08-07-inter-elimina-corinthians-copa-brasil">
+<img class="noticia-foto" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/gol-bernabei-inter-corinthians-copa-do-brasil-e1786064107220.jpg?w=1200&amp;h=630&amp;crop=1" alt="Inter elimina o Corinthians e encerra sonho do bicampeonato da Copa do Brasil">
+<div class="noticia-body">
+<span class="tag">Esportes</span>
+<h3>Inter elimina o Corinthians e encerra sonho do bicampeonato da Copa do Brasil</h3>
+<p>O Corinthians venceu o Inter por 2 a 1 na Neo Química Arena, mas não foi o suficiente para reverter a derrota por 2 a 0 sofrida na ida: o Inter avançou às quartas de final da Copa do Brasil pelo placar agregado de 3 a 2, tirando do alvinegro a chance do bicampeonato seguido.</p>
+</div>
+</a>
+<a class="noticia-card" href="/materia?id=2026-08-07-xuxa-mara-maravilha">
+<img class="noticia-foto" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/xuxa-e-mara-maravilha.png?w=1200&amp;h=630&amp;crop=1" alt="Xuxa rebate críticas de Mara Maravilha em meio à turnê de despedida">
+<div class="noticia-body">
+<span class="tag">Entretenimento</span>
+<h3>Xuxa rebate críticas de Mara Maravilha em meio à turnê de despedida</h3>
+<p>Depois de Mara Maravilha criticar o figurino usado por Xuxa na turnê &quot;O Último Voo da Nave&quot;, a Rainha dos Baixinhos respondeu nas redes sociais dizendo que a colega &quot;quer pegar carona na nave&quot; com ataques, e não com opiniões. O post rendeu onda de apoio dos fãs.</p>
+</div>
+</a>
+<a class="noticia-card" href="/materia?id=2026-08-07-inss-calendario-agosto">
+<img class="noticia-foto" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/05/STOCK_SHOT_090525_DF_INSS_frame_2311.jpeg?w=1200&amp;h=630&amp;crop=1" alt="INSS divulga calendário de pagamentos de agosto; veja quando recebe">
+<div class="noticia-body">
+<span class="tag">Economia</span>
+<h3>INSS divulga calendário de pagamentos de agosto; veja quando recebe</h3>
+<p>Os depósitos de julho terminam nesta sexta-feira (7) para quem tem cartão de benefício com final 0. Já o pagamento de agosto começa em 25 de agosto e vai até 8 de setembro, dividido entre quem recebe um salário mínimo e quem recebe acima disso.</p>
+</div>
+</a>
+</div>
+<p style="text-align:center;margin-top:34px;"><a href="brasil.html" class="btn btn-outline" style="border-color:var(--navy);color:var(--navy);">Ver arquivo completo — Brasil em Alta</a></p>
+</div>
 </section>
 
 <section id="comercio">
-  <div class="container">
-    <h2 class="section-title">Comércio Local</h2>
-    <p class="section-sub">Um diretório pra quem mora em Paulínia encontrar — e pra quem empreende aqui ser encontrado.</p>
-    <div class="categorias">
-      <div class="categoria"><span class="icon">🍽️</span>Gastronomia</div>
-      <div class="categoria"><span class="icon">💇</span>Beleza</div>
-      <div class="categoria"><span class="icon">🏥</span>Saúde</div>
-      <div class="categoria"><span class="icon">📚</span>Educação</div>
-      <div class="categoria"><span class="icon">🔧</span>Serviços</div>
-      <div class="categoria"><span class="icon">🏠</span>Casa &amp; Reforma</div>
-    </div>
-    <div class="cta-box">
-      <h3>Tem um negócio em Paulínia?</h3>
-      <p>Apareça na Rede Diz e seja encontrado por quem mora na cidade.</p>
-      <a href="#contato" class="btn btn-primary">Quero fazer parte</a>
-    </div>
-  </div>
+<div class="container">
+<h2 class="section-title">Comércio Local</h2>
+<p class="section-sub">Um diretório pra quem mora em Paulínia encontrar — e pra quem empreende aqui ser encontrado.</p>
+<div class="categorias">
+<div class="categoria"><span class="icon">🍽️</span>Gastronomia</div>
+<div class="categoria"><span class="icon">💇</span>Beleza</div>
+<div class="categoria"><span class="icon">🏥</span>Saúde</div>
+<div class="categoria"><span class="icon">📚</span>Educação</div>
+<div class="categoria"><span class="icon">🔧</span>Serviços</div>
+<div class="categoria"><span class="icon">🏠</span>Casa &amp; Reforma</div>
+</div>
+<div class="cta-box">
+<h3>Tem um negócio em Paulínia?</h3>
+<p>Apareça na Rede Diz e seja encontrado por quem mora na cidade.</p>
+<a href="#contato" class="btn btn-primary">Quero fazer parte</a>
+</div>
+</div>
 </section>
 
 <section id="cultura" class="cultura-bg">
-  <div class="container">
-    <h2 class="section-title">Cultura &amp; Eventos</h2>
-    <p class="section-sub">Um pouco da história e da agenda cultural que fazem de Paulínia o que ela é.</p>
+<div class="container">
+<h2 class="section-title">Cultura &amp; Eventos</h2>
+<p class="section-sub">Um pouco da história e da agenda cultural que fazem de Paulínia o que ela é.</p>
 
-    <div class="cultura-item">
-      <div class="cultura-icon">🎬</div>
-      <div>
-        <h3>Festival de Cinema de Paulínia</h3>
-        <p>Realizado anualmente, reúne produções nacionais premiadas e sessões ao ar livre — um dos eventos mais importantes do calendário cultural da cidade.</p>
-      </div>
-    </div>
-    <div class="cultura-item">
-      <div class="cultura-icon">🎭</div>
-      <div>
-        <h3>Theatro Municipal de Paulínia</h3>
-        <p>Um dos teatros mais modernos da América Latina, recebe peças, shows e eventos culturais ao longo do ano.</p>
-      </div>
-    </div>
-    <div class="cultura-item">
-      <div class="cultura-icon">🎉</div>
-      <div>
-        <h3>Carnaval de Paulínia</h3>
-        <p>Considerado o maior da região, com o maior sambódromo coberto do país.</p>
-      </div>
-    </div>
-    <div class="cultura-item">
-      <div class="cultura-icon">🇮🇹</div>
-      <div>
-        <h3>Paulitália</h3>
-        <p>Festa em homenagem aos imigrantes italianos que ajudaram a formar a identidade da cidade.</p>
-      </div>
-    </div>
-    <div class="cultura-item">
-      <div class="cultura-icon">🌄</div>
-      <div>
-        <h3>Morro do Bonfim &amp; Museu Histórico</h3>
-        <p>Mirante natural com vista panorâmica da cidade — ótimo pra ver o pôr do sol — e o museu que preserva a memória de Paulínia desde suas origens.</p>
-      </div>
-    </div>
-  </div>
+<div class="cultura-item">
+<div class="cultura-icon">🎬</div>
+<div>
+<h3>Festival de Cinema de Paulínia</h3>
+<p>Realizado anualmente, reúne produções nacionais premiadas e sessões ao ar livre — um dos eventos mais importantes do calendário cultural da cidade.</p>
+</div>
+</div>
+<div class="cultura-item">
+<div class="cultura-icon">🎭</div>
+<div>
+<h3>Theatro Municipal de Paulínia</h3>
+<p>Um dos teatros mais modernos da América Latina, recebe peças, shows e eventos culturais ao longo do ano.</p>
+</div>
+</div>
+<div class="cultura-item">
+<div class="cultura-icon">🎉</div>
+<div>
+<h3>Carnaval de Paulínia</h3>
+<p>Considerado o maior da região, com o maior sambódromo coberto do país.</p>
+</div>
+</div>
+<div class="cultura-item">
+<div class="cultura-icon">🇮🇹</div>
+<div>
+<h3>Paulitália</h3>
+<p>Festa em homenagem aos imigrantes italianos que ajudaram a formar a identidade da cidade.</p>
+</div>
+</div>
+<div class="cultura-item">
+<div class="cultura-icon">🌄</div>
+<div>
+<h3>Morro do Bonfim &amp; Museu Histórico</h3>
+<p>Mirante natural com vista panorâmica da cidade — ótimo pra ver o pôr do sol — e o museu que preserva a memória de Paulínia desde suas origens.</p>
+</div>
+</div>
+</div>
 </section>
 
 <section id="sobre">
-  <div class="container sobre-grid">
-    <div>
-      <h2>Sobre a Rede Diz</h2>
-      <p>A Rede Diz nasceu de quem cresceu em Paulínia e queria dar à cidade um espaço só dela: um lugar pra contar o que acontece, mostrar quem empreende aqui e celebrar a cultura que forma a nossa identidade.</p>
-      <p>Mais do que um site, é uma rede — de informação, de negócios locais e de gente que faz Paulínia ser Paulínia.</p>
-      <p>Um projeto da <strong>COM\C</strong>, agência de comunicação com raízes em Manaus e Campinas.</p>
-    </div>
-    <div class="sobre-stats">
-      <div class="stat"><span>Pilares de conteúdo</span><b>3</b></div>
-      <div class="stat"><span>Fundação de Paulínia</span><b>1964</b></div>
-      <div class="stat"><span>Cidade</span><b>Paulínia-SP</b></div>
-    </div>
-  </div>
+<div class="container sobre-grid">
+<div>
+<h2>Sobre a Rede Diz</h2>
+<p>A Rede Diz nasceu de quem cresceu em Paulínia e queria dar à cidade um espaço só dela: um lugar pra contar o que acontece, mostrar quem empreende aqui e celebrar a cultura que forma a nossa identidade.</p>
+<p>Mais do que um site, é uma rede — de informação, de negócios locais e de gente que faz Paulínia ser Paulínia.</p>
+<p>Um projeto da <strong>COM\C</strong>, agência de comunicação com raízes em Manaus e Campinas.</p>
+</div>
+<div class="sobre-stats">
+<div class="stat"><span>Pilares de conteúdo</span><b>3</b></div>
+<div class="stat"><span>Fundação de Paulínia</span><b>1964</b></div>
+<div class="stat"><span>Cidade</span><b>Paulínia-SP</b></div>
+</div>
+</div>
 </section>
 
 <section id="contato" class="contato-bg">
-  <div class="container">
-    <h2 class="section-title">Vamos conversar?</h2>
-    <p class="section-sub">Siga a Rede Diz, mande sua sugestão de pauta ou indique seu negócio.</p>
-    <div class="redes">
-      <a href="#" class="rede-btn">📷 Instagram @redediz.paulinia</a>
-      <a href="#" class="rede-btn">💬 WhatsApp</a>
-      <a href="#" class="rede-btn">✉️ E-mail</a>
-    </div>
-  </div>
+<div class="container">
+<h2 class="section-title">Vamos conversar?</h2>
+<p class="section-sub">Siga a Rede Diz, mande sua sugestão de pauta ou indique seu negócio.</p>
+<div class="redes">
+<a href="#" class="rede-btn">📷 Instagram @redediz.paulinia</a>
+<a href="#" class="rede-btn">💬 WhatsApp</a>
+<a href="#" class="rede-btn">✉️ E-mail</a>
+</div>
+</div>
 </section>
 
 <footer>
-  <p><strong>Rede Diz Paulínia</strong> — Notícias, comércio e cultura da nossa cidade.</p>
-  <p>Um projeto COM\C · Edição de 07/08/2026</p>
+<p><strong>Rede Diz Paulínia</strong> — Notícias, comércio e cultura da nossa cidade.</p>
+<p>Um projeto COM\C · Edição de 07/08/2026</p>
 </footer>
 
-
 <script>
 (function(){
-  var track = document.getElementById('manchetesTrack');
-  if(!track) return;
-  fetch('noticias.json').then(function(r){ return r.json(); }).then(function(lista){
-    var itens = (lista || []).slice(0, 10);
-    if(itens.length === 0){ track.closest('.manchetes-bar').style.display = 'none'; return; }
-    function esc(s){ var d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
-    function itemHtml(it){
-      var cls = it.escopo === 'brasil' ? 'brasil' : 'paulinia';
-      return '<a class="manchete-item" href="materia.html?id=' + encodeURIComponent(it.id) + '"><span class="escopo-dot ' + cls + '"></span>' + esc(it.titulo) + '</a>';
-    }
-    var html = itens.map(itemHtml).join('');
-    track.innerHTML = html + html;
-  }).catch(function(){
-    track.closest('.manchetes-bar').style.display = 'none';
-  });
+var track = document.getElementById('manchetesTrack');
+if(!track) return;
+fetch('noticias.json').then(function(r){ return r.json(); }).then(function(lista){
+var itens = (lista || []).slice(0, 10);
+if(itens.length === 0){ track.closest('.manchetes-bar').style.display = 'none'; return; }
+function esc(s){ var d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
+function itemHtml(it){
+var cls = it.escopo === 'brasil' ? 'brasil' : 'paulinia';
+return '<a class="manchete-item" href="materia.html?id=' + encodeURIComponent(it.id) + '"><span class="escopo-dot ' + cls + '"></span>' + esc(it.titulo) + '</a>';
+}
+var html = itens.map(itemHtml).join('');
+track.innerHTML = html + html;
+}).catch(function(){
+track.closest('.manchetes-bar').style.display = 'none';
+});
 })();
 </script>
 
+
 <script>
 (function(){
-  var section = document.getElementById('destaquesPrincipaisSection');
-  if(!section) return;
-  fetch('noticias.json').then(function(r){ return r.json(); }).then(function(lista){
-    lista = lista || [];
-    var hoje = new Date().toISOString().slice(0,10);
-    function byDataDesc(a,b){ return (b.data||'').localeCompare(a.data||''); }
-    var pinned = lista.filter(function(it){ return it.destaque_manual === true && it.destaque_ate && it.destaque_ate >= hoje; });
-    var idsPinned = pinned.map(function(it){ return it.id; });
-    var resto = lista.filter(function(it){ return idsPinned.indexOf(it.id) === -1; });
-    pinned.sort(byDataDesc);
-    resto.sort(byDataDesc);
-    var finalLista = pinned.concat(resto).slice(0, 5);
-    if(finalLista.length === 0){ section.style.display = 'none'; return; }
-    var principal = finalLista[0];
-    var secundarias = finalLista.slice(1, 5);
-    function esc(s){ var d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
-    var html = '<a class="dp-principal" href="materia.html?id=' + encodeURIComponent(principal.id) + '">' +
-      (principal.foto ? '<img src="' + principal.foto + '" alt="">' : '') +
-      '<div class="dp-overlay"><span class="tag">' + esc(principal.tag || '') + '</span><h2>' + esc(principal.titulo) + '</h2><p>' + esc(principal.resumo || '') + '</p></div></a>';
-    html += '<div class="dp-secundarias">';
-    secundarias.forEach(function(it){
-      html += '<a class="dp-sec-item" href="materia.html?id=' + encodeURIComponent(it.id) + '">' +
-        (it.foto ? '<img src="' + it.foto + '" alt="">' : '') +
-        '<div class="dp-sec-body"><span class="tag">' + esc(it.tag || '') + '</span><h3>' + esc(it.titulo) + '</h3></div></a>';
-    });
-    html += '</div>';
-    section.querySelector('.dp-grid').innerHTML = html;
-  }).catch(function(){
-    section.style.display = 'none';
-  });
+var section = document.getElementById('destaquesPrincipaisSection');
+if(!section) return;
+fetch('noticias.json').then(function(r){ return r.json(); }).then(function(lista){
+lista = lista || [];
+var hoje = new Date().toISOString().slice(0,10);
+function byDataDesc(a,b){ return (b.data||'').localeCompare(a.data||''); }
+var pinned = lista.filter(function(it){ return it.destaque_manual === true && it.destaque_ate && it.destaque_ate >= hoje; });
+var idsPinned = pinned.map(function(it){ return it.id; });
+var resto = lista.filter(function(it){ return idsPinned.indexOf(it.id) === -1; });
+pinned.sort(byDataDesc);
+resto.sort(byDataDesc);
+var finalLista = pinned.concat(resto).slice(0, 5);
+if(finalLista.length === 0){ section.style.display = 'none'; return; }
+var principal = finalLista[0];
+var secundarias = finalLista.slice(1, 5);
+function esc(s){ var d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
+var html = '<a class="dp-principal" href="materia.html?id=' + encodeURIComponent(principal.id) + '">' +
+(principal.foto ? '<img src="' + principal.foto + '" alt="">' : '') +
+'<div class="dp-overlay"><span class="tag">' + esc(principal.tag || '') + '</span><h2>' + esc(principal.titulo) + '</h2><p>' + esc(principal.resumo || '') + '</p></div></a>';
+html += '<div class="dp-secundarias">';
+secundarias.forEach(function(it){
+html += '<a class="dp-sec-item" href="materia.html?id=' + encodeURIComponent(it.id) + '">' +
+(it.foto ? '<img src="' + it.foto + '" alt="">' : '') +
+'<div class="dp-sec-body"><span class="tag">' + esc(it.tag || '') + '</span><h3>' + esc(it.titulo) + '</h3></div></a>';
+});
+html += '</div>';
+section.querySelector('.dp-grid').innerHTML = html;
+}).catch(function(){
+section.style.display = 'none';
+});
 })();
 </script>
+
 </body>
 </html>
