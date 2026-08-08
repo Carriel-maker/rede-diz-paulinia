@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rede Diz Paulínia — Notícias, Comércio e Cultura da nossa cidade</title>
+<title>Arquivo de notícias de Paulínia — Rede Diz Paulínia</title>
 <style>
 :root{
 --navy:#142850;
@@ -16,558 +16,199 @@
 --muted:#6B7280;
 }
 *{box-sizing:border-box;margin:0;padding:0;}
-body{
-font-family:'Segoe UI', system-ui, -apple-system, Arial, sans-serif;
-background:var(--bg);
-color:var(--text);
-line-height:1.6;
-}
+body{font-family:'Segoe UI', system-ui, -apple-system, Arial, sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
 a{text-decoration:none;color:inherit;}
 img{max-width:100%;display:block;}
-.container{max-width:1100px;margin:0 auto;padding:0 24px;}
+.container{max-width:1180px;margin:0 auto;padding:0 20px;}
 
-/* HEADER */
-header{
-background:var(--navy);
-color:#fff;
-position:sticky;
-top:0;
-z-index:100;
-box-shadow:0 2px 10px rgba(0,0,0,.15);
-}
-.nav-wrap{
-display:flex;
-align-items:center;
-justify-content:space-between;
-padding:16px 24px;
-max-width:1100px;
-margin:0 auto;
-}
-.logo{
-font-size:22px;
-font-weight:800;
-display:flex;
-align-items:baseline;
-gap:6px;
-}
+.util-bar{background:#0d1b33;color:#c9d2e3;font-size:12px;}
+.util-bar .container{display:flex;justify-content:space-between;align-items:center;height:34px;}
+.util-left{display:flex;gap:14px;align-items:center;}
+.util-left span{opacity:.85;}
+
+header{background:var(--navy);color:#fff;}
+.nav-wrap{display:flex;align-items:center;justify-content:space-between;padding:14px 0;max-width:1180px;margin:0 auto;padding-left:20px;padding-right:20px;}
+.logo{font-size:24px;font-weight:800;display:flex;align-items:baseline;gap:6px;}
 .logo span.diz{color:var(--orange);}
-.logo small{
-display:block;
-font-size:11px;
-font-weight:400;
-letter-spacing:2px;
-color:var(--teal);
-text-transform:uppercase;
-}
-nav ul{
-list-style:none;
-display:flex;
-gap:28px;
-}
-nav a{
-font-size:14px;
-font-weight:600;
-opacity:.9;
-transition:opacity .2s;
-}
-nav a:hover{opacity:1;color:var(--orange);}
-.menu-toggle{display:none;background:none;border:none;color:#fff;font-size:26px;cursor:pointer;}
+.logo small{display:block;font-size:11px;font-weight:400;letter-spacing:2px;color:var(--teal);text-transform:uppercase;}
+.header-actions{display:flex;gap:10px;align-items:center;}
+.social-btn{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;font-size:15px;transition:background .2s;}
+.social-btn:hover{background:var(--orange);}
 
-@media (max-width:800px){
-nav ul{
-position:absolute;
-top:64px;
-left:0;
-right:0;
-background:var(--navy-light);
-flex-direction:column;
-padding:16px 24px;
-display:none;
-gap:16px;
-}
-nav ul.open{display:flex;}
-.menu-toggle{display:block;}
-}
+.cat-nav{background:var(--orange);position:sticky;top:0;z-index:100;box-shadow:0 2px 10px rgba(0,0,0,.12);}
+.cat-nav-inner{max-width:1180px;margin:0 auto;padding:0 20px;display:flex;align-items:center;gap:2px;overflow-x:auto;scrollbar-width:none;}
+.cat-nav-inner::-webkit-scrollbar{display:none;}
+.cat-nav a{color:#fff;font-size:12.5px;font-weight:700;padding:12px 12px;white-space:nowrap;text-transform:uppercase;letter-spacing:.3px;opacity:.95;}
+.cat-nav a:hover{background:rgba(0,0,0,.12);opacity:1;}
 
-/* HERO */
-.hero{
-background:linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 60%, var(--teal) 140%);
-color:#fff;
-padding:80px 24px 70px;
-text-align:center;
-}
-.hero h1{
-font-size:clamp(28px,5vw,46px);
-font-weight:800;
-margin-bottom:16px;
-}
-.hero h1 .accent{color:var(--orange);}
-.hero p{
-max-width:620px;
-margin:0 auto 30px;
-font-size:18px;
-opacity:.92;
-}
-.btn{
-display:inline-block;
-padding:14px 30px;
-border-radius:30px;
-font-weight:700;
-font-size:15px;
-transition:transform .15s, box-shadow .15s;
-}
-.btn-primary{
-background:var(--orange);
-color:#fff;
-box-shadow:0 6px 16px rgba(255,107,53,.35);
-}
-.btn-primary:hover{transform:translateY(-2px);}
-.btn-outline{
-border:2px solid #fff;
-color:#fff;
-margin-left:12px;
-}
-.btn-outline:hover{background:#fff;color:var(--navy);}
-
-/* SECTIONS */
-section{padding:70px 0;}
-.section-title{
-text-align:center;
-margin-bottom:12px;
-font-size:32px;
-font-weight:800;
-color:var(--navy);
-}
-.section-sub{
-text-align:center;
-color:var(--muted);
-max-width:560px;
-margin:0 auto 44px;
-}
-.badge-exemplo{
-display:inline-block;
-background:var(--teal);
-color:#fff;
-font-size:11px;
-font-weight:700;
-padding:3px 10px;
-border-radius:12px;
-letter-spacing:.5px;
-text-transform:uppercase;
-margin-bottom:10px;
-}
-
-/* DESTAQUES */
-.destaques{
-display:grid;
-grid-template-columns:repeat(auto-fit, minmax(230px,1fr));
-gap:24px;
-}
-.destaque-card{
-background:var(--card);
-border-radius:14px;
-padding:28px 22px;
-text-align:center;
-box-shadow:0 4px 18px rgba(20,40,80,.07);
-transition:transform .2s;
-}
-.destaque-card:hover{transform:translateY(-6px);}
-.destaque-card .icon{font-size:34px;margin-bottom:14px;}
-.destaque-card h3{font-size:17px;margin-bottom:8px;color:var(--navy);}
-.destaque-card p{font-size:14px;color:var(--muted);}
-
-/* NOTÍCIAS */
-.noticias-bg{background:#fff;}
-.grid-3{
-display:grid;
-grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
-gap:26px;
-}
-.noticia-card{
-display:block;
-background:var(--bg);
-border-radius:14px;
-overflow:hidden;
-box-shadow:0 4px 14px rgba(20,40,80,.06);
-transition:transform .15s;
-}
-.noticia-card:hover{transform:translateY(-4px);}
-.noticia-img{
-height:150px;
-background:linear-gradient(135deg,var(--navy),var(--teal));
-display:flex;align-items:center;justify-content:center;
-color:#fff;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;
-}
-.noticia-foto{
-height:170px;
-width:100%;
-object-fit:cover;
-}
-.noticia-fonte{
-font-size:11.5px;
-color:var(--muted);
-margin-top:10px;
-}
-.noticia-fonte a{color:var(--orange);font-weight:600;}
-.noticia-body{padding:20px;}
-.tag{
-display:inline-block;
-font-size:11px;
-font-weight:700;
-color:var(--orange);
-text-transform:uppercase;
-letter-spacing:.5px;
-margin-bottom:8px;
-}
-.noticia-body h3{font-size:16px;margin-bottom:8px;color:var(--navy);}
-.noticia-body p{font-size:13.5px;color:var(--muted);}
-
-/* COMÉRCIO LOCAL */
-.categorias{
-display:grid;
-grid-template-columns:repeat(auto-fit, minmax(150px,1fr));
-gap:16px;
-margin-bottom:46px;
-}
-.categoria{
-background:var(--card);
-border-radius:12px;
-padding:18px;
-text-align:center;
-font-weight:700;
-font-size:14px;
-color:var(--navy);
-border:2px solid transparent;
-transition:border .2s;
-}
-.categoria:hover{border-color:var(--orange);}
-.categoria .icon{font-size:26px;display:block;margin-bottom:8px;}
-
-.cta-box{
-background:var(--navy);
-color:#fff;
-border-radius:16px;
-padding:40px;
-text-align:center;
-}
-.cta-box h3{font-size:22px;margin-bottom:10px;}
-.cta-box p{opacity:.85;margin-bottom:24px;}
-
-/* CULTURA */
-.cultura-bg{background:#fff;}
-.cultura-item{
-display:flex;
-gap:20px;
-align-items:flex-start;
-padding:22px 0;
-border-bottom:1px solid #eee;
-}
-.cultura-item:last-child{border-bottom:none;}
-.cultura-icon{
-min-width:52px;height:52px;border-radius:50%;
-background:var(--teal);color:#fff;
-display:flex;align-items:center;justify-content:center;
-font-size:22px;
-}
-.cultura-item h3{color:var(--navy);font-size:17px;margin-bottom:6px;}
-.cultura-item p{color:var(--muted);font-size:14.5px;}
-
-/* SOBRE */
-.sobre-grid{
-display:grid;
-grid-template-columns:1.1fr .9fr;
-gap:50px;
-align-items:center;
-}
-@media(max-width:760px){.sobre-grid{grid-template-columns:1fr;}}
-.sobre-grid h2{color:var(--navy);font-size:28px;margin-bottom:18px;}
-.sobre-grid p{margin-bottom:14px;color:var(--text);}
-.sobre-stats{
-background:var(--card);
-border-radius:16px;
-padding:30px;
-box-shadow:0 4px 18px rgba(20,40,80,.08);
-}
-.stat{
-display:flex;justify-content:space-between;align-items:center;
-padding:14px 0;border-bottom:1px solid #eee;
-}
-.stat:last-child{border-bottom:none;}
-.stat b{color:var(--orange);font-size:22px;}
-
-/* CONTATO */
-.contato-bg{
-background:linear-gradient(135deg,var(--navy),var(--navy-light));
-color:#fff;
-text-align:center;
-}
-.contato-bg .section-title, .contato-bg .section-sub{color:#fff;}
-.contato-bg .section-sub{opacity:.85;}
-.redes{
-display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-top:10px;
-}
-.rede-btn{
-background:rgba(255,255,255,.1);
-border:1px solid rgba(255,255,255,.3);
-padding:14px 26px;
-border-radius:30px;
-font-weight:700;
-font-size:14px;
-transition:background .2s;
-}
-.rede-btn:hover{background:var(--orange);border-color:var(--orange);}
-
-footer{
-background:#0d1b33;
-color:#aab4c7;
-text-align:center;
-padding:28px 20px;
-font-size:13px;
-}
-footer strong{color:#fff;}
-
-.manchetes-bar{background:var(--navy-light);display:flex;align-items:center;overflow:hidden;height:42px;border-bottom:1px solid rgba(255,255,255,.08);}
-.manchetes-label{flex:0 0 auto;display:flex;align-items:center;gap:6px;background:var(--orange);color:#fff;font-size:11px;font-weight:800;letter-spacing:.5px;padding:0 16px;height:100%;text-transform:uppercase;white-space:nowrap;}
-.manchetes-label .dot{width:7px;height:7px;border-radius:50%;background:#fff;animation:pulse 1.4s infinite;}
+.manchetes-bar{background:var(--navy-light);display:flex;align-items:center;overflow:hidden;height:40px;border-bottom:1px solid rgba(255,255,255,.08);}
+.manchetes-label{flex:0 0 auto;display:flex;align-items:center;gap:6px;background:#0d1b33;color:#fff;font-size:11px;font-weight:800;letter-spacing:.5px;padding:0 16px;height:100%;text-transform:uppercase;white-space:nowrap;}
+.manchetes-label .dot{width:7px;height:7px;border-radius:50%;background:var(--orange);animation:pulse 1.4s infinite;}
 @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.3;}}
 .manchetes-viewport{flex:1;overflow:hidden;height:100%;position:relative;}
 .manchetes-track{display:flex;align-items:center;height:100%;white-space:nowrap;animation:scrollLeft 45s linear infinite;width:max-content;}
 .manchetes-viewport:hover .manchetes-track{animation-play-state:paused;}
 @keyframes scrollLeft{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
-.manchete-item{display:inline-flex;align-items:center;gap:8px;padding:0 28px;font-size:13.5px;color:#fff;font-weight:600;text-decoration:none;}
+.manchete-item{display:inline-flex;align-items:center;gap:8px;padding:0 26px;font-size:13px;color:#fff;font-weight:600;}
 .manchete-item .escopo-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;}
 .manchete-item .escopo-dot.paulinia{background:var(--orange);}
 .manchete-item .escopo-dot.brasil{background:var(--teal);}
 .manchete-item:hover{text-decoration:underline;}
 
-.destaques-principais{padding:44px 0 6px;}
-.dp-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:22px;}
-@media(max-width:800px){.dp-grid{grid-template-columns:1fr;}}
-.dp-principal{position:relative;border-radius:14px;overflow:hidden;display:block;min-height:380px;background:var(--navy);color:#fff;}
-.dp-principal img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;}
-.dp-principal .dp-overlay{position:relative;z-index:2;background:linear-gradient(to top, rgba(10,20,40,.94) 15%, rgba(10,20,40,.25) 65%, rgba(10,20,40,0));height:100%;min-height:380px;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;}
-.dp-principal .tag{display:inline-block;background:var(--orange);color:#fff;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;text-transform:uppercase;letter-spacing:.4px;width:fit-content;}
-.dp-principal h2{font-size:26px;font-weight:800;margin:12px 0 8px;line-height:1.28;}
-.dp-principal p{font-size:14.5px;opacity:.92;line-height:1.5;}
-.dp-secundarias{display:flex;flex-direction:column;gap:14px;}
-.dp-sec-item{display:flex;gap:14px;background:var(--card);border-radius:12px;overflow:hidden;box-shadow:0 2px 10px rgba(20,40,80,.06);transition:transform .15s;}
-.dp-sec-item:hover{transform:translateX(3px);}
-.dp-sec-item img{width:104px;height:84px;object-fit:cover;flex-shrink:0;}
-.dp-sec-item .dp-sec-body{padding:10px 14px 10px 0;display:flex;flex-direction:column;justify-content:center;gap:4px;}
-.dp-sec-item .tag{font-size:10px;font-weight:700;color:var(--orange);text-transform:uppercase;letter-spacing:.4px;}
-.dp-sec-item h3{font-size:13.5px;color:var(--navy);line-height:1.32;font-weight:700;}
+section{padding:36px 0 60px;}
+.page-title{font-size:26px;font-weight:800;color:var(--navy);margin-bottom:8px;}
+.page-sub{color:var(--muted);margin-bottom:6px;font-size:14px;}
+.page-sub a{color:var(--orange);font-weight:700;}
+.voltar{display:inline-block;margin:14px 0 30px;color:var(--orange);font-weight:700;font-size:13px;}
+
+.filtros{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+.filtro-btn{background:#fff;border:1px solid #dcd7cf;border-radius:20px;padding:7px 14px;font-size:12.5px;font-weight:700;color:var(--navy);cursor:pointer;}
+.filtro-btn.active{background:var(--navy);color:#fff;border-color:var(--navy);}
+
+.grid-3{display:grid;grid-template-columns:repeat(auto-fit, minmax(260px,1fr));gap:24px;}
+.noticia-card{display:block;background:var(--card);border-radius:10px;overflow:hidden;box-shadow:0 2px 10px rgba(20,40,80,.06);transition:transform .15s;}
+.noticia-card:hover{transform:translateY(-4px);}
+.noticia-foto{height:160px;width:100%;object-fit:cover;}
+.noticia-body{padding:16px;}
+.tag{display:inline-block;font-size:10.5px;font-weight:700;color:var(--orange);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;}
+.noticia-body h3{font-size:15px;margin-bottom:6px;color:var(--navy);line-height:1.32;}
+.noticia-body p{font-size:13px;color:var(--muted);}
+.noticia-data{font-size:11px;color:var(--muted);margin-top:8px;display:block;}
+.estado{padding:60px 0;text-align:center;color:var(--muted);}
+
+footer{background:#0d1b33;color:#aab4c7;text-align:center;padding:26px 20px;font-size:13px;}
+footer strong{color:#fff;}
 </style>
 </head>
 <body>
 
+<div class="util-bar">
+<div class="container">
+<div class="util-left"><span>📍 Paulínia, SP</span></div>
+<span id="utilDate"></span>
+</div>
+</div>
 
 <header>
 <div class="nav-wrap">
-<a class="logo" href="/">
-Rede<span class="diz">Diz</span>
-<small style="margin-left:6px;">Paulínia</small>
-</a>
-<nav>
-<ul id="navList">
-<li><a href="/#topo">Início</a></li>
-<li><a href="/#noticias">Notícias Paulínia</a></li>
-<li><a href="/#brasil">Brasil em Alta</a></li>
-<li><a href="/arquivo">Arquivo</a></li>
-<li><a href="/#comercio">Comércio Local</a></li>
-<li><a href="/#cultura">Cultura &amp; Eventos</a></li>
-<li><a href="/#sobre">Sobre</a></li>
-<li><a href="/#contato">Contato</a></li>
-</ul>
-</nav>
-<button class="menu-toggle" onclick="document.getElementById('navList').classList.toggle('open')">☰</button>
+<a href="index.html#topo" class="logo">Rede<span class="diz">Diz</span><small style="margin-left:6px;">Paulínia</small></a>
+<div class="header-actions">
+<a class="social-btn" href="index.html#contato" title="Instagram">📷</a>
+<a class="social-btn" href="index.html#contato" title="WhatsApp">💬</a>
+</div>
 </div>
 </header>
 
+<nav class="cat-nav">
+<div class="cat-nav-inner">
+<a href="index.html#topo">Últimas</a>
+<a href="index.html#sec-seguranca-publica-paulinia">Segurança Pública</a>
+<a href="index.html#sec-utilidade-publica-paulinia">Utilidade Pública</a>
+<a href="index.html#sec-economia-paulinia">Economia</a>
+<a href="index.html#sec-comunidade-paulinia">Comunidade</a>
+<a href="index.html#sec-cultura-eventos-paulinia">Cultura &amp; Eventos</a>
+<a href="index.html#sec-emprego-paulinia">Emprego</a>
+<a href="index.html#sec-meio-ambiente-paulinia">Meio Ambiente</a>
+<a href="index.html#brasil">Brasil</a>
+<a href="brasil.html">Brasil em Alta</a>
+<a href="arquivo.html">Arquivo</a>
+</div>
+</nav>
 
 <div class="manchetes-bar">
 <div class="manchetes-label"><span class="dot"></span>Manchetes</div>
-<div class="manchetes-viewport">
-<div class="manchetes-track" id="manchetesTrack"></div>
-</div>
+<div class="manchetes-viewport"><div class="manchetes-track" id="manchetesTrack"></div></div>
 </div>
 
 <section>
 <div class="container">
-<h1 class="section-title">Arquivo de notícias — Paulínia</h1>
-<p class="section-sub">Todo o histórico de notícias de Paulínia já publicadas, da mais recente pra mais antiga. <a href="/brasil" style="color:var(--orange);font-weight:700;">Ver Brasil em Alta →</a></p>
-<a class="voltar" href="/">← Voltar pro início</a>
-
-<div class="grid-3">
-<a class="noticia-card" href="/materia?id=2026-08-07-agosto-lilas-ruth-manus">
-<img class="noticia-foto" src="https://www.paulinia.sp.gov.br/fotos/979bf143de580e45db839fe0e2b7d59c.jpg" alt="Paulínia abre Agosto Lilás hoje com palestra gratuita de Ruth Manus">
-<div class="noticia-body">
-<span class="tag">Comunidade</span>
-<h3>Paulínia abre Agosto Lilás hoje com palestra gratuita de Ruth Manus</h3>
-<p>A Secretaria da Mulher abre hoje (7), às 10h, a campanha Agosto Lilás com a palestra &quot;As microviolências e a exaustão feminina&quot;, da advogada e escritora Ruth Manus, no Auditório Carlos Tontoli. Entrada é gratuita e a campanha segue com ações pela cidade até o fim do mês.</p>
-<span class="noticia-data">07/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-07-milacron-fabrica-betel">
-<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/milacron-inaugura-nova-fabrica-na-regiao-de-betel-em-paulinia-ee90c.jpg" alt="Fabricante americana Milacron inaugura fábrica no Betel">
-<div class="noticia-body">
-<span class="tag">Economia</span>
-<h3>Fabricante americana Milacron inaugura fábrica no Betel</h3>
-<p>A Milacron, empresa dos Estados Unidos especializada em equipamentos para transformação de plásticos, abriu uma nova unidade fabril na região do Betel, em Paulínia. O espaço soma showroom, estoque ampliado de peças e reforço no suporte técnico a clientes da América do Sul.</p>
-<span class="noticia-data">07/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-07-golpe-idosa-banco">
-<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/dupla-e-presa-apos-tentativa-de-golpe-contra-idosa-em-agencia-bancaria-de-paulinia-f1695.jpg" alt="Dupla é presa após tentar aplicar golpe da falsa carta de crédito em idosa">
-<div class="noticia-body">
-<span class="tag">Segurança Pública</span>
-<h3>Dupla é presa após tentar aplicar golpe da falsa carta de crédito em idosa</h3>
-<p>Uma mulher de 75 anos desconfiou a tempo de uma suposta negociação de carta de crédito e evitou cair no golpe de dois homens em uma agência bancária no Centro de Paulínia. A Guarda Municipal prendeu a dupla em flagrante; ambos têm antecedentes por roubo, estelionato e furto.</p>
-<span class="noticia-data">07/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-07-obito-influenza-2026">
-<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/paulinia-registra-o-primeiro-obito-por-influenza-em-2026-3f667.jpg" alt="Paulínia registra primeiro óbito por influenza em 2026">
-<div class="noticia-body">
-<span class="tag">Utilidade Pública</span>
-<h3>Paulínia registra primeiro óbito por influenza em 2026</h3>
-<p>A Prefeitura confirmou a primeira morte por influenza do ano em Paulínia: um homem de 75 anos, com comorbidades e não vacinado contra a gripe. Entre janeiro e agosto, a cidade já somou 40 internações por Síndrome Respiratória Aguda Grave ligada ao vírus.</p>
-<span class="noticia-data">07/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-07-unicamp-vestibular-paulinia">
-<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/unicamp-abre-inscricoes-para-o-vestibular-2027-com-provas-tambem-em-paulinia-b52a7.jpg" alt="Paulínia vai sediar provas do Vestibular Unicamp pela primeira vez">
-<div class="noticia-body">
-<span class="tag">Comunidade</span>
-<h3>Paulínia vai sediar provas do Vestibular Unicamp pela primeira vez</h3>
-<p>A Comvest abriu inscrições para o Vestibular Unicamp 2027 e incluiu Paulínia entre as cidades que vão aplicar a prova da primeira fase pela primeira vez na história. As inscrições vão até 31 de agosto, com provas marcadas para 18 de outubro.</p>
-<span class="noticia-data">07/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-03-feirao-emprego-2026">
-<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/paulinia-realiza-1-feirao-de-empregos-com-mais-de-800-vagas-na-segunda-feira-3-46f7c.jpg" alt="800 vagas no Feirão de Emprego 2026">
-<div class="noticia-body">
-<span class="tag">Emprego</span>
-<h3>800 vagas no Feirão de Emprego 2026</h3>
-<p>Paulínia realiza hoje (3/8), das 9h às 16h, o 1º Feirão de Emprego do ano, no Paço Municipal. São mais de 800 vagas de 40 empresas, com entrevistas presenciais na hora. Quem tem cadastro atualizado no Emprega Paulínia pode ir direto pros processos seletivos.</p>
-<span class="noticia-data">03/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-03-agua-cheiro-mofo">
-<img class="noticia-foto" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEDHNmG63jqYL6Z7AqYTbf5XMZ0pny1G2L25FFOr7wClvAYz9y43lY0Dt-XFIpAuz1GCPS7VUqyyyso58_5rrZekTeD7yXCSF-u-pEuGNvujrwe2p_4k6k30ZZTdjWfDkKZtiv9DrMtC-9FosORZL_40PhQP_J0QQhGUB6oZayn9yhS27YWT_jdCFHVhg/s1080/1000323741.jpg" alt="Água com cheiro de mofo nas torneiras">
-<div class="noticia-body">
-<span class="tag">Utilidade Pública</span>
-<h3>Água com cheiro de mofo nas torneiras</h3>
-<p>Moradores voltaram a reclamar de água com forte cheiro de mofo saindo da torneira essa semana. A Sabesp diz que intensificou o monitoramento, reforçou o carvão ativado no tratamento e garante que a água segue dentro do padrão de potabilidade.</p>
-<span class="noticia-data">03/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-03-romu-procurados-justica">
-<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/romu-captura-dois-procurados-pela-justica-neste-sabado-em-paulinia-62aae.jpg" alt="ROMU prende dois procurados pela Justiça">
-<div class="noticia-body">
-<span class="tag">Segurança Pública</span>
-<h3>ROMU prende dois procurados pela Justiça</h3>
-<p>A Guarda Municipal capturou dois homens com mandado de prisão em aberto durante patrulhamento no último sábado: um por furto, na Nova Paulínia, e outro condenado por tráfico, no Jardim Planalto. Ambos foram levados ao Plantão Policial.</p>
-<span class="noticia-data">03/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-03-manutencao-asfaltica-bairros">
-<img class="noticia-foto" src="https://www.paulinia.sp.gov.br/fotos/774003e5c5ae0526504cd81482100a9a.jpg" alt="Prefeitura inicia manutenção asfáltica em bairros">
-<div class="noticia-body">
-<span class="tag">Mobilidade Urbana</span>
-<h3>Prefeitura inicia manutenção asfáltica em bairros</h3>
-<p>A Secretaria de Obras começou a Operação Tapa-Buraco e a recuperação da malha asfáltica em Jardim Amélia, Jardim Leonor, Bom Retiro e Portal Medieval. Depois, as equipes seguem para o Portal Greco-Romano, Marieta Dian, Residencial Pazetti e São José II.</p>
-<span class="noticia-data">03/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-03-autora-paulinia-flip">
-<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/autora-que-atua-em-paulinia-estreia-na-flip-com-livro-sobre-identidade-e-universo-feminino-442db.jpg" alt="Dentista de Paulínia estreia livro na Flip">
-<div class="noticia-body">
-<span class="tag">Cultura &amp; Eventos</span>
-<h3>Dentista de Paulínia estreia livro na Flip</h3>
-<p>Salete Fernandes, cirurgiã-dentista que atua em Paulínia, lançou &quot;Entre Silêncios&quot; na 24ª Flip, em Paraty. O livro reúne poemas e prosas sobre identidade, memória e o reencontro das mulheres consigo mesmas.</p>
-<span class="noticia-data">03/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-02-prova-de-vida-2026">
-<img class="noticia-foto" src="https://www.portalpaulinia.com/arquivos/noticias/3282/atencao-aposentados-e-pensionistas-de-paulinia-prova-de-vida-2026-e-obrigatoria-e-comeca-em-agosto.png" alt="Prova de Vida 2026 começa segunda-feira (3) em Paulínia">
-<div class="noticia-body">
-<span class="tag">Utilidade Pública</span>
-<h3>Prova de Vida 2026 começa segunda-feira (3) em Paulínia</h3>
-<p>Aposentados e pensionistas do município têm até 30 de setembro para fazer a Prova de Vida 2026, que começa nesta segunda-feira. Quem não regularizar dentro do prazo corre risco de ter o benefício suspenso. O procedimento pode ser feito online ou presencial, na Secretaria de Gestão de Pessoas.</p>
-<span class="noticia-data">02/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-02-parque-das-flores-suspeito-preso">
-<img class="noticia-foto" src="https://noticiasdepaulinia.com.br/wp-content/uploads/2026/07/homicidio-parque-das-flores-em-paulinia.png" alt="Suspeito de matar homem no Parque das Flores é preso em 8 horas">
-<div class="noticia-body">
-<span class="tag">Segurança Pública</span>
-<h3>Suspeito de matar homem no Parque das Flores é preso em 8 horas</h3>
-<p>Equipes da Polícia Civil, com apoio da Guarda Municipal, prenderam o suspeito de matar Renato P. Nascimento no Parque das Flores em menos de oito horas. O trabalho rápido de investigação levou à captura ainda na manhã seguinte ao crime.</p>
-<span class="noticia-data">02/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-02-leth-almeida-pura-emocao">
-<img class="noticia-foto" src="https://noticiasdepaulinia.com.br/wp-content/uploads/2026/07/leth-almeida-cantora-e-compositora-01.jpeg" alt="Leth Almeida lança &quot;Pura Emoção&quot; com show gratuito dia 8">
-<div class="noticia-body">
-<span class="tag">Cultura &amp; Eventos</span>
-<h3>Leth Almeida lança &quot;Pura Emoção&quot; com show gratuito dia 8</h3>
-<p>A cantora e compositora paulinense Leth Almeida volta aos palcos no dia 8 de agosto, às 17h, com o show de lançamento do projeto autoral &quot;Pura Emoção&quot;. São seis músicas inéditas, estreia de videoclipes e abertura com o Trio de Forró Os Carraras, no Espaço Portella.</p>
-<span class="noticia-data">02/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-01-marcha-para-jesus-fernandinho">
-<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/07/marcha-para-jesus-reune-cerca-de-25-mil-pessoas-com-show-de-fernandinho-em-paulinia-49c4e.jpg" alt="Marcha para Jesus reúne 25 mil pessoas com Fernandinho">
-<div class="noticia-body">
-<span class="tag">Cultura &amp; Eventos</span>
-<h3>Marcha para Jesus reúne 25 mil pessoas com Fernandinho</h3>
-<p>A 2ª edição do evento lotou o Parque Brasil 500 na quinta-feira (30), superando o público do ano passado. A Prefeitura já confirmou mais eventos gospel pra setembro e reforçou que a Marcha entrou de vez no calendário oficial da cidade.</p>
-<span class="noticia-data">01/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-01-golpe-falsa-entrega">
-<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/07/casal-e-preso-em-paulinia-apos-aplicar-golpe-da-falsa-entrega-79986.jpg" alt="Golpe da &quot;falsa entrega&quot; volta a fazer vítimas em Paulínia">
-<div class="noticia-body">
-<span class="tag">Segurança Pública</span>
-<h3>Golpe da &quot;falsa entrega&quot; volta a fazer vítimas em Paulínia</h3>
-<p>Um casal foi preso pela Polícia Civil após se passar por entregador para roubar dados pessoais das vítimas. A dupla já tinha agido na cidade no dia anterior, e a polícia acredita que há mais pessoas atingidas na região.</p>
-<span class="noticia-data">01/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-01-feirao-empregos">
-<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/paulinia-realiza-1-feirao-de-empregos-com-mais-de-800-vagas-na-segunda-feira-3-46f7c.jpg" alt="Feirão de Empregos oferece mais de 800 vagas na segunda (3)">
-<div class="noticia-body">
-<span class="tag">Emprego</span>
-<h3>Feirão de Empregos oferece mais de 800 vagas na segunda (3)</h3>
-<p>A Prefeitura promove o 1º Feirão de Empregos do ano no Paço Municipal, das 9h às 16h, com cerca de 40 empresas fazendo entrevistas na hora. Quem já tiver cadastro atualizado no Emprega Paulínia agiliza o atendimento.</p>
-<span class="noticia-data">01/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-01-greve-rhodia-acordo">
-<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/trabalhadores-encerram-greve-na-rhodia-e-aprovam-acordo-com-novos-beneficios-em-paulinia-f0bb7.jpg" alt="Greve na Rhodia termina com acordo pros trabalhadores">
-<div class="noticia-body">
-<span class="tag">Economia</span>
-<h3>Greve na Rhodia termina com acordo pros trabalhadores</h3>
-<p>Depois de 11 dias parados, terceirizados da obra da caldeira da Rhodia aprovaram acordo com reajuste de 6,8%, vale-alimentação de R$ 1.300 e convênio médico gratuito. Os dias de greve foram abonados.</p>
-<span class="noticia-data">01/08/2026</span>
-</div>
-</a>
-<a class="noticia-card" href="/materia?id=2026-08-01-esgoto-represa-salto-grande">
-<img class="noticia-foto" src="https://www.paulinianews.com.br/uploads/images/2026/08/extravasamento-de-esgoto-e-registrado-novamente-na-represa-do-salto-grande-b50c5.jpg" alt="Esgoto vaza de novo na Represa do Salto Grande">
-<div class="noticia-body">
-<span class="tag">Meio Ambiente</span>
-<h3>Esgoto vaza de novo na Represa do Salto Grande</h3>
-<p>Moradores da região do Parque da Represa registraram novo extravasamento de esgoto bruto vindo de Americana. O caso se repete poucos dias depois de a Justiça já ter bloqueado recursos e multado o município vizinho em R$ 130 mil pelo mesmo problema.</p>
-<span class="noticia-data">01/08/2026</span>
-</div>
-</a>
-</div>
+<h1 class="page-title">Arquivo de notícias — Paulínia</h1>
+<p class="page-sub">Todo o histórico de notícias de Paulínia já publicadas, da mais recente pra mais antiga. <a href="brasil.html">Ver Brasil em Alta →</a></p>
+<a href="index.html#topo" class="voltar">&larr; Voltar pro início</a>
+<div class="filtros" id="filtros"></div>
+<div class="grid-3" id="grid"><div class="estado">Carregando arquivo...</div></div>
 </div>
 </section>
 
 <footer>
 <p><strong>Rede Diz Paulínia</strong> — Notícias, comércio e cultura da nossa cidade.</p>
-<p>Um projeto COM\C · Edição de 07/08/2026</p>
+<p>Um projeto COM\C</p>
 </footer>
+
+<script>
+(function(){
+var el = document.getElementById('utilDate');
+if(el){
+var d = new Date();
+var s = d.toLocaleDateString('pt-BR', {weekday:'long', day:'2-digit', month:'long', year:'numeric'});
+el.textContent = s.charAt(0).toUpperCase() + s.slice(1);
+}
+})();
+</script>
+
+<script>
+(function(){
+function esc(s){ var d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
+function fmtData(iso){
+if(!iso) return '';
+var p = iso.split('-');
+if(p.length!==3) return iso;
+return p[2] + '/' + p[1] + '/' + p[0];
+}
+function cardHtml(it){
+return '<a class="noticia-card" href="materia.html?id=' + encodeURIComponent(it.id) + '">' +
+(it.foto ? '<img class="noticia-foto" src="' + it.foto + '" alt="' + esc(it.titulo) + '">' : '') +
+'<div class="noticia-body"><span class="tag">' + esc(it.tag||'') + '</span><h3>' + esc(it.titulo) + '</h3><p>' + esc(it.resumo||'') + '</p><span class="noticia-data">' + fmtData(it.data) + '</span></div></a>';
+}
+
+fetch('noticias.json').then(function(r){ return r.json(); }).then(function(lista){
+lista = (lista || []).filter(function(it){ return it.escopo !== 'brasil'; });
+lista.sort(function(a,b){ return (b.data||'').localeCompare(a.data||''); });
+
+var grid = document.getElementById('grid');
+var filtrosEl = document.getElementById('filtros');
+
+if(!lista.length){
+grid.innerHTML = '<div class="estado">Ainda não publicamos nenhuma notícia de Paulínia por aqui.</div>';
+return;
+}
+
+var tags = [];
+lista.forEach(function(it){ if(it.tag && tags.indexOf(it.tag) === -1) tags.push(it.tag); });
+
+function render(filtro){
+var itens = filtro ? lista.filter(function(it){ return it.tag === filtro; }) : lista;
+grid.innerHTML = itens.map(cardHtml).join('');
+}
+
+var btnTodas = document.createElement('button');
+btnTodas.className = 'filtro-btn active';
+btnTodas.textContent = 'Todas';
+btnTodas.onclick = function(){
+document.querySelectorAll('.filtro-btn').forEach(function(b){ b.classList.remove('active'); });
+btnTodas.classList.add('active');
+render(null);
+};
+filtrosEl.appendChild(btnTodas);
+
+tags.forEach(function(tag){
+var btn = document.createElement('button');
+btn.className = 'filtro-btn';
+btn.textContent = tag;
+btn.onclick = function(){
+document.querySelectorAll('.filtro-btn').forEach(function(b){ b.classList.remove('active'); });
+btn.classList.add('active');
+render(tag);
+};
+filtrosEl.appendChild(btn);
+});
+
+render(null);
+}).catch(function(){
+document.getElementById('grid').innerHTML = '<div class="estado">Não foi possível carregar o arquivo agora. Tenta de novo em instantes.</div>';
+});
+})();
+</script>
 
 <script>
 (function(){
