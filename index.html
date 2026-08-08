@@ -81,12 +81,17 @@ header{background:var(--navy);color:#fff;}
 .dp-principal h2{font-size:25px;font-weight:800;margin:12px 0 8px;line-height:1.28;}
 .dp-principal p{font-size:14px;opacity:.92;line-height:1.5;}
 .dp-secundarias{display:flex;flex-direction:column;gap:12px;}
+.dp-sec-top{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.dp-sec-card{background:var(--card);border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(20,40,80,.06);display:block;transition:transform .15s;}
+.dp-sec-card:hover{transform:translateY(-3px);}
+.dp-sec-card img{width:100%;height:96px;object-fit:cover;}
 .dp-sec-item{display:flex;gap:12px;background:var(--card);border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(20,40,80,.06);transition:transform .15s;}
 .dp-sec-item:hover{transform:translateX(3px);}
-.dp-sec-item img{width:100px;height:80px;object-fit:cover;flex-shrink:0;}
-.dp-sec-item .dp-sec-body{padding:8px 12px 8px 0;display:flex;flex-direction:column;justify-content:center;gap:4px;}
-.dp-sec-item .tag-small{font-size:10px;font-weight:700;color:var(--orange);text-transform:uppercase;letter-spacing:.4px;}
-.dp-sec-item h3{font-size:13px;color:var(--navy);line-height:1.32;font-weight:700;}
+.dp-sec-item img{width:140px;height:96px;object-fit:cover;flex-shrink:0;}
+.dp-sec-item .dp-sec-body,.dp-sec-card .dp-sec-body{padding:8px 12px 8px 0;display:flex;flex-direction:column;justify-content:center;gap:4px;}
+.dp-sec-card .dp-sec-body{padding:8px 10px;}
+.dp-sec-item .tag-small,.dp-sec-card .tag-small{font-size:10px;font-weight:700;color:var(--orange);text-transform:uppercase;letter-spacing:.4px;}
+.dp-sec-item h3,.dp-sec-card h3{font-size:13px;color:var(--navy);line-height:1.32;font-weight:700;}
 
 /* MAIS NOTICIAS - grid 4 */
 .mais-noticias{padding:34px 0;}
@@ -401,16 +406,27 @@ if(dpGrid){
 var top5 = ordenada.slice(0,5);
 if(top5.length){
 var principal = top5[0];
-var secundarias = top5.slice(1,5);
+var secundarias = top5.slice(1,4);
 var html = '<a class="dp-principal" href="materia.html?id=' + encodeURIComponent(principal.id) + '">' +
 (principal.foto ? '<img src="' + principal.foto + '" alt="">' : '') +
 '<div class="dp-overlay"><span class="tag-pill">' + esc(principal.tag||'') + '</span><h2>' + esc(principal.titulo) + '</h2><p>' + esc(principal.resumo||'') + '</p></div></a>';
 html += '<div class="dp-secundarias">';
-secundarias.forEach(function(it){
-html += '<a class="dp-sec-item" href="materia.html?id=' + encodeURIComponent(it.id) + '">' +
+var top2 = secundarias.slice(0,2);
+var wide = secundarias[2];
+if(top2.length){
+html += '<div class="dp-sec-top">';
+top2.forEach(function(it){
+html += '<a class="dp-sec-card" href="materia.html?id=' + encodeURIComponent(it.id) + '">' +
 (it.foto ? '<img src="' + it.foto + '" alt="">' : '') +
 '<div class="dp-sec-body"><span class="tag-small">' + esc(it.tag||'') + '</span><h3>' + esc(it.titulo) + '</h3></div></a>';
 });
+html += '</div>';
+}
+if(wide){
+html += '<a class="dp-sec-item" href="materia.html?id=' + encodeURIComponent(wide.id) + '">' +
+(wide.foto ? '<img src="' + wide.foto + '" alt="">' : '') +
+'<div class="dp-sec-body"><span class="tag-small">' + esc(wide.tag||'') + '</span><h3>' + esc(wide.titulo) + '</h3></div></a>';
+}
 html += '</div>';
 dpGrid.innerHTML = html;
 } else {
