@@ -32,6 +32,7 @@ img{max-width:100%;display:block;}
 header{background:var(--navy);color:#fff;}
 .nav-wrap{display:flex;align-items:center;justify-content:space-between;padding:14px 0;max-width:1180px;margin:0 auto;padding-left:20px;padding-right:20px;}
 .logo{font-size:24px;font-weight:800;display:flex;align-items:baseline;gap:6px;}
+.logo-img{height:36px;width:auto;display:block;}
 .logo span.diz{color:var(--orange);}
 .logo small{display:block;font-size:11px;font-weight:400;letter-spacing:2px;color:var(--teal);text-transform:uppercase;}
 .header-actions{display:flex;gap:10px;align-items:center;}
@@ -137,13 +138,14 @@ footer strong{color:#fff;}
 
 <header>
 <div class="nav-wrap">
-<a href="index.html#topo" class="logo">Rede<span class="diz">Diz</span><small style="margin-left:6px;">Paulínia</small></a>
+<a href="index.html#topo" class="logo"><img class="logo-img" alt="Rede Diz"></a>
 <div class="header-actions">
 <a class="social-btn" href="index.html#contato" title="Instagram">📷</a>
 <a class="social-btn" href="index.html#contato" title="WhatsApp">💬</a>
 </div>
 </div>
 </header>
+<script src="logo-data.js"></script>
 
 <nav class="cat-nav">
 <div class="cat-nav-inner">
@@ -180,7 +182,6 @@ footer strong{color:#fff;}
 
 <footer>
 <p><strong>Rede Diz Paulínia</strong> — Notícias, comércio e cultura da nossa cidade.</p>
-<p>Um projeto COM\C</p>
 </footer>
 
 <script>
@@ -261,7 +262,7 @@ calloutHtml +
 '<div class="ad-slot"><div class="ad-label">Publicidade</div><div class="ad-box">Espaço para anúncio — 728x90</div></div>' +
 '<div class="materia-corpo">' + depoisHtml + '</div>' +
 '<div class="follow-cta"><h3>Segue a Rede Diz pra não perder nada de Paulínia</h3><div class="redes">' +
-'<a class="rede-btn" href="index.html#contato">📷 Instagram @redediz.paulinia</a>' +
+'<a class="rede-btn" href="index.html#contato">📷 Instagram @rededizoficial</a>' +
 '<a class="rede-btn" href="index.html#contato">💬 WhatsApp</a>' +
 '</div></div>';
 
