@@ -32,6 +32,7 @@ img{max-width:100%;display:block;}
 header{background:var(--navy);color:#fff;}
 .nav-wrap{display:flex;align-items:center;justify-content:space-between;padding:14px 0;max-width:1180px;margin:0 auto;padding-left:20px;padding-right:20px;}
 .logo{font-size:24px;font-weight:800;display:flex;align-items:baseline;gap:6px;}
+.logo-img{height:36px;width:auto;display:block;}
 .logo span.diz{color:var(--orange);}
 .logo small{display:block;font-size:11px;font-weight:400;letter-spacing:2px;color:var(--teal);text-transform:uppercase;}
 .header-actions{display:flex;gap:10px;align-items:center;}
@@ -184,13 +185,14 @@ footer strong{color:#fff;}
 
 <header>
 <div class="nav-wrap">
-<a href="#topo" class="logo">Rede<span class="diz">Diz</span><small style="margin-left:6px;">Paulínia</small></a>
+<a href="#topo" class="logo"><img class="logo-img" alt="Rede Diz"></a>
 <div class="header-actions">
 <a class="social-btn" href="#contato" title="Instagram">📷</a>
 <a class="social-btn" href="#contato" title="WhatsApp">💬</a>
 </div>
 </div>
 </header>
+<script src="logo-data.js"></script>
 
 <nav class="cat-nav">
 <div class="cat-nav-inner">
@@ -285,7 +287,6 @@ footer strong{color:#fff;}
 <h2>Sobre a Rede Diz</h2>
 <p>A Rede Diz nasceu de quem cresceu em Paulínia e queria dar à cidade um espaço só dela: um lugar pra contar o que acontece, mostrar quem empreende aqui e celebrar a cultura que forma a nossa identidade.</p>
 <p>Mais do que um site, é uma rede — de informação, de negócios locais e de gente que faz Paulínia ser Paulínia.</p>
-<p>Um projeto da <strong>COM\C</strong>, agência de comunicação com raízes em Manaus e Campinas.</p>
 </div>
 <div class="sobre-stats">
 <div class="stat"><span>Pilares de conteúdo</span><b>3</b></div>
@@ -300,7 +301,7 @@ footer strong{color:#fff;}
 <h2>Vamos conversar?</h2>
 <p>Siga a Rede Diz, mande sua sugestão de pauta ou indique seu negócio.</p>
 <div class="redes">
-<a href="#" class="rede-btn">📷 Instagram @redediz.paulinia</a>
+<a href="#" class="rede-btn">📷 Instagram @rededizoficial</a>
 <a href="#" class="rede-btn">💬 WhatsApp</a>
 <a href="#" class="rede-btn">✉️ E-mail</a>
 </div>
@@ -309,7 +310,6 @@ footer strong{color:#fff;}
 
 <footer>
 <p><strong>Rede Diz Paulínia</strong> — Notícias, comércio e cultura da nossa cidade.</p>
-<p>Um projeto COM\C</p>
 </footer>
 
 <script>
