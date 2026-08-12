@@ -133,8 +133,8 @@
     line-height:1.25;
   }
   .materia-data{font-size:13px;color:var(--muted);margin-bottom:26px;}
-  .materia-foto{width:100%;max-height:420px;object-fit:cover;border-radius:14px;margin-bottom:24px;}
-  .coluna-card-img{width:100%;height:160px;object-fit:cover;border-radius:10px;margin-bottom:14px;}
+  .materia-foto{width:100%;max-height:420px;object-fit:contain;background:var(--card);border-radius:14px;margin-bottom:24px;}
+  .coluna-card-img{width:100%;height:160px;object-fit:contain;background:var(--card);border-radius:10px;margin-bottom:14px;}
   .materia-corpo p{margin-bottom:18px;font-size:16.5px;color:var(--text);}
   .materia-corpo{margin-bottom:50px;}
   .estado{padding:80px 0;text-align:center;color:var(--muted);}
@@ -192,8 +192,7 @@
 
 <div class="container" id="coluna-container">
   <div class="dqd-banner">
-    <div class="dqd-word">Diz<span class="que">que</span>Diz</div>
-    <div class="dqd-tag">por O Vizinho</div>
+    <img class="dqd-logo-img" alt="Diz que Diz - por O Vizinho" style="max-width:260px;width:80%;height:auto;display:block;margin:0 auto;">
   </div>
   <div id="conteudo">
     <div class="estado">Carregando...</div>
@@ -205,6 +204,7 @@
 </footer>
 
 <script src="logo-data.js"></script>
+<script src="dqd-logo-data.js"></script>
 
 <script>
 function formatarData(iso){
