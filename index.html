@@ -210,6 +210,7 @@ footer strong{color:#fff;}
 <a href="#sec-entretenimento-brasil">Entretenimento</a>
 <a href="#sec-viral-brasil">Viral</a>
 <a href="arquivo.html">Arquivo</a>
+<a href="coluna.html">Diz que Diz</a>
 <span class="search-icon">🔍</span>
 </div>
 </nav>
@@ -235,6 +236,36 @@ footer strong{color:#fff;}
 </section>
 
 <div class="ad-slot"><div class="ad-slot-inner"><div class="ad-label">Publicidade</div><div class="ad-box leaderboard">Espaço para anúncio — 970x90</div></div></div>
+
+<section style="padding:50px 0;">
+<div class="container">
+<div style="background:linear-gradient(135deg, var(--orange), #ff8c5c);border-radius:16px;padding:40px 28px;text-align:center;box-shadow:0 8px 24px rgba(255,107,53,.25);">
+<div style="font-size:clamp(32px,5vw,50px);font-weight:900;color:#fff;line-height:1;letter-spacing:-1px;">Diz<span style="display:block;color:var(--navy);font-size:0.6em;font-style:italic;margin:2px 0;">que</span>Diz</div>
+<div style="display:inline-block;margin-top:12px;background:var(--navy);color:#fff;font-size:13px;font-weight:700;padding:6px 18px;border-radius:20px;letter-spacing:.5px;">por O Vizinho</div>
+<p style="max-width:520px;margin:18px auto 0;color:#fff;opacity:.95;font-size:15px;">Bastidores, fofoca boa e a política de Paulínia contada por quem escuta tudo.</p>
+<div id="dqdHomeCard" style="max-width:600px;margin:24px auto 0;"></div>
+</div>
+</div>
+</section>
+
+<script>
+(function(){
+  var box = document.getElementById('dqdHomeCard');
+  if(!box) return;
+  fetch('colunas.json').then(function(r){ return r.json(); }).then(function(lista){
+    lista = lista || [];
+    if(!lista.length){ box.closest('section').style.display = 'none'; return; }
+    lista.sort(function(a,b){ return (b.data||'').localeCompare(a.data||''); });
+    var it = lista[0];
+    function esc(s){ var d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
+    box.innerHTML = '<a href="coluna.html?id=' + encodeURIComponent(it.id) + '" style="display:block;background:#fff;border-radius:14px;padding:24px;box-shadow:0 8px 24px rgba(0,0,0,.15);text-align:left;">' +
+      '<span style="font-size:11px;font-weight:700;color:var(--orange);text-transform:uppercase;letter-spacing:.5px;">Última coluna</span>' +
+      '<h3 style="font-size:19px;color:var(--navy);margin:8px 0;">' + esc(it.titulo) + '</h3>' +
+      '<p style="font-size:14px;color:var(--muted);margin-bottom:10px;">' + esc(it.resumo || '') + '</p>' +
+      '<span style="color:var(--orange);font-weight:700;font-size:13.5px;">Ler coluna completa &rarr;</span></a>';
+  }).catch(function(){ box.closest('section').style.display = 'none'; });
+})();
+</script>
 
 <div class="container" id="catSectionsPaulinia"></div>
 
