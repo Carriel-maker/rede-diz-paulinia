@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diz que Diz — Rede Diz Paulínia</title>
+<style>
+  :root{
+    --navy:#142850;
+    --navy-light:#1f3a6e;
+    --orange:#FF6B35;
+    --teal:#2EC4B6;
+    --bg:#F7F5F2;
+    --card:#FFFFFF;
+    --text:#1B1B1B;
+    --muted:#6B7280;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:'Segoe UI', system-ui, -apple-system, Arial, sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.6;
+  }
+  a{text-decoration:none;color:inherit;}
+  img{max-width:100%;display:block;}
+  .container{max-width:760px;margin:0 auto;padding:0 24px;}
+
+  header{
+    background:var(--navy);
+    color:#fff;
+    position:sticky;
+    top:0;
+    z-index:100;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+  }
+  .nav-wrap{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:16px 24px;
+    max-width:1100px;
+    margin:0 auto;
+  }
+  .logo{font-size:22px;font-weight:800;display:flex;align-items:baseline;gap:6px;}
+  .logo-img{height:36px;width:auto;display:block;}
+  nav ul{list-style:none;display:flex;gap:28px;}
+  nav a{font-size:14px;font-weight:600;opacity:.9;transition:opacity .2s;}
+  nav a:hover{opacity:1;color:var(--orange);}
+  .menu-toggle{display:none;background:none;border:none;color:#fff;font-size:26px;cursor:pointer;}
+
+  @media (max-width:800px){
+    nav ul{
+      position:absolute;top:64px;left:0;right:0;
+      background:var(--navy-light);
+      flex-direction:column;padding:16px 24px;display:none;gap:16px;
+    }
+    nav ul.open{display:flex;}
+    .menu-toggle{display:block;}
+  }
+
+  .voltar{display:inline-block;margin:26px 0 18px;color:var(--orange);font-weight:700;font-size:14px;}
+
+  .dqd-banner{
+    background:linear-gradient(135deg, var(--orange), #ff8c5c);
+    border-radius:16px;
+    padding:34px 28px;
+    margin:24px 0 34px;
+    text-align:center;
+    box-shadow:0 8px 24px rgba(255,107,53,.25);
+  }
+  .dqd-word{
+    font-size:clamp(34px,6vw,52px);
+    font-weight:900;
+    color:#fff;
+    line-height:1;
+    letter-spacing:-1px;
+  }
+  .dqd-word .que{
+    display:block;
+    color:var(--navy);
+    font-size:0.62em;
+    font-style:italic;
+    margin:2px 0;
+  }
+  .dqd-tag{
+    display:inline-block;
+    margin-top:14px;
+    background:var(--navy);
+    color:#fff;
+    font-size:13px;
+    font-weight:700;
+    padding:6px 18px;
+    border-radius:20px;
+    letter-spacing:.5px;
+  }
+  .dqd-intro{
+    text-align:center;
+    color:var(--muted);
+    font-size:14.5px;
+    margin-bottom:8px;
+  }
+
+  .coluna-card{
+    display:block;
+    background:var(--card);
+    border-radius:14px;
+    padding:24px;
+    margin-bottom:20px;
+    box-shadow:0 4px 14px rgba(20,40,80,.06);
+    transition:transform .15s;
+  }
+  .coluna-card:hover{transform:translateY(-3px);}
+  .coluna-card .autor-tag{
+    display:inline-block;
+    font-size:11px;
+    font-weight:700;
+    color:var(--orange);
+    text-transform:uppercase;
+    letter-spacing:.5px;
+    margin-bottom:8px;
+  }
+  .coluna-card h2{font-size:19px;color:var(--navy);margin-bottom:8px;line-height:1.3;}
+  .coluna-card p{font-size:14px;color:var(--muted);margin-bottom:12px;}
+  .coluna-card .ler-mais{color:var(--orange);font-weight:700;font-size:13.5px;}
+  .coluna-data{font-size:12px;color:var(--muted);}
+
+  .materia-titulo{
+    font-size:27px;
+    font-weight:800;
+    color:var(--navy);
+    margin-bottom:8px;
+    line-height:1.25;
+  }
+  .materia-data{font-size:13px;color:var(--muted);margin-bottom:26px;}
+  .materia-corpo p{margin-bottom:18px;font-size:16.5px;color:var(--text);}
+  .materia-corpo{margin-bottom:50px;}
+  .estado{padding:80px 0;text-align:center;color:var(--muted);}
+
+  footer{
+    background:#0d1b33;
+    color:#aab4c7;
+    text-align:center;
+    padding:28px 20px;
+    font-size:13px;
+  }
+  footer strong{color:#fff;}
+
+  .manchetes-bar{background:var(--navy-light);display:flex;align-items:center;overflow:hidden;height:42px;border-bottom:1px solid rgba(255,255,255,.08);}
+  .manchetes-label{flex:0 0 auto;display:flex;align-items:center;gap:6px;background:var(--orange);color:#fff;font-size:11px;font-weight:800;letter-spacing:.5px;padding:0 16px;height:100%;text-transform:uppercase;white-space:nowrap;}
+  .manchetes-label .dot{width:7px;height:7px;border-radius:50%;background:#fff;animation:pulse 1.4s infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.3;}}
+  .manchetes-viewport{flex:1;overflow:hidden;height:100%;position:relative;}
+  .manchetes-track{display:flex;align-items:center;height:100%;white-space:nowrap;animation:scrollLeft 45s linear infinite;width:max-content;}
+  .manchetes-viewport:hover .manchetes-track{animation-play-state:paused;}
+  @keyframes scrollLeft{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
+  .manchete-item{display:inline-flex;align-items:center;gap:8px;padding:0 28px;font-size:13.5px;color:#fff;font-weight:600;text-decoration:none;}
+  .manchete-item .escopo-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;}
+  .manchete-item .escopo-dot.paulinia{background:var(--orange);}
+  .manchete-item .escopo-dot.brasil{background:var(--teal);}
+  .manchete-item:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav-wrap">
+    <a href="index.html" class="logo"><img class="logo-img" alt="Rede Diz"></a>
+    <nav>
+      <ul id="navList">
+        <li><a href="index.html#topo">Início</a></li>
+        <li><a href="index.html#noticias">Notícias</a></li>
+        <li><a href="arquivo.html">Arquivo</a></li>
+        <li><a href="coluna.html">Diz que Diz</a></li>
+        <li><a href="index.html#comercio">Comércio Local</a></li>
+        <li><a href="index.html#sobre">Sobre</a></li>
+        <li><a href="index.html#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" onclick="document.getElementById('navList').classList.toggle('open')">☰</button>
+  </div>
+</header>
+
+<div class="manchetes-bar">
+  <div class="manchetes-label"><span class="dot"></span>Manchetes</div>
+  <div class="manchetes-viewport">
+    <div class="manchetes-track" id="manchetesTrack"></div>
+  </div>
+</div>
+
+<div class="container" id="coluna-container">
+  <div class="dqd-banner">
+    <div class="dqd-word">Diz<span class="que">que</span>Diz</div>
+    <div class="dqd-tag">por O Vizinho</div>
+  </div>
+  <div id="conteudo">
+    <div class="estado">Carregando...</div>
+  </div>
+</div>
+
+<footer>
+  <p><strong>Rede Diz Paulínia</strong> — Notícias, comércio e cultura da nossa cidade.</p>
+</footer>
+
+<script src="logo-data.js"></script>
+
+<script>
+function formatarData(iso){
+  if(!iso) return '';
+  var partes = iso.split('-');
+  if(partes.length !== 3) return iso;
+  return partes[2] + '/' + partes[1] + '/' + partes[0];
+}
+function escapeHtml(str){
+  var div = document.createElement('div');
+  div.textContent = str || '';
+  return div.innerHTML;
+}
+
+function renderLista(lista){
+  var conteudo = document.getElementById('conteudo');
+  if(!lista.length){
+    conteudo.innerHTML = '<div class="estado">Ainda não tem coluna publicada. Volta logo!</div>';
+    return;
+  }
+  var ordenada = lista.slice().sort(function(a,b){ return (b.data||'').localeCompare(a.data||''); });
+  var intro = '<p class="dqd-intro">O que a vizinhança anda comentando — contado por quem escuta tudo.</p>';
+  var html = ordenada.map(function(it){
+    return '<a class="coluna-card" href="coluna.html?id=' + encodeURIComponent(it.id) + '">' +
+      '<span class="autor-tag">' + escapeHtml(it.coluna || 'Diz que Diz') + ' · por ' + escapeHtml(it.autor || 'O Vizinho') + '</span>' +
+      '<h2>' + escapeHtml(it.titulo || '') + '</h2>' +
+      '<p>' + escapeHtml(it.resumo || '') + '</p>' +
+      '<span class="coluna-data">' + formatarData(it.data) + '</span> &nbsp;·&nbsp; <span class="ler-mais">Ler coluna completa &rarr;</span>' +
+    '</a>';
+  }).join('');
+  conteudo.innerHTML = intro + html;
+  document.title = 'Diz que Diz — Rede Diz Paulínia';
+}
+
+function renderItem(item){
+  var conteudo = document.getElementById('conteudo');
+  var corpo = item.texto_completo || item.resumo || '';
+  var paragrafos = corpo.split('\n').filter(function(p){ return p.trim().length > 0; });
+  var paragrafosHtml = paragrafos.map(function(p){ return '<p>' + escapeHtml(p) + '</p>'; }).join('');
+  conteudo.innerHTML =
+    '<a href="coluna.html" class="voltar">&larr; Voltar pra coluna</a>' +
+    '<h1 class="materia-titulo">' + escapeHtml(item.titulo || '') + '</h1>' +
+    '<p class="materia-data">Por ' + escapeHtml(item.autor || 'O Vizinho') + ' · ' + formatarData(item.data) + '</p>' +
+    '<div class="materia-corpo">' + paragrafosHtml + '</div>';
+  document.title = (item.titulo || 'Diz que Diz') + ' — Rede Diz Paulínia';
+}
+
+function renderErro(msg){
+  document.getElementById('conteudo').innerHTML = '<div class="estado">' + msg + '</div>';
+}
+
+var params = new URLSearchParams(window.location.search);
+var id = params.get('id');
+
+fetch('colunas.json')
+  .then(function(res){
+    if(!res.ok) throw new Error('colunas.json indisponível');
+    return res.json();
+  })
+  .then(function(lista){
+    lista = lista || [];
+    if(id){
+      var item = lista.find(function(n){ return n.id === id; });
+      if(!item){ renderErro('Coluna não encontrada.'); }
+      else { renderItem(item); }
+    } else {
+      renderLista(lista);
+    }
+  })
+  .catch(function(){
+    renderErro('Não foi possível carregar a coluna agora. Tenta de novo em instantes.');
+  });
+</script>
+
+<script>
+(function(){
+  var track = document.getElementById('manchetesTrack');
+  if(!track) return;
+  fetch('noticias.json').then(function(r){ return r.json(); }).then(function(lista){
+    var itens = (lista || []).slice(0, 10);
+    if(itens.length === 0){ track.closest('.manchetes-bar').style.display = 'none'; return; }
+    function esc(s){ var d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
+    function itemHtml(it){
+      var cls = it.escopo === 'brasil' ? 'brasil' : 'paulinia';
+      return '<a class="manchete-item" href="materia.html?id=' + encodeURIComponent(it.id) + '"><span class="escopo-dot ' + cls + '"></span>' + esc(it.titulo) + '</a>';
+    }
+    var html = itens.map(itemHtml).join('');
+    track.innerHTML = html + html;
+  }).catch(function(){
+    track.closest('.manchetes-bar').style.display = 'none';
+  });
+})();
+</script>
+</body>
+</html>
+
