@@ -1,5 +1,47 @@
 [
   {
+    "id": "2026-09-13-18h-fortes-chuvas-na-grande-sao-paulo",
+    "data": "2026-09-13",
+    "escopo": "brasil",
+    "tag": "Cidade",
+    "selo": "confirmado",
+    "titulo": "Fortes chuvas na Grande São Paulo causam mortes e destruição",
+    "resumo": "As intensas chuvas que atingiram a Grande São Paulo entre quinta e sábado resultaram em pelo menos oito mortes e uma pessoa desaparecida, além de danos significativos em diversas áreas. Um desabamento de prédio na capital paulista foi um dos incidentes mais graves registrados.",
+    "texto_completo": "As fortes chuvas que castigaram a Grande São Paulo entre quinta-feira e sábado resultaram em ao menos oito mortes e uma pessoa desaparecida. Os bombeiros informaram que um desabamento de um prédio em construção na Penha, na madrugada de sábado, foi responsável por parte das vítimas, incluindo uma gestante e uma criança. Todas as vítimas foram localizadas, e a maioria era de cidadãos bolivianos que residiam na casa atingida. As autoridades estão investigando a situação da construção que cedeu, que estava embargada desde 2021 devido a irregularidades.\n\nAlém do desabamento, a região metropolitana enfrentou uma série de incidentes relacionados às chuvas, incluindo quedas de árvores, alagamentos e deslizamentos de terra. Em Jandira, por exemplo, três pessoas foram arrastadas por uma enxurrada, resultando em uma morte confirmada e um desaparecido. A Defesa Civil emitiu diversos alertas e mobilizou equipes para auxiliar as áreas mais afetadas, como Eldorado, onde inundações obrigaram a retirada de 173 pessoas de suas casas.\n\nAs previsões meteorológicas indicam que a instabilidade deve continuar, com possibilidade de chuvas volumosas nos próximos dias, especialmente no litoral. A Defesa Civil alerta a população para que evitem transitar por áreas alagadas e fiquem atentas aos avisos oficiais, uma vez que o nível dos rios na região permanece elevado, aumentando o risco de novas inundações.",
+    "foto": "https://imagens.ebc.com.br/DBgZQA9ZpiKOz6aiemys9eQFdP0=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/12/_int9401.jpg?itok=KpgIE_4T",
+    "foto_credito": "Agência Brasil",
+    "fonte_nome": "Agência Brasil",
+    "fonte_url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-09/chuvas-deixam-ao-menos-oito-mortos-na-grande-sao-paulo"
+  },
+  {
+    "id": "2026-09-13-18h-stf-enfrenta-disputas-internas-antes-de",
+    "data": "2026-09-13",
+    "escopo": "brasil",
+    "tag": "Política",
+    "selo": "confirmado",
+    "titulo": "STF enfrenta disputas internas antes de sessão decisiva sobre o caso Master",
+    "resumo": "A sessão do Supremo Tribunal Federal marcada para terça-feira (15) revela tensões entre ministros sobre o que será julgado no caso Master e possibilidades de um pedido de vista. As articulações nos bastidores indicam uma busca por evitar uma decisão definitiva sobre as mensagens envolvidas na crise.",
+    "texto_completo": "A próxima sessão do Supremo Tribunal Federal (STF), agendada para terça-feira (15), é considerada um ponto crucial na crise relacionada ao caso Master e ao ministro Alexandre de Moraes. Entretanto, os bastidores do tribunal revelam um clima de incerteza, com os ministros ainda sem clareza sobre os tópicos que serão discutidos. O ministro Edson Fachin vem realizando conversas individuais com seus pares, mas a falta de consenso sobre a pauta levanta questionamentos sobre como preparar um voto sem conhecer o que será votado.\n\nUm dos grupos próximos a Moraes busca evitar uma análise aprofundada das mensagens que estão no centro do caso. A estratégia favorece a votação de uma nulidade em relação ao material que revelou as comunicações entre Moraes e Vorcaro, sem adentrar na esfera criminal. Por outro lado, Fachin pode sugerir uma investigação que não tenha sido requerida pela Procuradoria Geral da República (PGR), ou ainda direcionar o caso para uma análise correicional, que não implica em uma investigação criminal, mas sim em possíveis desvios funcionais.\n\nA indefinição sobre o que será julgado pode gerar pedidos de vista que interrompam a análise no plenário. Já há uma tensão palpável, especialmente entre os aliados de Moraes, que temem que uma eventual maioria liderada por André Mendonça possa ser alvo de questionamentos. A discussão sobre a quem caberia a investigação, se à PGR ou à Polícia Federal, também adiciona complexidade ao cenário. Com a sessão se aproximando, as incertezas permanecem, e o STF terá que decidir não apenas sobre o mérito do caso, mas também sobre os limites e as direções de sua própria atuação nesse contexto.",
+    "foto": "https://s2-g1.glbimg.com/ci9LC_7ksriz-QmWdwub9ofaZWM=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/0/WfpOWITASNxf7CXuvCzg/55518473396-4d838fd0ca-k.jpg",
+    "foto_credito": "G1",
+    "fonte_nome": "G1",
+    "fonte_url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/09/13/stf-vive-disputa-nos-bastidores-sobre-votos-alcance-do-julgamento-e-pedido-de-vista.ghtml"
+  },
+  {
+    "id": "2026-09-13-18h-corpos-de-vitimas-de-desabamento-em",
+    "data": "2026-09-13",
+    "escopo": "brasil",
+    "tag": "Segurança",
+    "selo": "confirmado",
+    "titulo": "Corpos de vítimas de desabamento em SP serão enviados para a Bolívia",
+    "resumo": "Um desabamento em São Paulo resultou na morte de seis pessoas, todas bolivianas, além de dois sobreviventes. Os corpos serão repatriados para a Bolívia conforme os procedimentos legais.",
+    "texto_completo": "Na última semana, um trágico desabamento em São Paulo deixou seis mortos, todos de nacionalidade boliviana, e dois sobreviventes, um adulto e uma criança de apenas sete anos. O incidente gerou uma mobilização para atender às vítimas e prestar assistência aos sobreviventes, que passam por acompanhamento médico e psicológico.\n\nAs autoridades informaram que, além das seis vítimas fatais, uma paraguaia também estava entre os envolvidos no acidente. A repatriação dos corpos das seis bolivianas está sendo organizada em colaboração com os consulados e autoridades competentes, visando garantir que as vítimas sejam levadas de volta para suas famílias na Bolívia o mais breve possível. O caso levanta questões sobre segurança em construções e a necessidade de uma investigação mais aprofundada sobre as causas do desabamento.",
+    "foto": "https://i.metroimg.com/_CgqQfLym3-5uVdSfr2oXHaVcHzF7MeKI4bwwerSKiA/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/predio-desaba-penha-zl-sp-2.jpg",
+    "foto_credito": "Metrópoles",
+    "fonte_nome": "Metrópoles",
+    "fonte_url": "https://www.metropoles.com/sao-paulo/desabamento-em-sp-corpos-das-6-vitimas-serao-levados-para-a-bolivia"
+  },
+  {
     "id": "2026-09-13-paulinia-sedia-5-etapa-da-copa",
     "data": "2026-09-13",
     "escopo": "paulinia",
