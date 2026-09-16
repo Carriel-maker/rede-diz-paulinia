@@ -1,5 +1,603 @@
 [
   {
+    "id": "2026-09-16-18h-campinas-recebera-o-barzim-de-rock",
+    "data": "2026-09-16",
+    "escopo": "paulinia",
+    "tag": "Barzim de Rock",
+    "selo": "confirmado",
+    "titulo": "Campinas receberá o 'Barzim de Rock com Dino' em novembro",
+    "resumo": "Evento promete agitar a cena musical da região no Expo Dom Pedro",
+    "texto_completo": "Campinas se prepara para receber o projeto 'Barzim de Rock com Dino' no próximo mês de novembro, no Expo Dom Pedro. O evento promete ser um marco na cena musical da região, reunindo fãs do rock e celebrando a cultura musical local.\n\n A proposta do evento é não apenas entreter, mas também fomentar o turismo e a economia local, atraindo visitantes de diversas cidades da região. O 'Barzim de Rock com Dino' se destaca como uma oportunidade para os amantes da música se reunirem e apreciarem grandes performances.",
+    "foto": "https://raw.githubusercontent.com/Carriel-maker/rede-diz-paulinia/main/imagens-editadas/campinas-recebe-o-projeto-barzim-de-semlogo-1789590743910.png",
+    "foto_credito": "Portal Paulínia (marca removida por IA)",
+    "fonte_nome": "Portal Paulínia",
+    "fonte_url": "https://www.portalpaulinia.com/noticia/3370/paulinia/eventos/campinas-recebe-o-projeto-quot-barzim-de-rock-com-dino-quot-em-novembro-no-expo-dom-pedro.html",
+    "linha_fina": "Evento promete agitar a cena musical da região no Expo Dom Pedro",
+    "diz_em_resumo": [
+      "O projeto 'Barzim de Rock com Dino' acontecerá em novembro em Campinas.",
+      "O evento busca promover a cultura rock na região.",
+      "A iniciativa visa atrair amantes da música e fomentar o turismo local."
+    ],
+    "body_html": "<p>Campinas se prepara para receber o projeto 'Barzim de Rock com Dino' no próximo mês de novembro, no Expo Dom Pedro. O evento promete ser um marco na cena musical da região, reunindo fãs do rock e celebrando a cultura musical local.</p> <p>A proposta do evento é não apenas entreter, mas também fomentar o turismo e a economia local, atraindo visitantes de diversas cidades da região. O 'Barzim de Rock com Dino' se destaca como uma oportunidade para os amantes da música se reunirem e apreciarem grandes performances.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Barzim de Rock com Dino em Campinas",
+      "meta_description": "Evento 'Barzim de Rock com Dino' será realizado em novembro no Expo Dom Pedro, em Campinas, promovendo a cultura rock na região.",
+      "slug": "barzim-de-rock-com-dino-campinas",
+      "tags": [
+        "Barzim de Rock",
+        "Campinas",
+        "Expo Dom Pedro",
+        "Cultura",
+        "Música"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260916-18H-000004",
+    "run_id": "d3f81ebd-b76b-4f9b-8670-7f611231bb78",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260916-18H-000004",
+        "decision": "PUBLICAR",
+        "priority": "NORMAL",
+        "editorial_score": 65,
+        "geographic_level": 4,
+        "primary_category": "Cultura",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "NEW",
+        "related_article_id": null,
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "O evento em Campinas pode atrair público de Paulínia e é relevante para a cena cultural da região.",
+        "news_fact": "Campinas receberá o projeto \"Barzim de Rock com Dino\" em novembro no Expo Dom Pedro.",
+        "local_relevance": "A proximidade de Campinas com Paulínia torna o evento interessante para os moradores da cidade.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Destacar a proposta do evento e a relevância cultural para a região.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "d3f81ebd-b76b-4f9b-8670-7f611231bb78",
+        "timestamp": "2026-09-16T20:31:49.991Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "Campinas receberá o projeto 'Barzim de Rock com Dino' em novembro no Expo Dom Pedro.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "Portal Paulínia",
+            "url": "https://www.portalpaulinia.com/noticia/3370/paulinia/eventos/campinas-recebe-o-projeto-quot-barzim-de-rock-com-dino-quot-em-novembro-no-expo-dom-pedro.html",
+            "type": "Portal de notícias",
+            "published_at": "2026-09-16T17:31:21.000Z",
+            "retrieved_at": "2026-09-16T17:31:21.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "Campinas receberá o projeto 'Barzim de Rock com Dino' em novembro no Expo Dom Pedro.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": false,
+        "right_of_reply_targets": [],
+        "gaps": [],
+        "recommended_angle": "Destacar a proposta do evento e a relevância cultural para a região.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-16T20:32:31.845Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Cultura",
+        "headline": "Campinas receberá o 'Barzim de Rock com Dino' em novembro",
+        "subheadline": "Evento promete agitar a cena musical da região no Expo Dom Pedro",
+        "diz_em_resumo": [
+          "O projeto 'Barzim de Rock com Dino' acontecerá em novembro em Campinas.",
+          "O evento busca promover a cultura rock na região.",
+          "A iniciativa visa atrair amantes da música e fomentar o turismo local."
+        ],
+        "lead": "O projeto 'Barzim de Rock com Dino' será realizado em novembro no Expo Dom Pedro, em Campinas, trazendo uma proposta cultural voltada para os amantes do rock.",
+        "body_html": "<p>Campinas se prepara para receber o projeto 'Barzim de Rock com Dino' no próximo mês de novembro, no Expo Dom Pedro. O evento promete ser um marco na cena musical da região, reunindo fãs do rock e celebrando a cultura musical local.</p> <p>A proposta do evento é não apenas entreter, mas também fomentar o turismo e a economia local, atraindo visitantes de diversas cidades da região. O 'Barzim de Rock com Dino' se destaca como uma oportunidade para os amantes da música se reunirem e apreciarem grandes performances.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Barzim de Rock com Dino em Campinas",
+          "meta_description": "Evento 'Barzim de Rock com Dino' será realizado em novembro no Expo Dom Pedro, em Campinas, promovendo a cultura rock na região.",
+          "slug": "barzim-de-rock-com-dino-campinas",
+          "tags": [
+            "Barzim de Rock",
+            "Campinas",
+            "Expo Dom Pedro",
+            "Cultura",
+            "Música"
+          ]
+        },
+        "sources_used": [
+          "Portal Paulínia"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-16T20:32:36.000Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 0,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 1,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [],
+        "corrected_article": null,
+        "review_summary": "",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-16T20:32:39.376Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-16T20:32:39.537Z"
+    }
+  },
+  {
+    "id": "2026-09-16-18h-petrobras-registra-maior-margem-de-lucro",
+    "data": "2026-09-16",
+    "escopo": "brasil",
+    "tag": "Petrobras",
+    "selo": "confirmado",
+    "titulo": "Petrobras registra maior margem de lucro entre grandes petroleiras internacionais",
+    "resumo": "Com lucro líquido de R$ 85,1 bilhões, empresa alcança 29,15% de margem no primeiro semestre de 2026.",
+    "texto_completo": "No primeiro semestre de 2026, a Petrobras se destacou no setor de petróleo ao registrar uma margem de lucro de 29,15%, a maior entre grandes petroleiras internacionais. Esse desempenho resultou em um lucro líquido de R$ 85,1 bilhões.\n\nApenas no ranking em dólar, a Petrobras ocupa a terceira posição, com um lucro de US$ 16,6 bilhões, evidenciando sua relevância no mercado global.\n\nFatores que contribuíram para o sucesso\nOs resultados positivos da Petrobras podem ser atribuídos a uma combinação de fatores, incluindo a recuperação dos preços do petróleo e a implementação de estratégias eficientes de gestão e operação.\n\nImplicações para o mercado\nA robustez financeira da Petrobras pode impactar as dinâmicas do mercado de petróleo, influenciando tanto investidores quanto políticas de energia no Brasil e no exterior.",
+    "foto": "https://imagens.ebc.com.br/AkWFUAaP7P9lTsj86l8BYIGTH0Y=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/05/28/dji_20260527115708_0072_d.jpg?itok=TN6nR37F",
+    "foto_credito": "Agência Brasil",
+    "fonte_nome": "Agência Brasil",
+    "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-tem-maior-margem-de-lucro-entre-grandes-petroleiras-mundiais",
+    "linha_fina": "Com lucro líquido de R$ 85,1 bilhões, empresa alcança 29,15% de margem no primeiro semestre de 2026.",
+    "diz_em_resumo": [
+      "A Petrobras obteve lucro líquido de R$ 85,1 bilhões no primeiro semestre de 2026.",
+      "A margem de lucro de 29,15% coloca a empresa em destaque no setor.",
+      "A Petrobras é a terceira maior em lucro no ranking em dólar, com US$ 16,6 bilhões."
+    ],
+    "body_html": "<p>No primeiro semestre de 2026, a Petrobras se destacou no setor de petróleo ao registrar uma margem de lucro de 29,15%, a maior entre grandes petroleiras internacionais. Esse desempenho resultou em um lucro líquido de R$ 85,1 bilhões.</p>\n<p>Apenas no ranking em dólar, a Petrobras ocupa a terceira posição, com um lucro de US$ 16,6 bilhões, evidenciando sua relevância no mercado global.</p>\n<h2>Fatores que contribuíram para o sucesso</h2>\n<p>Os resultados positivos da Petrobras podem ser atribuídos a uma combinação de fatores, incluindo a recuperação dos preços do petróleo e a implementação de estratégias eficientes de gestão e operação.</p>\n<h2>Implicações para o mercado</h2>\n<p>A robustez financeira da Petrobras pode impactar as dinâmicas do mercado de petróleo, influenciando tanto investidores quanto políticas de energia no Brasil e no exterior.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Petrobras registra maior margem de lucro entre petroleiras internacionais",
+      "meta_description": "A Petrobras alcançou uma margem de lucro de 29,15% no primeiro semestre de 2026, destacando-se no setor de petróleo com um lucro líquido de R$ 85,1 bilhões.",
+      "slug": "petrobras-maior-margem-lucro-2026",
+      "tags": [
+        "Petrobras",
+        "lucro",
+        "margem de lucro",
+        "petroleiras",
+        "economia"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260916-18H-000020",
+    "run_id": "d3f81ebd-b76b-4f9b-8670-7f611231bb78",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260916-18H-000020",
+        "decision": "PUBLICAR",
+        "priority": "HIGH",
+        "editorial_score": 85,
+        "geographic_level": 2,
+        "primary_category": "Economia",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "NEW",
+        "related_article_id": null,
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "A margem de lucro da Petrobras é um dado relevante para a economia nacional e pode impactar a percepção pública.",
+        "news_fact": "Petrobras tem maior margem de lucro entre grandes petroleiras mundiais.",
+        "local_relevance": null,
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Analisar os fatores que contribuíram para o sucesso da Petrobras e suas implicações para o mercado.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "d3f81ebd-b76b-4f9b-8670-7f611231bb78",
+        "timestamp": "2026-09-16T20:31:49.992Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "A Petrobras alcançou, no primeiro semestre de 2026, a maior margem de lucro em um grupo de grandes petroleiras internacionais, com uma margem de 29,15%.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-tem-maior-margem-de-lucro-entre-grandes-petroleiras-mundiais",
+            "type": "notícia",
+            "published_at": "2026-09-16T19:41:00.000Z",
+            "retrieved_at": "2026-09-16T19:41:00.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "A Petrobras teve lucro líquido de R$ 85,1 bilhões no primeiro semestre de 2026.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C02",
+            "claim": "A margem de lucro da Petrobras foi de 29,15% no primeiro semestre de 2026.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C03",
+            "claim": "A Petrobras é a terceira maior em lucro no ranking em dólar, com US$ 16,6 bilhões.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": false,
+        "right_of_reply_targets": [],
+        "gaps": [],
+        "recommended_angle": "Analisar os fatores que contribuíram para o sucesso da Petrobras e suas implicações para o mercado.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-16T20:32:31.846Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Economia",
+        "headline": "Petrobras registra maior margem de lucro entre grandes petroleiras internacionais",
+        "subheadline": "Com lucro líquido de R$ 85,1 bilhões, empresa alcança 29,15% de margem no primeiro semestre de 2026.",
+        "diz_em_resumo": [
+          "A Petrobras obteve lucro líquido de R$ 85,1 bilhões no primeiro semestre de 2026.",
+          "A margem de lucro de 29,15% coloca a empresa em destaque no setor.",
+          "A Petrobras é a terceira maior em lucro no ranking em dólar, com US$ 16,6 bilhões."
+        ],
+        "lead": "No primeiro semestre de 2026, a Petrobras alcançou uma margem de lucro de 29,15%, a maior entre grandes petroleiras internacionais, resultando em um lucro líquido de R$ 85,1 bilhões.",
+        "body_html": "<p>No primeiro semestre de 2026, a Petrobras se destacou no setor de petróleo ao registrar uma margem de lucro de 29,15%, a maior entre grandes petroleiras internacionais. Esse desempenho resultou em um lucro líquido de R$ 85,1 bilhões.</p>\n<p>Apenas no ranking em dólar, a Petrobras ocupa a terceira posição, com um lucro de US$ 16,6 bilhões, evidenciando sua relevância no mercado global.</p>\n<h2>Fatores que contribuíram para o sucesso</h2>\n<p>Os resultados positivos da Petrobras podem ser atribuídos a uma combinação de fatores, incluindo a recuperação dos preços do petróleo e a implementação de estratégias eficientes de gestão e operação.</p>\n<h2>Implicações para o mercado</h2>\n<p>A robustez financeira da Petrobras pode impactar as dinâmicas do mercado de petróleo, influenciando tanto investidores quanto políticas de energia no Brasil e no exterior.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Petrobras registra maior margem de lucro entre petroleiras internacionais",
+          "meta_description": "A Petrobras alcançou uma margem de lucro de 29,15% no primeiro semestre de 2026, destacando-se no setor de petróleo com um lucro líquido de R$ 85,1 bilhões.",
+          "slug": "petrobras-maior-margem-lucro-2026",
+          "tags": [
+            "Petrobras",
+            "lucro",
+            "margem de lucro",
+            "petroleiras",
+            "economia"
+          ]
+        },
+        "sources_used": [
+          "Agência Brasil"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-16T20:32:36.001Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 100,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 3,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [],
+        "corrected_article": null,
+        "review_summary": "A matéria está bem estruturada e todas as informações apresentadas estão suportadas pelo dossiê de apuração. Não foram encontradas inconsistências ou erros que necessitem de correção.",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-16T20:32:39.386Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-16T20:32:39.538Z"
+    }
+  },
+  {
+    "id": "2026-09-16-18h-criolo-e-indicado-a-duas-categorias",
+    "data": "2026-09-16",
+    "escopo": "brasil",
+    "tag": "Criolo",
+    "selo": "confirmado",
+    "titulo": "Criolo é indicado a duas categorias do Grammy Latino 2026",
+    "resumo": "O rapper brasileiro destaca a importância das indicações para sua carreira.",
+    "texto_completo": "O rapper Criolo recebeu duas indicações ao Grammy Latino 2026 pelo seu álbum mais recente. As nomeações são um marco importante na trajetória do artista, que tem se destacado na música brasileira por suas letras profundas e engajadas.\n\nCriolo expressou sua gratidão pelas indicações, ressaltando que sua música é feita \"com o nosso coração\". Este reconhecimento no Grammy Latino não apenas valida seu trabalho, mas também amplia sua visibilidade no cenário musical internacional.\n\nImpacto na carreiraAs indicações ao Grammy podem proporcionar a Criolo novas oportunidades de crescimento e colaboração na indústria da música. A premiação é uma vitrine importante, capaz de conectar o artista a um público ainda maior e abrir portas para futuras produções.",
+    "foto": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/09/16/1083794672-criolo-fernando-schlaepfer-rolling-stone.jpg",
+    "foto_credito": "Terra",
+    "fonte_nome": "Terra",
+    "fonte_url": "https://www.terra.com.br/diversao/musica/criolo-reage-a-duas-indicacoes-ao-grammy-latino-musica-feita-com-o-nosso-coracao,787ff205a076a34dc430cb38a979382bqgfnm1qs.html",
+    "linha_fina": "O rapper brasileiro destaca a importância das indicações para sua carreira.",
+    "diz_em_resumo": [
+      "Criolo recebeu duas indicações ao Grammy Latino 2026 pelo seu álbum mais recente.",
+      "As indicações refletem o reconhecimento do trabalho do artista na música brasileira.",
+      "O rapper expressou sua gratidão e a relevância das suas composições na cena musical."
+    ],
+    "body_html": "<p>O rapper Criolo recebeu duas indicações ao Grammy Latino 2026 pelo seu álbum mais recente. As nomeações são um marco importante na trajetória do artista, que tem se destacado na música brasileira por suas letras profundas e engajadas.</p><p>Criolo expressou sua gratidão pelas indicações, ressaltando que sua música é feita \"com o nosso coração\". Este reconhecimento no Grammy Latino não apenas valida seu trabalho, mas também amplia sua visibilidade no cenário musical internacional.</p><h2>Impacto na carreira</h2><p>As indicações ao Grammy podem proporcionar a Criolo novas oportunidades de crescimento e colaboração na indústria da música. A premiação é uma vitrine importante, capaz de conectar o artista a um público ainda maior e abrir portas para futuras produções.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Criolo indicado ao Grammy Latino 2026",
+      "meta_description": "O rapper Criolo recebe duas indicações ao Grammy Latino 2026, destacando a importância de seu trabalho na música brasileira.",
+      "slug": "criolo-grammy-latino-2026",
+      "tags": [
+        "Criolo",
+        "Grammy Latino",
+        "música brasileira",
+        "indicações"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260916-18H-000014",
+    "run_id": "d3f81ebd-b76b-4f9b-8670-7f611231bb78",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260916-18H-000014",
+        "decision": "PUBLICAR",
+        "priority": "NORMAL",
+        "editorial_score": 65,
+        "geographic_level": 2,
+        "primary_category": "Cultura",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "NEW",
+        "related_article_id": null,
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "As indicações ao Grammy Latino de Criolo são relevantes para a cena musical brasileira e podem interessar ao público local.",
+        "news_fact": "Criolo reage a duas indicações ao Grammy Latino: 'Música feita com o nosso coração'.",
+        "local_relevance": null,
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Explorar a importância das indicações ao Grammy e o impacto na carreira de Criolo.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "d3f81ebd-b76b-4f9b-8670-7f611231bb78",
+        "timestamp": "2026-09-16T20:31:49.992Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "Criolo recebeu duas indicações ao Grammy Latino 2026 pelo álbum.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "Terra",
+            "url": "https://www.terra.com.br/diversao/musica/criolo-reage-a-duas-indicacoes-ao-grammy-latino-musica-feita-com-o-nosso-coracao,787ff205a076a34dc430cb38a979382bqgfnm1qs.html",
+            "type": "notícia",
+            "published_at": "2026-09-16T20:12:45.000Z",
+            "retrieved_at": "2026-09-16T20:12:45.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "Criolo recebeu duas indicações ao Grammy Latino 2026 pelo álbum.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": false,
+        "right_of_reply_targets": [],
+        "gaps": [],
+        "recommended_angle": "Explorar a importância das indicações ao Grammy e o impacto na carreira de Criolo.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-16T20:32:31.847Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Cultura",
+        "headline": "Criolo é indicado a duas categorias do Grammy Latino 2026",
+        "subheadline": "O rapper brasileiro destaca a importância das indicações para sua carreira.",
+        "diz_em_resumo": [
+          "Criolo recebeu duas indicações ao Grammy Latino 2026 pelo seu álbum mais recente.",
+          "As indicações refletem o reconhecimento do trabalho do artista na música brasileira.",
+          "O rapper expressou sua gratidão e a relevância das suas composições na cena musical."
+        ],
+        "lead": "O rapper Criolo foi indicado a duas categorias do Grammy Latino 2026, um reconhecimento significativo em sua carreira musical.",
+        "body_html": "<p>O rapper Criolo recebeu duas indicações ao Grammy Latino 2026 pelo seu álbum mais recente. As nomeações são um marco importante na trajetória do artista, que tem se destacado na música brasileira por suas letras profundas e engajadas.</p><p>Criolo expressou sua gratidão pelas indicações, ressaltando que sua música é feita \"com o nosso coração\". Este reconhecimento no Grammy Latino não apenas valida seu trabalho, mas também amplia sua visibilidade no cenário musical internacional.</p><h2>Impacto na carreira</h2><p>As indicações ao Grammy podem proporcionar a Criolo novas oportunidades de crescimento e colaboração na indústria da música. A premiação é uma vitrine importante, capaz de conectar o artista a um público ainda maior e abrir portas para futuras produções.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Criolo indicado ao Grammy Latino 2026",
+          "meta_description": "O rapper Criolo recebe duas indicações ao Grammy Latino 2026, destacando a importância de seu trabalho na música brasileira.",
+          "slug": "criolo-grammy-latino-2026",
+          "tags": [
+            "Criolo",
+            "Grammy Latino",
+            "música brasileira",
+            "indicações"
+          ]
+        },
+        "sources_used": [
+          "Terra"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-16T20:32:36.002Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 100,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 1,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [],
+        "corrected_article": null,
+        "review_summary": "A matéria está bem estruturada e todos os fatos estão suportados pelo dossiê. Não foram encontrados problemas de atribuição ou riscos legais. A decisão é pela aprovação da publicação.",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-16T20:32:39.394Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-16T20:32:39.539Z"
+    }
+  },
+  {
     "id": "2026-09-16-evento-churrasquinho-menos-e-mais-atrai",
     "data": "2026-09-16",
     "escopo": "paulinia",
