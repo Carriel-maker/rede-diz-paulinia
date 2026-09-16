@@ -1,5 +1,402 @@
 [
   {
+    "id": "2026-09-16-evento-churrasquinho-menos-e-mais-atrai",
+    "data": "2026-09-16",
+    "escopo": "paulinia",
+    "tag": "evento",
+    "selo": "confirmado",
+    "titulo": "Evento Churrasquinho Menos é Mais atrai 28 mil pessoas em Paulínia",
+    "resumo": "A estrutura acessível do evento foi um dos destaques da edição deste ano.",
+    "texto_completo": "O evento Churrasquinho Menos é Mais, realizado recentemente em Paulínia, atraiu um público de 28 mil pessoas. A edição deste ano destacou a estrutura acessível, permitindo que mais moradores pudessem participar e aproveitar as atrações.\n\nA grande adesão da comunidade ao evento reflete o engajamento local e a valorização de iniciativas que promovem a inclusão. A acessibilidade foi um dos pontos centrais, mostrando que eventos na cidade podem ser planejados para atender a todos os cidadãos.\n\nO sucesso do Churrasquinho Menos é Mais não apenas celebra a cultura local, mas também reforça a importância de criar espaços que acolham a diversidade, fortalecendo a convivência entre os moradores.",
+    "foto": "https://www.portalpaulinia.com/arquivos/noticias/3372/churrasquinho-menos-e-mais-reune-publico-de-28-mil-pessoas-e-destaca-estrutura-acessivel.jpeg",
+    "foto_credito": "Portal Paulínia",
+    "fonte_nome": "Portal Paulínia",
+    "fonte_url": "https://www.portalpaulinia.com/noticia/3372/paulinia/conferimos/churrasquinho-menos-e-mais-reune-publico-de-28-mil-pessoas-e-destaca-estrutura-acessivel.html",
+    "linha_fina": "A estrutura acessível do evento foi um dos destaques da edição deste ano.",
+    "diz_em_resumo": [
+      "28 mil pessoas compareceram ao Churrasquinho Menos é Mais em Paulínia.",
+      "O evento enfatizou a importância da acessibilidade em suas instalações.",
+      "A participação do público demonstra o engajamento da comunidade em eventos locais."
+    ],
+    "body_html": "<p>O evento Churrasquinho Menos é Mais, realizado recentemente em Paulínia, atraiu um público de 28 mil pessoas. A edição deste ano destacou a estrutura acessível, permitindo que mais moradores pudessem participar e aproveitar as atrações.</p>\n<p>A grande adesão da comunidade ao evento reflete o engajamento local e a valorização de iniciativas que promovem a inclusão. A acessibilidade foi um dos pontos centrais, mostrando que eventos na cidade podem ser planejados para atender a todos os cidadãos.</p>\n<p>O sucesso do Churrasquinho Menos é Mais não apenas celebra a cultura local, mas também reforça a importância de criar espaços que acolham a diversidade, fortalecendo a convivência entre os moradores.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Churrasquinho Menos é Mais em Paulínia",
+      "meta_description": "Evento reuniu 28 mil pessoas em Paulínia e destacou a acessibilidade em sua estrutura.",
+      "slug": "churrasquinho-menos-e-mais-paulinia",
+      "tags": [
+        "evento",
+        "Paulínia",
+        "acessibilidade",
+        "churrasquinho",
+        "comunidade"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260916-000001",
+    "run_id": "095630db-97d4-4dfc-ade8-77e6c4346544",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260916-000001",
+        "decision": "PUBLICAR",
+        "priority": "HIGH",
+        "editorial_score": 82,
+        "geographic_level": 5,
+        "primary_category": "Cidade",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "NEW",
+        "related_article_id": null,
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "Evento de grande público e relevância local, destacando a acessibilidade.",
+        "news_fact": "Churrasquinho Menos é Mais reuniu 28 mil pessoas em Paulínia, destacando sua estrutura acessível.",
+        "local_relevance": "Evento significativo para a comunidade de Paulínia.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Cobrir o impacto do evento na comunidade e a importância da acessibilidade em eventos locais.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "095630db-97d4-4dfc-ade8-77e6c4346544",
+        "timestamp": "2026-09-16T20:21:10.193Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "O evento Churrasquinho Menos é Mais reuniu 28 mil pessoas em Paulínia, destacando sua estrutura acessível.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "Portal Paulínia",
+            "url": "https://www.portalpaulinia.com/noticia/3372/paulinia/conferimos/churrasquinho-menos-e-mais-reune-publico-de-28-mil-pessoas-e-destaca-estrutura-acessivel.html",
+            "type": "notícia",
+            "published_at": "2026-09-16T17:20:37.000Z",
+            "retrieved_at": "2026-09-16T17:20:37.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "Churrasquinho Menos é Mais reuniu 28 mil pessoas.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C02",
+            "claim": "O evento destacou sua estrutura acessível.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": false,
+        "right_of_reply_targets": [],
+        "gaps": [],
+        "recommended_angle": "Cobrir o impacto do evento na comunidade e a importância da acessibilidade em eventos locais.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-16T20:22:01.124Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Cidade",
+        "headline": "Evento Churrasquinho Menos é Mais atrai 28 mil pessoas em Paulínia",
+        "subheadline": "A estrutura acessível do evento foi um dos destaques da edição deste ano.",
+        "diz_em_resumo": [
+          "28 mil pessoas compareceram ao Churrasquinho Menos é Mais em Paulínia.",
+          "O evento enfatizou a importância da acessibilidade em suas instalações.",
+          "A participação do público demonstra o engajamento da comunidade em eventos locais."
+        ],
+        "lead": "O Churrasquinho Menos é Mais reuniu 28 mil pessoas em Paulínia, destacando sua estrutura acessível e a importância de eventos inclusivos na cidade.",
+        "body_html": "<p>O evento Churrasquinho Menos é Mais, realizado recentemente em Paulínia, atraiu um público de 28 mil pessoas. A edição deste ano destacou a estrutura acessível, permitindo que mais moradores pudessem participar e aproveitar as atrações.</p>\n<p>A grande adesão da comunidade ao evento reflete o engajamento local e a valorização de iniciativas que promovem a inclusão. A acessibilidade foi um dos pontos centrais, mostrando que eventos na cidade podem ser planejados para atender a todos os cidadãos.</p>\n<p>O sucesso do Churrasquinho Menos é Mais não apenas celebra a cultura local, mas também reforça a importância de criar espaços que acolham a diversidade, fortalecendo a convivência entre os moradores.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Churrasquinho Menos é Mais em Paulínia",
+          "meta_description": "Evento reuniu 28 mil pessoas em Paulínia e destacou a acessibilidade em sua estrutura.",
+          "slug": "churrasquinho-menos-e-mais-paulinia",
+          "tags": [
+            "evento",
+            "Paulínia",
+            "acessibilidade",
+            "churrasquinho",
+            "comunidade"
+          ]
+        },
+        "sources_used": [
+          "Portal Paulínia"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-16T20:22:07.365Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 1,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 2,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [],
+        "corrected_article": null,
+        "review_summary": "A matéria está bem estruturada e todas as informações apresentadas estão suportadas pelo dossiê de apuração. O evento e suas características foram corretamente descritos, sem inconsistências ou erros factuais.",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-16T20:22:10.741Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-16T20:22:10.853Z"
+    }
+  },
+  {
+    "id": "2026-09-16-entrada-gratuita-para-moradores-no-jaguariuna",
+    "data": "2026-09-16",
+    "escopo": "paulinia",
+    "tag": "Jaguariúna",
+    "selo": "confirmado",
+    "titulo": "Entrada gratuita para moradores no Jaguariúna Rodeo Festival mediante doação de leite",
+    "resumo": "Evento acontece no dia 19 de setembro e visa arrecadar leite para a comunidade.",
+    "texto_completo": "No primeiro sábado do Jaguariúna Rodeo Festival, a entrada será gratuita para moradores mediante a doação de leite. A iniciativa, que ocorre no dia 19 de setembro, visa arrecadar leite para instituições que atendem pessoas em situação de vulnerabilidade social.\n\nO que mudaOs moradores que desejarem participar do festival deverão levar leite como forma de entrada, contribuindo assim com uma causa social importante.\n\nQuando começaO evento terá início no dia 19 de setembro, no primeiro sábado do festival, com a expectativa de atrair um grande público.",
+    "foto": "https://raw.githubusercontent.com/Carriel-maker/rede-diz-paulinia/main/imagens-editadas/jaguariuna-rodeo-festival-tera-entrada-gratuita-semlogo-1789590111543.png",
+    "foto_credito": "Portal Paulínia (marca removida por IA)",
+    "fonte_nome": "Portal Paulínia",
+    "fonte_url": "https://www.portalpaulinia.com/noticia/3371/paulinia/eventos/jaguariuna-rodeo-festival-tera-entrada-gratuita-para-moradores-no-primeiro-sabado-mediante-doacao-de-leite.html",
+    "linha_fina": "Evento acontece no dia 19 de setembro e visa arrecadar leite para a comunidade.",
+    "diz_em_resumo": [
+      "A entrada para o festival será concedida aos moradores que doarem leite.",
+      "A ação busca beneficiar instituições que atendem pessoas em situação de vulnerabilidade.",
+      "O evento ocorrerá no primeiro sábado do Jaguariúna Rodeo Festival."
+    ],
+    "body_html": "<p>No primeiro sábado do Jaguariúna Rodeo Festival, a entrada será gratuita para moradores mediante a doação de leite. A iniciativa, que ocorre no dia 19 de setembro, visa arrecadar leite para instituições que atendem pessoas em situação de vulnerabilidade social.</p><h2>O que muda</h2><p>Os moradores que desejarem participar do festival deverão levar leite como forma de entrada, contribuindo assim com uma causa social importante.</p><h2>Quando começa</h2><p>O evento terá início no dia 19 de setembro, no primeiro sábado do festival, com a expectativa de atrair um grande público.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Jaguariúna Rodeo Festival: Entrada gratuita com doação de leite",
+      "meta_description": "Moradores poderão entrar gratuitamente no Jaguariúna Rodeo Festival no dia 19 de setembro ao doarem leite, ajudando instituições sociais.",
+      "slug": "jaguariuna-rodeo-festival-entrada-gratuita-doacao-leite",
+      "tags": [
+        "Jaguariúna",
+        "Rodeo Festival",
+        "doação de leite",
+        "solidariedade",
+        "eventos"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260916-000002",
+    "run_id": "095630db-97d4-4dfc-ade8-77e6c4346544",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260916-000002",
+        "decision": "PUBLICAR",
+        "priority": "HIGH",
+        "editorial_score": 80,
+        "geographic_level": 5,
+        "primary_category": "Cidade",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "NEW",
+        "related_article_id": null,
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "Atração de público local com entrada gratuita e doação de leite, promovendo solidariedade.",
+        "news_fact": "Jaguariúna Rodeo Festival terá entrada gratuita para moradores no primeiro sábado mediante doação de leite.",
+        "local_relevance": "Evento que pode atrair moradores de Paulínia.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Explorar a importância da doação de leite e o impacto social do evento.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "095630db-97d4-4dfc-ade8-77e6c4346544",
+        "timestamp": "2026-09-16T20:21:10.193Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "No primeiro sábado do Jaguariúna Rodeo Festival, no dia 19 de setembro, a entrada será gratuita para moradores mediante doação de leite.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "Portal Paulínia",
+            "url": "https://www.portalpaulinia.com/noticia/3371/paulinia/eventos/jaguariuna-rodeo-festival-tera-entrada-gratuita-para-moradores-no-primeiro-sabado-mediante-doacao-de-leite.html",
+            "type": "notícia",
+            "published_at": "2026-09-16T17:20:37.000Z",
+            "retrieved_at": "2026-09-16T17:20:37.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "A entrada será gratuita para moradores mediante doação de leite.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": false,
+        "right_of_reply_targets": [],
+        "gaps": [],
+        "recommended_angle": "Explorar a importância da doação de leite e o impacto social do evento.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-16T20:22:01.127Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Cidade",
+        "headline": "Entrada gratuita para moradores no Jaguariúna Rodeo Festival mediante doação de leite",
+        "subheadline": "Evento acontece no dia 19 de setembro e visa arrecadar leite para a comunidade.",
+        "diz_em_resumo": [
+          "A entrada para o festival será concedida aos moradores que doarem leite.",
+          "A ação busca beneficiar instituições que atendem pessoas em situação de vulnerabilidade.",
+          "O evento ocorrerá no primeiro sábado do Jaguariúna Rodeo Festival."
+        ],
+        "lead": "No dia 19 de setembro, moradores poderão entrar gratuitamente no Jaguariúna Rodeo Festival ao doarem leite, promovendo uma ação solidária.",
+        "body_html": "<p>No primeiro sábado do Jaguariúna Rodeo Festival, a entrada será gratuita para moradores mediante a doação de leite. A iniciativa, que ocorre no dia 19 de setembro, visa arrecadar leite para instituições que atendem pessoas em situação de vulnerabilidade social.</p><h2>O que muda</h2><p>Os moradores que desejarem participar do festival deverão levar leite como forma de entrada, contribuindo assim com uma causa social importante.</p><h2>Quando começa</h2><p>O evento terá início no dia 19 de setembro, no primeiro sábado do festival, com a expectativa de atrair um grande público.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Jaguariúna Rodeo Festival: Entrada gratuita com doação de leite",
+          "meta_description": "Moradores poderão entrar gratuitamente no Jaguariúna Rodeo Festival no dia 19 de setembro ao doarem leite, ajudando instituições sociais.",
+          "slug": "jaguariuna-rodeo-festival-entrada-gratuita-doacao-leite",
+          "tags": [
+            "Jaguariúna",
+            "Rodeo Festival",
+            "doação de leite",
+            "solidariedade",
+            "eventos"
+          ]
+        },
+        "sources_used": [
+          "Portal Paulínia"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-16T20:22:07.387Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 100,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 1,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [],
+        "corrected_article": null,
+        "review_summary": "A matéria está bem estruturada e todas as informações estão suportadas pelo dossiê. Não foram encontradas inconsistências ou erros.",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-16T20:22:10.753Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-16T20:22:10.853Z"
+    }
+  },
+  {
     "id": "2026-09-16-inteligencia-artificial-e-nuvem-transformam-cidades",
     "data": "2026-09-16",
     "escopo": "paulinia",
