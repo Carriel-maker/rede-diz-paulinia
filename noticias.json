@@ -1,5 +1,440 @@
 [
   {
+    "id": "2026-09-17-justica-do-trabalho-determina-desocupacao-de",
+    "data": "2026-09-17",
+    "escopo": "paulinia",
+    "tag": "Correios",
+    "selo": "confirmado",
+    "titulo": "Justiça do Trabalho determina desocupação de centro dos Correios em Indaiatuba",
+    "resumo": "Decisão judicial visa retomar operações após paralisação que bloqueou entregas na região",
+    "texto_completo": "A Justiça do Trabalho decidiu que os trabalhadores dos Correios devem desocupar o Centro de Tratamento de Cartas e Encomendas de Indaiatuba. A medida se deu após uma paralisação que bloqueou a entrada e a saída de cargas, paralisando as entregas programadas para diversas cidades da região.\n\n A decisão judicial também autorizou o uso de força policial para garantir o cumprimento da desocupação, o que pode ter um impacto significativo na operação dos Correios e na logística de distribuição de encomendas.",
+    "foto": "https://s2-g1.glbimg.com/UK8LgpazU5nu3fz3F7A7_H8PSAA=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/U/o/jkoomCT8W6F5X4dAg5og/whatsapp-image-2026-09-16-at-09.21.17.jpeg",
+    "foto_credito": "G1 Campinas e Região",
+    "fonte_nome": "G1 Campinas e Região",
+    "fonte_url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/09/16/justica-determina-trabalhadores-correios-desocupem-centro-tratamento-indaiatuba.ghtml",
+    "linha_fina": "Decisão judicial visa retomar operações após paralisação que bloqueou entregas na região",
+    "diz_em_resumo": [
+      "A paralisação impediu a entrada e saída de cargas, afetando as entregas em várias cidades.",
+      "A Justiça autorizou o uso de força policial para garantir a desocupação do local.",
+      "A decisão pode impactar a logística dos Correios e a distribuição de encomendas na região."
+    ],
+    "body_html": "<p>A Justiça do Trabalho decidiu que os trabalhadores dos Correios devem desocupar o Centro de Tratamento de Cartas e Encomendas de Indaiatuba. A medida se deu após uma paralisação que bloqueou a entrada e a saída de cargas, paralisando as entregas programadas para diversas cidades da região.</p> <p>A decisão judicial também autorizou o uso de força policial para garantir o cumprimento da desocupação, o que pode ter um impacto significativo na operação dos Correios e na logística de distribuição de encomendas.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Desocupação de centro dos Correios em Indaiatuba",
+      "meta_description": "Justiça do Trabalho determina desocupação do Centro de Tratamento de Cartas e Encomendas em Indaiatuba após paralisação de trabalhadores.",
+      "slug": "justica-desocupacao-centro-correios-indaiatuba",
+      "tags": [
+        "Correios",
+        "Indaiatuba",
+        "Justiça do Trabalho",
+        "Paralisação",
+        "Logística"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260917-000005",
+    "run_id": "532fc4ad-c761-4007-b8d6-ed99300d498e",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260917-000005",
+        "decision": "PUBLICAR",
+        "priority": "HIGH",
+        "editorial_score": 85,
+        "geographic_level": 4,
+        "primary_category": "Cidade",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "NEW",
+        "related_article_id": null,
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "A decisão judicial sobre a desocupação do centro de cargas em Indaiatuba tem implicações diretas para a logística e serviços na região.",
+        "news_fact": "Justiça determina que trabalhadores dos Correios desocupem centro de cargas em Indaiatuba após paralisação.",
+        "local_relevance": "Relevante para a logística e serviços na região de Campinas.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Analisar o impacto da decisão judicial sobre a operação dos Correios e a logística regional.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "532fc4ad-c761-4007-b8d6-ed99300d498e",
+        "timestamp": "2026-09-17T03:29:10.545Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "A Justiça do Trabalho determinou que trabalhadores dos Correios desocupem o Centro de Tratamento de Cartas e Encomendas de Indaiatuba, após uma paralisação que bloqueou as entregas na região.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "G1 Campinas e Região",
+            "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/09/16/justica-determina-trabalhadores-correios-desocupem-centro-tratamento-indaiatuba.ghtml",
+            "type": "notícia",
+            "published_at": "2026-09-16T21:36:59.000Z",
+            "retrieved_at": "2026-09-16T21:36:59.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "A Justiça do Trabalho determinou a desocupação do Centro de Tratamento de Cartas e Encomendas de Indaiatuba.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C02",
+            "claim": "A paralisação bloqueou a entrada e a saída de cargas, paralisando as entregas programadas para todas as cidades da região.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C03",
+            "claim": "A decisão judicial autorizou o uso de força policial para garantir o cumprimento da medida.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": true,
+        "right_of_reply_targets": [
+          "Sindicato dos Trabalhadores da Empresa Brasileira de Correios Telégrafos e Similares de Campinas e região (Sintect-Cas)",
+          "Federação Interestadual dos Empregados da Empresa Brasileira de Correios e Telégrafos e das Empresas de Comunicações (Fentect)"
+        ],
+        "gaps": [],
+        "recommended_angle": "Analisar o impacto da decisão judicial sobre a operação dos Correios e a logística regional.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-17T03:29:21.420Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Cidade",
+        "headline": "Justiça do Trabalho determina desocupação de centro dos Correios em Indaiatuba",
+        "subheadline": "Decisão judicial visa retomar operações após paralisação que bloqueou entregas na região",
+        "diz_em_resumo": [
+          "A paralisação impediu a entrada e saída de cargas, afetando as entregas em várias cidades.",
+          "A Justiça autorizou o uso de força policial para garantir a desocupação do local.",
+          "A decisão pode impactar a logística dos Correios e a distribuição de encomendas na região."
+        ],
+        "lead": "A Justiça do Trabalho determinou que trabalhadores dos Correios desocupem o Centro de Tratamento de Cartas e Encomendas de Indaiatuba, após uma paralisação que bloqueou as entregas na região.",
+        "body_html": "<p>A Justiça do Trabalho decidiu que os trabalhadores dos Correios devem desocupar o Centro de Tratamento de Cartas e Encomendas de Indaiatuba. A medida se deu após uma paralisação que bloqueou a entrada e a saída de cargas, paralisando as entregas programadas para diversas cidades da região.</p> <p>A decisão judicial também autorizou o uso de força policial para garantir o cumprimento da desocupação, o que pode ter um impacto significativo na operação dos Correios e na logística de distribuição de encomendas.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Desocupação de centro dos Correios em Indaiatuba",
+          "meta_description": "Justiça do Trabalho determina desocupação do Centro de Tratamento de Cartas e Encomendas em Indaiatuba após paralisação de trabalhadores.",
+          "slug": "justica-desocupacao-centro-correios-indaiatuba",
+          "tags": [
+            "Correios",
+            "Indaiatuba",
+            "Justiça do Trabalho",
+            "Paralisação",
+            "Logística"
+          ]
+        },
+        "sources_used": [
+          "G1 Campinas e Região"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [
+          "right_of_reply"
+        ],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-17T03:29:25.161Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 0,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 3,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [
+          "right_of_reply"
+        ],
+        "corrected_article": null,
+        "review_summary": "",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-17T03:29:27.916Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-17T03:29:28.082Z"
+    }
+  },
+  {
+    "id": "2026-09-17-campinas-registra-recorde-na-emissao-de",
+    "data": "2026-09-17",
+    "escopo": "paulinia",
+    "tag": "CPF",
+    "selo": "confirmado",
+    "titulo": "Campinas registra recorde na emissão de CPFs para estrangeiros em 2025",
+    "resumo": "Número de emissões cresceu 38,7% em relação ao ano anterior, com haitianos liderando as solicitações.",
+    "texto_completo": "A região de Campinas atingiu a maior emissão de CPFs para estrangeiros desde 2005, com um total de 3.632 registros em 2025. Este número representa um aumento de 38,7% em relação ao ano anterior, 2024.\n\nOs haitianos lideram a lista de emissões de CPF entre os estrangeiros na região, refletindo a crescente imigração e diversidade cultural que Campinas vem experimentando nos últimos anos.\n\nEsses dados destacam a importância da inclusão e do reconhecimento dos direitos dos imigrantes no Brasil, contribuindo para a formação de uma sociedade mais plural.",
+    "foto": "https://s2-g1.glbimg.com/riaw1C7DW--Kcph3e7GcuYda-6Q=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/r/v/BX0b3nR72tjOQUuzXF1A/design-sem-nome-2026-04-10t201624.311.jpg",
+    "foto_credito": "G1 Campinas e Região",
+    "fonte_nome": "G1 Campinas e Região",
+    "fonte_url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/09/16/de-haitianos-a-moradores-de-tonga-regiao-de-campinas-bate-recorde-de-cpf-para-estrangeiros.ghtml",
+    "linha_fina": "Número de emissões cresceu 38,7% em relação ao ano anterior, com haitianos liderando as solicitações.",
+    "diz_em_resumo": [
+      "Em 2025, a região de Campinas emitiu 3.632 CPFs para estrangeiros.",
+      "Haitianos são os que mais solicitaram CPF na região.",
+      "O aumento de emissões em relação a 2024 foi de 38,7%.",
+      "Esse é o maior número de emissões desde 2005.",
+      "O crescimento reflete a diversidade cultural e a imigração na região."
+    ],
+    "body_html": "<p>A região de Campinas atingiu a maior emissão de CPFs para estrangeiros desde 2005, com um total de 3.632 registros em 2025. Este número representa um aumento de 38,7% em relação ao ano anterior, 2024.</p>\n<p>Os haitianos lideram a lista de emissões de CPF entre os estrangeiros na região, refletindo a crescente imigração e diversidade cultural que Campinas vem experimentando nos últimos anos.</p>\n<p>Esses dados destacam a importância da inclusão e do reconhecimento dos direitos dos imigrantes no Brasil, contribuindo para a formação de uma sociedade mais plural.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Recorde de CPF para Estrangeiros em Campinas em 2025",
+      "meta_description": "Em 2025, Campinas registrou 3.632 emissões de CPF para estrangeiros, um aumento de 38,7% em relação a 2024, com haitianos liderando as solicitações.",
+      "slug": "recorde-cpf-estrangeiros-campinas-2025",
+      "tags": [
+        "CPF",
+        "estrangeiros",
+        "Campinas",
+        "imigração",
+        "diversidade cultural"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260917-000004",
+    "run_id": "532fc4ad-c761-4007-b8d6-ed99300d498e",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260917-000004",
+        "decision": "PUBLICAR",
+        "priority": "HIGH",
+        "editorial_score": 80,
+        "geographic_level": 4,
+        "primary_category": "Cidade",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "NEW",
+        "related_article_id": null,
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "Aumento significativo na emissão de CPFs para estrangeiros na região de Campinas, refletindo questões de imigração e integração.",
+        "news_fact": "Região de Campinas bate recorde na emissão de CPFs para estrangeiros, com 3.632 inscrições em 2025.",
+        "local_relevance": "Impacto direto na região metropolitana de Campinas.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Explorar o impacto da imigração e a diversidade cultural na região.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "532fc4ad-c761-4007-b8d6-ed99300d498e",
+        "timestamp": "2026-09-17T03:29:10.545Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "A região de Campinas registrou 3.632 emissões de CPF para estrangeiros em 2025, um aumento de 38,7% em relação a 2024.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "G1 Campinas e Região",
+            "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/09/16/de-haitianos-a-moradores-de-tonga-regiao-de-campinas-bate-recorde-de-cpf-para-estrangeiros.ghtml",
+            "type": "notícia",
+            "published_at": "2026-09-16T21:56:16.000Z",
+            "retrieved_at": "2026-09-16T21:56:16.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "A região de Campinas atingiu a maior emissão de CPFs para estrangeiros desde 2005.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C02",
+            "claim": "Os haitianos lideram a lista de emissões de CPF entre estrangeiros na região.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C03",
+            "claim": "Em 2025, houve um aumento de 38,7% nas emissões de CPF para estrangeiros em comparação a 2024.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": false,
+        "right_of_reply_targets": [],
+        "gaps": [],
+        "recommended_angle": "Explorar o impacto da imigração e a diversidade cultural na região.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-17T03:29:21.421Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Cidade",
+        "headline": "Campinas registra recorde na emissão de CPFs para estrangeiros em 2025",
+        "subheadline": "Número de emissões cresceu 38,7% em relação ao ano anterior, com haitianos liderando as solicitações.",
+        "diz_em_resumo": [
+          "Em 2025, a região de Campinas emitiu 3.632 CPFs para estrangeiros.",
+          "Haitianos são os que mais solicitaram CPF na região.",
+          "O aumento de emissões em relação a 2024 foi de 38,7%.",
+          "Esse é o maior número de emissões desde 2005.",
+          "O crescimento reflete a diversidade cultural e a imigração na região."
+        ],
+        "lead": "A região de Campinas registrou 3.632 emissões de CPF para estrangeiros em 2025, marcando um aumento significativo de 38,7% em comparação a 2024.",
+        "body_html": "<p>A região de Campinas atingiu a maior emissão de CPFs para estrangeiros desde 2005, com um total de 3.632 registros em 2025. Este número representa um aumento de 38,7% em relação ao ano anterior, 2024.</p>\n<p>Os haitianos lideram a lista de emissões de CPF entre os estrangeiros na região, refletindo a crescente imigração e diversidade cultural que Campinas vem experimentando nos últimos anos.</p>\n<p>Esses dados destacam a importância da inclusão e do reconhecimento dos direitos dos imigrantes no Brasil, contribuindo para a formação de uma sociedade mais plural.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Recorde de CPF para Estrangeiros em Campinas em 2025",
+          "meta_description": "Em 2025, Campinas registrou 3.632 emissões de CPF para estrangeiros, um aumento de 38,7% em relação a 2024, com haitianos liderando as solicitações.",
+          "slug": "recorde-cpf-estrangeiros-campinas-2025",
+          "tags": [
+            "CPF",
+            "estrangeiros",
+            "Campinas",
+            "imigração",
+            "diversidade cultural"
+          ]
+        },
+        "sources_used": [
+          "G1 Campinas e Região"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-17T03:29:25.171Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 0,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 4,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [],
+        "corrected_article": null,
+        "review_summary": "",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-17T03:29:27.918Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-17T03:29:28.083Z"
+    }
+  },
+  {
     "id": "2026-09-17-18h-mutirao-de-emissao-de-laudos-para",
     "data": "2026-09-17",
     "escopo": "paulinia",
