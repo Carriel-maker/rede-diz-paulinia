@@ -1,5 +1,654 @@
 [
   {
+    "id": "2026-09-17-mutirao-de-emissao-de-laudos-para",
+    "data": "2026-09-17",
+    "escopo": "paulinia",
+    "tag": "mutirão",
+    "selo": "confirmado",
+    "titulo": "Mutirão de emissão de laudos para pessoas com deficiência acontece em Paulínia",
+    "resumo": "Evento será realizado no Fundo Social no dia 28 de setembro.",
+    "texto_completo": "A Prefeitura de Paulínia realizará um mutirão de emissão e atualização de laudos para pessoas com deficiência no dia 28 de setembro, no Fundo Social da cidade. O atendimento será realizado das 9h às 13h, com 45 vagas disponíveis.\n\nAs senhas para o atendimento serão distribuídas a partir das 8h30, por ordem de chegada. Para participar, os interessados devem realizar a inscrição pelo formulário disponível no site da Prefeitura e apresentar a documentação médica relacionada à deficiência.",
+    "foto": "https://www.paulinia.sp.gov.br/fotos/f7679e6ea09e6cf000e41b88bbfb8a3b.jpg",
+    "foto_credito": "Prefeitura de Paulínia",
+    "fonte_nome": "Prefeitura de Paulínia",
+    "fonte_url": "https://www.paulinia.sp.gov.br/portal/noticias/0/3/8275/fundo-social-de-paulinia-recebe-novo-mutirao-de-emissao-de-laudos-para-pcds",
+    "linha_fina": "Evento será realizado no Fundo Social no dia 28 de setembro.",
+    "diz_em_resumo": [
+      "O mutirão ocorrerá das 9h às 13h, com 45 vagas disponíveis.",
+      "Senhas serão distribuídas a partir das 8h30, por ordem de chegada.",
+      "Inscrição prévia é necessária através do site da Prefeitura."
+    ],
+    "body_html": "<p>A Prefeitura de Paulínia realizará um mutirão de emissão e atualização de laudos para pessoas com deficiência no dia 28 de setembro, no Fundo Social da cidade. O atendimento será realizado das 9h às 13h, com 45 vagas disponíveis.</p><p>As senhas para o atendimento serão distribuídas a partir das 8h30, por ordem de chegada. Para participar, os interessados devem realizar a inscrição pelo formulário disponível no site da Prefeitura e apresentar a documentação médica relacionada à deficiência.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Mutirão de emissão de laudos para PCDs em Paulínia",
+      "meta_description": "A Prefeitura de Paulínia promove mutirão para emissão de laudos para pessoas com deficiência no dia 28 de setembro. Inscrições e senhas no local.",
+      "slug": "mutirao-emissao-laudos-pcds-paulinia",
+      "tags": [
+        "mutirão",
+        "laudos",
+        "pessoas com deficiência",
+        "Paulínia"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260917-000010",
+    "run_id": "98a54076-9017-4855-8ac6-97590a8e7f72",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260917-000010",
+        "decision": "ATUALIZAR",
+        "priority": "HIGH",
+        "editorial_score": 80,
+        "geographic_level": 5,
+        "primary_category": "Cidade",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "UPDATE",
+        "related_article_id": "2026-09-17-mutirao-de-emissao-de-laudos-para",
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "A informação é relevante e atual, com impacto direto na inclusão de pessoas com deficiência.",
+        "news_fact": "Fundo Social de Paulínia recebe novo mutirão de emissão de laudos para PCDs.",
+        "local_relevance": "Ação de grande importância para a comunidade local.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Cobrir a importância do mutirão para a inclusão de pessoas com deficiência.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "98a54076-9017-4855-8ac6-97590a8e7f72",
+        "timestamp": "2026-09-17T03:35:55.716Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "A Prefeitura de Paulínia realizará um mutirão de emissão e atualização de laudos para pessoas com deficiência no dia 28 de setembro.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "Prefeitura de Paulínia",
+            "url": "https://www.paulinia.sp.gov.br/portal/noticias/0/3/8275/fundo-social-de-paulinia-recebe-novo-mutirao-de-emissao-de-laudos-para-pcds",
+            "type": "oficial",
+            "published_at": "2026-09-16T20:12:00.000Z",
+            "retrieved_at": "2026-09-16T20:12:00.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "O atendimento será no Fundo Social de Paulínia, das 9h às 13h, com 45 vagas disponíveis.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C02",
+            "claim": "As senhas serão distribuídas às 8h30, por ordem de chegada.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C03",
+            "claim": "Para participar, é necessário realizar a inscrição pelo formulário disponível no site da Prefeitura e apresentar documentação médica relacionada à deficiência.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": false,
+        "right_of_reply_targets": [],
+        "gaps": [],
+        "recommended_angle": "Cobrir a importância do mutirão para a inclusão de pessoas com deficiência.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-17T03:36:17.538Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Cidade",
+        "headline": "Mutirão de emissão de laudos para pessoas com deficiência acontece em Paulínia",
+        "subheadline": "Evento será realizado no Fundo Social no dia 28 de setembro.",
+        "diz_em_resumo": [
+          "O mutirão ocorrerá das 9h às 13h, com 45 vagas disponíveis.",
+          "Senhas serão distribuídas a partir das 8h30, por ordem de chegada.",
+          "Inscrição prévia é necessária através do site da Prefeitura."
+        ],
+        "lead": "No dia 28 de setembro, a Prefeitura de Paulínia realizará um mutirão de emissão e atualização de laudos para pessoas com deficiência, promovendo a inclusão e o acesso a direitos.",
+        "body_html": "<p>A Prefeitura de Paulínia realizará um mutirão de emissão e atualização de laudos para pessoas com deficiência no dia 28 de setembro, no Fundo Social da cidade. O atendimento será realizado das 9h às 13h, com 45 vagas disponíveis.</p><p>As senhas para o atendimento serão distribuídas a partir das 8h30, por ordem de chegada. Para participar, os interessados devem realizar a inscrição pelo formulário disponível no site da Prefeitura e apresentar a documentação médica relacionada à deficiência.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Mutirão de emissão de laudos para PCDs em Paulínia",
+          "meta_description": "A Prefeitura de Paulínia promove mutirão para emissão de laudos para pessoas com deficiência no dia 28 de setembro. Inscrições e senhas no local.",
+          "slug": "mutirao-emissao-laudos-pcds-paulinia",
+          "tags": [
+            "mutirão",
+            "laudos",
+            "pessoas com deficiência",
+            "Paulínia"
+          ]
+        },
+        "sources_used": [
+          "Prefeitura de Paulínia"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-17T03:36:22.873Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 0,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 4,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [],
+        "corrected_article": null,
+        "review_summary": "",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-17T03:36:25.223Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-17T03:36:25.354Z"
+    }
+  },
+  {
+    "id": "2026-09-17-justica-determina-desocupacao-de-centro-de",
+    "data": "2026-09-17",
+    "escopo": "paulinia",
+    "tag": "Correios",
+    "selo": "confirmado",
+    "titulo": "Justiça determina desocupação de Centro de Tratamento dos Correios em Indaiatuba",
+    "resumo": "Decisão judicial pode impactar entregas na região e agravar greve dos trabalhadores",
+    "texto_completo": "A Justiça do Trabalho decidiu que os trabalhadores dos Correios devem desocupar imediatamente o Centro de Tratamento de Cartas e Encomendas de Indaiatuba. Essa medida pode impactar as entregas de correspondências e encomendas na região.\n\nOs trabalhadores estão em greve desde o dia 10 de setembro, reivindicando melhorias salariais e no plano de saúde. A decisão judicial não só exige a desocupação do espaço, como também pode envolver o uso de força policial para garantir o cumprimento da ordem.\n\nO que isso significa para as entregas?\nA desocupação do centro é crucial para a normalização dos serviços dos Correios. Com a greve em andamento, a situação se torna ainda mais complexa, e a população pode sentir os efeitos da falta de entregas.\n\nPróximos passos\nOs trabalhadores devem decidir sobre a continuidade da greve à luz da nova determinação judicial. A situação deve ser monitorada de perto, pois pode haver desdobramentos que afetem os serviços prestados à população.",
+    "foto": "https://s2-g1.glbimg.com/UK8LgpazU5nu3fz3F7A7_H8PSAA=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/U/o/jkoomCT8W6F5X4dAg5og/whatsapp-image-2026-09-16-at-09.21.17.jpeg",
+    "foto_credito": "G1 Campinas e Região",
+    "fonte_nome": "G1 Campinas e Região",
+    "fonte_url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/09/16/justica-determina-trabalhadores-correios-desocupem-centro-tratamento-indaiatuba.ghtml",
+    "linha_fina": "Decisão judicial pode impactar entregas na região e agravar greve dos trabalhadores",
+    "diz_em_resumo": [
+      "A Justiça do Trabalho ordenou a desocupação imediata do Centro de Tratamento de Cartas e Encomendas de Indaiatuba.",
+      "Os trabalhadores dos Correios estão em greve desde 10 de setembro, reivindicando reajuste salarial e melhorias no plano de saúde.",
+      "A desocupação pode envolver o uso de força policial, conforme a determinação judicial."
+    ],
+    "body_html": "<p>A Justiça do Trabalho decidiu que os trabalhadores dos Correios devem desocupar imediatamente o Centro de Tratamento de Cartas e Encomendas de Indaiatuba. Essa medida pode impactar as entregas de correspondências e encomendas na região.</p>\n<p>Os trabalhadores estão em greve desde o dia 10 de setembro, reivindicando melhorias salariais e no plano de saúde. A decisão judicial não só exige a desocupação do espaço, como também pode envolver o uso de força policial para garantir o cumprimento da ordem.</p>\n<h2>O que isso significa para as entregas?</h2>\n<p>A desocupação do centro é crucial para a normalização dos serviços dos Correios. Com a greve em andamento, a situação se torna ainda mais complexa, e a população pode sentir os efeitos da falta de entregas.</p>\n<h2>Próximos passos</h2>\n<p>Os trabalhadores devem decidir sobre a continuidade da greve à luz da nova determinação judicial. A situação deve ser monitorada de perto, pois pode haver desdobramentos que afetem os serviços prestados à população.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Desocupação do Centro dos Correios em Indaiatuba e suas consequências",
+      "meta_description": "A Justiça do Trabalho determinou a desocupação do Centro de Tratamento de Cartas e Encomendas dos Correios em Indaiatuba, impactando as entregas na região e agravando a greve dos trabalhadores.",
+      "slug": "desocupacao-centro-correios-indaiatuba",
+      "tags": [
+        "Correios",
+        "Indaiatuba",
+        "greve",
+        "Justiça do Trabalho"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260917-000005",
+    "run_id": "98a54076-9017-4855-8ac6-97590a8e7f72",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260917-000005",
+        "decision": "ATUALIZAR",
+        "priority": "HIGH",
+        "editorial_score": 78,
+        "geographic_level": 4,
+        "primary_category": "Cidade",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "UPDATE",
+        "related_article_id": "2026-09-17-justica-do-trabalho-determina-desocupacao-de",
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "A situação é relevante para a região, com impacto nas operações dos Correios e na economia local.",
+        "news_fact": "Justiça determina desocupação de centro dos Correios em Indaiatuba, afetando entregas na região.",
+        "local_relevance": "Impacto direto na logística e serviços na região metropolitana.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Analisar as consequências da decisão judicial sobre a greve e os serviços dos Correios.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "98a54076-9017-4855-8ac6-97590a8e7f72",
+        "timestamp": "2026-09-17T03:35:55.716Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "A Justiça do Trabalho determinou que trabalhadores dos Correios desocupem o Centro de Tratamento de Cartas e Encomendas de Indaiatuba, afetando as entregas na região.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "G1 Campinas e Região",
+            "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/09/16/justica-determina-trabalhadores-correios-desocupem-centro-tratamento-indaiatuba.ghtml",
+            "type": "notícia",
+            "published_at": "2026-09-16T21:36:59.000Z",
+            "retrieved_at": "2026-09-16T21:36:59.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "A Justiça do Trabalho determinou a desocupação do Centro de Tratamento de Cartas e Encomendas de Indaiatuba.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C02",
+            "claim": "A desocupação deve ser imediata e pode envolver o uso de força policial.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C03",
+            "claim": "Os trabalhadores dos Correios estão em greve desde o dia 10 de setembro.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C04",
+            "claim": "A greve é motivada por insatisfações relacionadas a reajuste salarial e plano de saúde.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": true,
+        "right_of_reply_targets": [
+          "Fentect"
+        ],
+        "gaps": [],
+        "recommended_angle": "Analisar as consequências da decisão judicial sobre a greve e os serviços dos Correios.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-17T03:36:17.539Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Cidade",
+        "headline": "Justiça determina desocupação de Centro de Tratamento dos Correios em Indaiatuba",
+        "subheadline": "Decisão judicial pode impactar entregas na região e agravar greve dos trabalhadores",
+        "diz_em_resumo": [
+          "A Justiça do Trabalho ordenou a desocupação imediata do Centro de Tratamento de Cartas e Encomendas de Indaiatuba.",
+          "Os trabalhadores dos Correios estão em greve desde 10 de setembro, reivindicando reajuste salarial e melhorias no plano de saúde.",
+          "A desocupação pode envolver o uso de força policial, conforme a determinação judicial."
+        ],
+        "lead": "A Justiça do Trabalho determinou a desocupação do Centro de Tratamento de Cartas e Encomendas de Indaiatuba, o que pode afetar as entregas na região e intensificar a greve dos trabalhadores dos Correios, que já dura seis dias.",
+        "body_html": "<p>A Justiça do Trabalho decidiu que os trabalhadores dos Correios devem desocupar imediatamente o Centro de Tratamento de Cartas e Encomendas de Indaiatuba. Essa medida pode impactar as entregas de correspondências e encomendas na região.</p>\n<p>Os trabalhadores estão em greve desde o dia 10 de setembro, reivindicando melhorias salariais e no plano de saúde. A decisão judicial não só exige a desocupação do espaço, como também pode envolver o uso de força policial para garantir o cumprimento da ordem.</p>\n<h2>O que isso significa para as entregas?</h2>\n<p>A desocupação do centro é crucial para a normalização dos serviços dos Correios. Com a greve em andamento, a situação se torna ainda mais complexa, e a população pode sentir os efeitos da falta de entregas.</p>\n<h2>Próximos passos</h2>\n<p>Os trabalhadores devem decidir sobre a continuidade da greve à luz da nova determinação judicial. A situação deve ser monitorada de perto, pois pode haver desdobramentos que afetem os serviços prestados à população.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Desocupação do Centro dos Correios em Indaiatuba e suas consequências",
+          "meta_description": "A Justiça do Trabalho determinou a desocupação do Centro de Tratamento de Cartas e Encomendas dos Correios em Indaiatuba, impactando as entregas na região e agravando a greve dos trabalhadores.",
+          "slug": "desocupacao-centro-correios-indaiatuba",
+          "tags": [
+            "Correios",
+            "Indaiatuba",
+            "greve",
+            "Justiça do Trabalho"
+          ]
+        },
+        "sources_used": [
+          "G1 Campinas e Região"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [
+          "right_of_reply_required"
+        ],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-17T03:36:22.875Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 0,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 4,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [
+          "right_of_reply_required"
+        ],
+        "corrected_article": null,
+        "review_summary": "",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-17T03:36:25.234Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-17T03:36:25.355Z"
+    }
+  },
+  {
+    "id": "2026-09-17-regiao-de-campinas-registra-recorde-na",
+    "data": "2026-09-17",
+    "escopo": "paulinia",
+    "tag": "CPF",
+    "selo": "confirmado",
+    "titulo": "Região de Campinas registra recorde na emissão de CPFs para estrangeiros em 2025",
+    "resumo": "Número de inscrições cresceu 38,7% em relação ao ano anterior, totalizando 3.632 emissões.",
+    "texto_completo": "O aumento no número de CPFs emitidos para estrangeiros na região de Campinas levanta questões sobre as implicações sociais e econômicas desse fenômeno. O CPF, documento essencial para a identificação de pessoas no Brasil, é necessário para diversas atividades como abertura de contas bancárias e acesso a serviços públicos.\n\nAlém disso, os haitianos formam a maior comunidade estrangeira na região, com 4.973 emissões de CPF desde 2005. Esse crescimento na emissão de documentos pode refletir tanto a chegada de novos imigrantes quanto a regularização de pessoas já residentes.",
+    "foto": "https://s2-g1.glbimg.com/riaw1C7DW--Kcph3e7GcuYda-6Q=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/r/v/BX0b3nR72tjOQUuzXF1A/design-sem-nome-2026-04-10t201624.311.jpg",
+    "foto_credito": "G1 Campinas e Região",
+    "fonte_nome": "G1 Campinas e Região",
+    "fonte_url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/09/16/de-haitianos-a-moradores-de-tonga-regiao-de-campinas-bate-recorde-de-cpf-para-estrangeiros.ghtml",
+    "linha_fina": "Número de inscrições cresceu 38,7% em relação ao ano anterior, totalizando 3.632 emissões.",
+    "diz_em_resumo": [
+      "Em 2025, 3.632 CPFs foram emitidos para estrangeiros na região de Campinas.",
+      "O aumento de 38,7% em relação a 2024 marca o maior número desde 2005.",
+      "A comunidade haitiana é a maior beneficiada, com 4.973 emissões desde 2005."
+    ],
+    "body_html": "<p>O aumento no número de CPFs emitidos para estrangeiros na região de Campinas levanta questões sobre as implicações sociais e econômicas desse fenômeno. O CPF, documento essencial para a identificação de pessoas no Brasil, é necessário para diversas atividades como abertura de contas bancárias e acesso a serviços públicos.</p>\n<p>Além disso, os haitianos formam a maior comunidade estrangeira na região, com 4.973 emissões de CPF desde 2005. Esse crescimento na emissão de documentos pode refletir tanto a chegada de novos imigrantes quanto a regularização de pessoas já residentes.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Recorde de CPFs para estrangeiros em Campinas",
+      "meta_description": "Em 2025, Campinas registra 3.632 emissões de CPF para estrangeiros, um aumento de 38,7% em relação a 2024.",
+      "slug": "recorde-cpf-estrangeiros-campinas-2025",
+      "tags": [
+        "CPF",
+        "estrangeiros",
+        "Campinas",
+        "imigração",
+        "documentação"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260917-000004",
+    "run_id": "98a54076-9017-4855-8ac6-97590a8e7f72",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260917-000004",
+        "decision": "ATUALIZAR",
+        "priority": "HIGH",
+        "editorial_score": 75,
+        "geographic_level": 4,
+        "primary_category": "Cidade",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "UPDATE",
+        "related_article_id": "2026-09-17-campinas-registra-recorde-na-emissao-de",
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "A informação é relevante e atual, com dados significativos sobre imigração na região.",
+        "news_fact": "Região de Campinas bate recorde na emissão de CPFs para estrangeiros, com aumento significativo em 2025.",
+        "local_relevance": "Impacto direto na região metropolitana de Campinas.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Explorar as implicações sociais e econômicas do aumento de CPFs para estrangeiros.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "98a54076-9017-4855-8ac6-97590a8e7f72",
+        "timestamp": "2026-09-17T03:35:55.715Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "A região de Campinas registrou em 2025 o maior número de emissões de CPF para estrangeiros desde 2005, totalizando 3.632 inscrições, um aumento de 38,7% em relação a 2024.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "G1 Campinas e Região",
+            "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/09/16/de-haitianos-a-moradores-de-tonga-regiao-de-campinas-bate-recorde-de-cpf-para-estrangeiros.ghtml",
+            "type": "notícia",
+            "published_at": "2026-09-16T21:56:16.000Z",
+            "retrieved_at": ""
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "A região de Campinas atingiu 3.632 emissões de CPF para estrangeiros em 2025, um recorde histórico.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C02",
+            "claim": "Os haitianos formam a maior comunidade estrangeira na região, com 4.973 emissões de CPF desde 2005.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C03",
+            "claim": "A emissão de CPFs para estrangeiros na região de Campinas aumentou 38,7% em relação a 2024.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [
+          "O CPF é um documento essencial para a identificação de pessoas no Brasil, sendo necessário para diversas atividades como abertura de contas bancárias e acesso a serviços públicos."
+        ],
+        "service_information": {},
+        "right_of_reply_required": false,
+        "right_of_reply_targets": [],
+        "gaps": [],
+        "recommended_angle": "Explorar as implicações sociais e econômicas do aumento de CPFs para estrangeiros na região de Campinas.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-17T03:36:17.540Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Cidade",
+        "headline": "Região de Campinas registra recorde na emissão de CPFs para estrangeiros em 2025",
+        "subheadline": "Número de inscrições cresceu 38,7% em relação ao ano anterior, totalizando 3.632 emissões.",
+        "diz_em_resumo": [
+          "Em 2025, 3.632 CPFs foram emitidos para estrangeiros na região de Campinas.",
+          "O aumento de 38,7% em relação a 2024 marca o maior número desde 2005.",
+          "A comunidade haitiana é a maior beneficiada, com 4.973 emissões desde 2005."
+        ],
+        "lead": "A região de Campinas registrou em 2025 o maior número de emissões de CPF para estrangeiros desde 2005, totalizando 3.632 inscrições, um aumento de 38,7% em relação a 2024.",
+        "body_html": "<p>O aumento no número de CPFs emitidos para estrangeiros na região de Campinas levanta questões sobre as implicações sociais e econômicas desse fenômeno. O CPF, documento essencial para a identificação de pessoas no Brasil, é necessário para diversas atividades como abertura de contas bancárias e acesso a serviços públicos.</p>\n<p>Além disso, os haitianos formam a maior comunidade estrangeira na região, com 4.973 emissões de CPF desde 2005. Esse crescimento na emissão de documentos pode refletir tanto a chegada de novos imigrantes quanto a regularização de pessoas já residentes.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Recorde de CPFs para estrangeiros em Campinas",
+          "meta_description": "Em 2025, Campinas registra 3.632 emissões de CPF para estrangeiros, um aumento de 38,7% em relação a 2024.",
+          "slug": "recorde-cpf-estrangeiros-campinas-2025",
+          "tags": [
+            "CPF",
+            "estrangeiros",
+            "Campinas",
+            "imigração",
+            "documentação"
+          ]
+        },
+        "sources_used": [
+          "G1 Campinas e Região"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-17T03:36:22.876Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 0,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 3,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [],
+        "corrected_article": null,
+        "review_summary": "",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-17T03:36:25.265Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-17T03:36:25.356Z"
+    }
+  },
+  {
     "id": "2026-09-17-tak-chung-wu-assume-vaga-de",
     "data": "2026-09-17",
     "escopo": "paulinia",
