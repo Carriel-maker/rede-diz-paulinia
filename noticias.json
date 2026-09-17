@@ -1,5 +1,417 @@
 [
   {
+    "id": "2026-09-17-18h-tak-chung-wu-e-empossado-como",
+    "data": "2026-09-17",
+    "escopo": "paulinia",
+    "tag": "Tak Chung Wu",
+    "selo": "confirmado",
+    "titulo": "Tak Chung Wu é empossado como vereador em Campinas após cassação de Vini Oliveira",
+    "resumo": "A posse ocorreu no dia 16 de setembro de 2026, marcando um momento histórico na Câmara Municipal.",
+    "texto_completo": "Tak Chung Wu foi empossado como vereador pela Câmara Municipal de Campinas no dia 16 de setembro de 2026. Ele assume a vaga deixada por Vini Oliveira, que foi cassado por quebra de decoro parlamentar, tornando-se o primeiro vereador da história de Campinas a enfrentar tal penalidade.\n\nA cassação de Vini Oliveira foi aprovada por 23 votos favoráveis na Câmara Municipal, refletindo um momento significativo na política local.",
+    "foto": "https://s2-g1.glbimg.com/9OMRHCHrDn3g4igsijTbSdO7h34=/2047x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/S/y/lRMNCcTS6FQ2neVL7OBA/55532716446-54d81b5b74-k.jpg",
+    "foto_credito": "G1 Campinas e Região",
+    "fonte_nome": "G1 Campinas e Região",
+    "fonte_url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/09/16/tak-chung-wu-toma-posse-como-vereador-em-campinas-apos-cassacao-de-vini-oliveira.ghtml",
+    "linha_fina": "A posse ocorreu no dia 16 de setembro de 2026, marcando um momento histórico na Câmara Municipal.",
+    "diz_em_resumo": [
+      "Tak Chung Wu assume a vaga deixada por Vini Oliveira, que foi cassado por quebra de decoro parlamentar.",
+      "Vini Oliveira é o primeiro vereador da história de Campinas a ser cassado por uma Comissão Processante.",
+      "A cassação foi aprovada por 23 votos favoráveis na Câmara Municipal."
+    ],
+    "body_html": "<p>Tak Chung Wu foi empossado como vereador pela Câmara Municipal de Campinas no dia 16 de setembro de 2026. Ele assume a vaga deixada por Vini Oliveira, que foi cassado por quebra de decoro parlamentar, tornando-se o primeiro vereador da história de Campinas a enfrentar tal penalidade.</p>\n<p>A cassação de Vini Oliveira foi aprovada por 23 votos favoráveis na Câmara Municipal, refletindo um momento significativo na política local.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Tak Chung Wu toma posse como vereador em Campinas",
+      "meta_description": "Tak Chung Wu assume a vaga na Câmara Municipal de Campinas após a cassação de Vini Oliveira por quebra de decoro parlamentar.",
+      "slug": "tak-chung-wu-vereador-campinas-cassacao-vini-oliveira",
+      "tags": [
+        "Tak Chung Wu",
+        "Vini Oliveira",
+        "Câmara Municipal de Campinas",
+        "cassação",
+        "quebra de decoro"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260917-18H-000006",
+    "run_id": "1e0de24c-0a78-4aaa-a2f8-37fb0152ad42",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260917-18H-000006",
+        "decision": "PUBLICAR",
+        "priority": "HIGH",
+        "editorial_score": 85,
+        "geographic_level": 4,
+        "primary_category": "Cidade",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "NEW",
+        "related_article_id": null,
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "A posse de um novo vereador em Campinas após a cassação de outro é um fato político relevante que pode impactar a dinâmica da Câmara Municipal.",
+        "news_fact": "Tak Chung Wu toma posse como vereador em Campinas após cassação de Vini Oliveira.",
+        "local_relevance": "Relevante para a política local e para os cidadãos de Campinas.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Análise das implicações políticas da posse de Tak Chung Wu.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "1e0de24c-0a78-4aaa-a2f8-37fb0152ad42",
+        "timestamp": "2026-09-17T03:39:46.900Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "Tak Chung Wu foi empossado como vereador pela Câmara Municipal de Campinas em 16 de setembro de 2026, assumindo a vaga deixada por Vini Oliveira, que foi cassado por quebra de decoro parlamentar.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "G1 Campinas e Região",
+            "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/09/16/tak-chung-wu-toma-posse-como-vereador-em-campinas-apos-cassacao-de-vini-oliveira.ghtml",
+            "type": "notícia",
+            "published_at": "2026-09-16T21:33:33.000Z",
+            "retrieved_at": "2026-09-16T21:33:33.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "Tak Chung Wu assumiu a cadeira na Câmara de Campinas deixada por Vini Oliveira, que foi cassado por quebra de decoro.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C02",
+            "claim": "Vini Oliveira foi o primeiro vereador da história de Campinas a ser cassado por uma Comissão Processante.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C03",
+            "claim": "A cassação de Vini Oliveira foi aprovada por 23 votos favoráveis na Câmara Municipal.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": true,
+        "right_of_reply_targets": [
+          "Vini Oliveira"
+        ],
+        "gaps": [],
+        "recommended_angle": "Análise das implicações políticas da posse de Tak Chung Wu.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-17T03:39:57.937Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Cidade",
+        "headline": "Tak Chung Wu é empossado como vereador em Campinas após cassação de Vini Oliveira",
+        "subheadline": "A posse ocorreu no dia 16 de setembro de 2026, marcando um momento histórico na Câmara Municipal.",
+        "diz_em_resumo": [
+          "Tak Chung Wu assume a vaga deixada por Vini Oliveira, que foi cassado por quebra de decoro parlamentar.",
+          "Vini Oliveira é o primeiro vereador da história de Campinas a ser cassado por uma Comissão Processante.",
+          "A cassação foi aprovada por 23 votos favoráveis na Câmara Municipal."
+        ],
+        "lead": "Tak Chung Wu foi empossado como vereador pela Câmara Municipal de Campinas no último dia 16, ocupando a vaga deixada por Vini Oliveira, que foi cassado por quebra de decoro parlamentar.",
+        "body_html": "<p>Tak Chung Wu foi empossado como vereador pela Câmara Municipal de Campinas no dia 16 de setembro de 2026. Ele assume a vaga deixada por Vini Oliveira, que foi cassado por quebra de decoro parlamentar, tornando-se o primeiro vereador da história de Campinas a enfrentar tal penalidade.</p>\n<p>A cassação de Vini Oliveira foi aprovada por 23 votos favoráveis na Câmara Municipal, refletindo um momento significativo na política local.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Tak Chung Wu toma posse como vereador em Campinas",
+          "meta_description": "Tak Chung Wu assume a vaga na Câmara Municipal de Campinas após a cassação de Vini Oliveira por quebra de decoro parlamentar.",
+          "slug": "tak-chung-wu-vereador-campinas-cassacao-vini-oliveira",
+          "tags": [
+            "Tak Chung Wu",
+            "Vini Oliveira",
+            "Câmara Municipal de Campinas",
+            "cassação",
+            "quebra de decoro"
+          ]
+        },
+        "sources_used": [
+          "G1 Campinas e Região"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [
+          "right_of_reply_required"
+        ],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-17T03:40:02.608Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 0,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 3,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [
+          "right_of_reply_required"
+        ],
+        "corrected_article": null,
+        "review_summary": "",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-17T03:40:05.486Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-17T03:40:05.539Z"
+    }
+  },
+  {
+    "id": "2026-09-17-18h-cerca-de-400-pessoas-apoiam-candidatura",
+    "data": "2026-09-17",
+    "escopo": "paulinia",
+    "tag": "Du Cazellato",
+    "selo": "confirmado",
+    "titulo": "Cerca de 400 pessoas apoiam candidatura de Du Cazellato em encontro em Paulínia",
+    "resumo": "Evento foi organizado por Lucas Barros e Bonavita Barros e atraiu grande público.",
+    "texto_completo": "O evento, organizado por Lucas Barros e Bonavita Barros, foi um marco na mobilização de apoio à candidatura de Du Cazellato, que busca fortalecer sua presença na política de Paulínia.\n\nO que representa esse apoioA participação expressiva de cerca de 400 pessoas indica um suporte considerável à candidatura, refletindo a estratégia de mobilização de lideranças locais. Tal apoio pode influenciar a dinâmica política na cidade e nas próximas eleições.\n\nQuem são os organizadoresLucas Barros e Bonavita Barros são figuras conhecidas em Paulínia, com um histórico de envolvimento em questões políticas e sociais, o que pode ter contribuído para o sucesso do evento.",
+    "foto": "https://tribunapaulinia.com.br/wp-content/uploads/2026/09/lucasdu.jpeg",
+    "foto_credito": "Tribuna Paulínia",
+    "fonte_nome": "Tribuna Paulínia",
+    "fonte_url": "https://tribunapaulinia.com.br/lucas-barros-e-bonavita-barros-reunem-cerca-de-400-pessoas-em-apoio-a-du-cazellato-em-paulinia/",
+    "linha_fina": "Evento foi organizado por Lucas Barros e Bonavita Barros e atraiu grande público.",
+    "diz_em_resumo": [
+      "O encontro ocorreu em Paulínia e contou com a participação de figuras políticas locais.",
+      "A mobilização reflete o apoio crescente à candidatura de Du Cazellato na cidade.",
+      "Lucas Barros e Bonavita Barros são conhecidos por sua atuação política em Paulínia."
+    ],
+    "body_html": "<p>O evento, organizado por Lucas Barros e Bonavita Barros, foi um marco na mobilização de apoio à candidatura de Du Cazellato, que busca fortalecer sua presença na política de Paulínia.</p><h2>O que representa esse apoio</h2><p>A participação expressiva de cerca de 400 pessoas indica um suporte considerável à candidatura, refletindo a estratégia de mobilização de lideranças locais. Tal apoio pode influenciar a dinâmica política na cidade e nas próximas eleições.</p><h2>Quem são os organizadores</h2><p>Lucas Barros e Bonavita Barros são figuras conhecidas em Paulínia, com um histórico de envolvimento em questões políticas e sociais, o que pode ter contribuído para o sucesso do evento.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Encontro de apoio a Du Cazellato em Paulínia atrai 400 pessoas",
+      "meta_description": "Cerca de 400 pessoas participaram de um encontro em apoio à candidatura de Du Cazellato, organizado por Lucas Barros e Bonavita Barros em Paulínia.",
+      "slug": "encontro-apoio-du-cazellato-paulinia",
+      "tags": [
+        "Du Cazellato",
+        "Política",
+        "Paulínia",
+        "Lucas Barros",
+        "Bonavita Barros"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260917-18H-000008",
+    "run_id": "1e0de24c-0a78-4aaa-a2f8-37fb0152ad42",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260917-18H-000008",
+        "decision": "PUBLICAR",
+        "priority": "HIGH",
+        "editorial_score": 75,
+        "geographic_level": 5,
+        "primary_category": "Cidade",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "NEW",
+        "related_article_id": null,
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "O apoio a uma candidatura local é relevante para a política de Paulínia e pode mobilizar a comunidade.",
+        "news_fact": "Reunião em Paulínia reúne 400 apoiadores de Du Cazellato.",
+        "local_relevance": "Importante para a política local e engajamento da comunidade.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Análise do apoio político em Paulínia e suas implicações.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "1e0de24c-0a78-4aaa-a2f8-37fb0152ad42",
+        "timestamp": "2026-09-17T03:39:46.900Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "Cerca de 400 pessoas participaram de um encontro de apoio à candidatura de Du Cazellato em Paulínia, organizado por Lucas Barros e Bonavita Barros.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "Tribuna Paulínia",
+            "url": "https://tribunapaulinia.com.br/lucas-barros-e-bonavita-barros-reunem-cerca-de-400-pessoas-em-apoio-a-du-cazellato-em-paulinia/",
+            "type": "notícia",
+            "published_at": "2026-09-16T21:17:42.000Z",
+            "retrieved_at": "2026-09-16T21:17:42.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "Cerca de 400 pessoas participaram de um encontro de apoio à candidatura de Du Cazellato em Paulínia.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": false,
+        "right_of_reply_targets": [],
+        "gaps": [],
+        "recommended_angle": "Análise do apoio político em Paulínia e suas implicações.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-17T03:39:57.938Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Cidade",
+        "headline": "Cerca de 400 pessoas apoiam candidatura de Du Cazellato em encontro em Paulínia",
+        "subheadline": "Evento foi organizado por Lucas Barros e Bonavita Barros e atraiu grande público.",
+        "diz_em_resumo": [
+          "O encontro ocorreu em Paulínia e contou com a participação de figuras políticas locais.",
+          "A mobilização reflete o apoio crescente à candidatura de Du Cazellato na cidade.",
+          "Lucas Barros e Bonavita Barros são conhecidos por sua atuação política em Paulínia."
+        ],
+        "lead": "Cerca de 400 pessoas participaram de um encontro de apoio à candidatura de Du Cazellato em Paulínia, demonstrando um significativo engajamento político local.",
+        "body_html": "<p>O evento, organizado por Lucas Barros e Bonavita Barros, foi um marco na mobilização de apoio à candidatura de Du Cazellato, que busca fortalecer sua presença na política de Paulínia.</p><h2>O que representa esse apoio</h2><p>A participação expressiva de cerca de 400 pessoas indica um suporte considerável à candidatura, refletindo a estratégia de mobilização de lideranças locais. Tal apoio pode influenciar a dinâmica política na cidade e nas próximas eleições.</p><h2>Quem são os organizadores</h2><p>Lucas Barros e Bonavita Barros são figuras conhecidas em Paulínia, com um histórico de envolvimento em questões políticas e sociais, o que pode ter contribuído para o sucesso do evento.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Encontro de apoio a Du Cazellato em Paulínia atrai 400 pessoas",
+          "meta_description": "Cerca de 400 pessoas participaram de um encontro em apoio à candidatura de Du Cazellato, organizado por Lucas Barros e Bonavita Barros em Paulínia.",
+          "slug": "encontro-apoio-du-cazellato-paulinia",
+          "tags": [
+            "Du Cazellato",
+            "Política",
+            "Paulínia",
+            "Lucas Barros",
+            "Bonavita Barros"
+          ]
+        },
+        "sources_used": [
+          "Tribuna Paulínia"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-17T03:40:02.618Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 1,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 1,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [],
+        "corrected_article": null,
+        "review_summary": "A matéria está bem estruturada e todos os fatos apresentados estão suportados pelo dossiê. Não foram encontrados problemas de atribuição ou riscos relevantes.",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-17T03:40:05.487Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-17T03:40:05.539Z"
+    }
+  },
+  {
     "id": "2026-09-17-mutirao-de-emissao-de-laudos-para",
     "data": "2026-09-17",
     "escopo": "paulinia",
