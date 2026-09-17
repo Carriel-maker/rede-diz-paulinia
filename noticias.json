@@ -1,5 +1,217 @@
 [
   {
+    "id": "2026-09-17-tak-chung-wu-assume-vaga-de",
+    "data": "2026-09-17",
+    "escopo": "paulinia",
+    "tag": "Tak Chung Wu",
+    "selo": "confirmado",
+    "titulo": "Tak Chung Wu assume vaga de vereador em Campinas após cassação de Vini Oliveira",
+    "resumo": "A posse ocorre em meio a controvérsias sobre a quebra de decoro parlamentar do ex-vereador.",
+    "texto_completo": "Tak Chung Wu, de 61 anos, advogado e ativista social, tomou posse como vereador na Câmara Municipal de Campinas. Ele foi o primeiro suplente do Cidadania, recebendo 956 votos nas Eleições de 2024.\n\nA cassação de Vini Oliveira, que ocorreu recentemente, foi resultado de uma investigação que concluiu que ele extrapolou os limites da atuação fiscalizatória ao se reunir com representantes da empresa Smile durante um processo de licitação. Essa decisão gerou um intenso debate sobre a ética na política local e as responsabilidades dos parlamentares.\n\nCom a posse de Tak Chung Wu, a Câmara Municipal de Campinas passa a contar com um novo integrante, que promete trazer uma perspectiva renovada e engajamento nas questões sociais da cidade.",
+    "foto": "https://s2-g1.glbimg.com/9OMRHCHrDn3g4igsijTbSdO7h34=/2047x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/S/y/lRMNCcTS6FQ2neVL7OBA/55532716446-54d81b5b74-k.jpg",
+    "foto_credito": "G1 Campinas e Região",
+    "fonte_nome": "G1 Campinas e Região",
+    "fonte_url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/09/16/tak-chung-wu-toma-posse-como-vereador-em-campinas-apos-cassacao-de-vini-oliveira.ghtml",
+    "linha_fina": "A posse ocorre em meio a controvérsias sobre a quebra de decoro parlamentar do ex-vereador.",
+    "diz_em_resumo": [
+      "Tak Chung Wu foi empossado como vereador na Câmara Municipal de Campinas.",
+      "Ele assume a vaga deixada por Vini Oliveira, que foi cassado por quebra de decoro.",
+      "A cassação de Oliveira ocorreu após investigação sobre sua atuação em licitações."
+    ],
+    "body_html": "<p>Tak Chung Wu, de 61 anos, advogado e ativista social, tomou posse como vereador na Câmara Municipal de Campinas. Ele foi o primeiro suplente do Cidadania, recebendo 956 votos nas Eleições de 2024.</p>\n<p>A cassação de Vini Oliveira, que ocorreu recentemente, foi resultado de uma investigação que concluiu que ele extrapolou os limites da atuação fiscalizatória ao se reunir com representantes da empresa Smile durante um processo de licitação. Essa decisão gerou um intenso debate sobre a ética na política local e as responsabilidades dos parlamentares.</p>\n<p>Com a posse de Tak Chung Wu, a Câmara Municipal de Campinas passa a contar com um novo integrante, que promete trazer uma perspectiva renovada e engajamento nas questões sociais da cidade.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Tak Chung Wu toma posse como vereador em Campinas",
+      "meta_description": "Tak Chung Wu é empossado como vereador em Campinas após a cassação de Vini Oliveira por quebra de decoro parlamentar.",
+      "slug": "tak-chung-wu-toma-posse-como-vereador-em-campinas",
+      "tags": [
+        "Tak Chung Wu",
+        "Vereador",
+        "Campinas",
+        "Vini Oliveira",
+        "Cassação"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260917-000006",
+    "run_id": "dad0fc2f-07e7-4cbd-a2f0-9c4a6f2f2098",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260917-000006",
+        "decision": "PUBLICAR",
+        "priority": "HIGH",
+        "editorial_score": 80,
+        "geographic_level": 4,
+        "primary_category": "Cidade",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "NEW",
+        "related_article_id": null,
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "Notícia relevante sobre a posse de um novo vereador em Campinas, com potencial impacto político.",
+        "news_fact": "Tak Chung Wu toma posse como vereador em Campinas após cassação de Vini Oliveira.",
+        "local_relevance": "Relevante para a política local e regional.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Analisar as implicações da posse do novo vereador e o contexto da cassação anterior.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "dad0fc2f-07e7-4cbd-a2f0-9c4a6f2f2098",
+        "timestamp": "2026-09-17T03:33:50.149Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "Tak Chung Wu foi empossado como vereador na Câmara Municipal de Campinas, assumindo a vaga deixada por Vini Oliveira, que foi cassado por quebra de decoro parlamentar.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "G1 Campinas e Região",
+            "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/09/16/tak-chung-wu-toma-posse-como-vereador-em-campinas-apos-cassacao-de-vini-oliveira.ghtml",
+            "type": "notícia",
+            "published_at": "2026-09-16T21:33:33.000Z",
+            "retrieved_at": "2026-09-16T21:33:33.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "Tak Chung Wu tomou posse como vereador na Câmara Municipal de Campinas.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C02",
+            "claim": "Vini Oliveira foi cassado por quebra de decoro parlamentar.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [
+          "Tak Chung Wu, de 61 anos, é advogado e ativista social, e foi o primeiro suplente do Cidadania, recebendo 956 votos nas Eleições 2024.",
+          "A cassação de Vini Oliveira ocorreu após a Comissão Processante concluir que ele extrapolou os limites da atuação fiscalizatória ao se reunir com representantes da empresa Smile durante um processo de licitação."
+        ],
+        "service_information": {},
+        "right_of_reply_required": true,
+        "right_of_reply_targets": [
+          "Vini Oliveira"
+        ],
+        "gaps": [],
+        "recommended_angle": "Analisar as implicações da posse de Tak Chung Wu e o contexto da cassação de Vini Oliveira.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-17T03:34:08.631Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Cidade",
+        "headline": "Tak Chung Wu assume vaga de vereador em Campinas após cassação de Vini Oliveira",
+        "subheadline": "A posse ocorre em meio a controvérsias sobre a quebra de decoro parlamentar do ex-vereador.",
+        "diz_em_resumo": [
+          "Tak Chung Wu foi empossado como vereador na Câmara Municipal de Campinas.",
+          "Ele assume a vaga deixada por Vini Oliveira, que foi cassado por quebra de decoro.",
+          "A cassação de Oliveira ocorreu após investigação sobre sua atuação em licitações."
+        ],
+        "lead": "Tak Chung Wu foi empossado como vereador na Câmara Municipal de Campinas, ocupando a vaga deixada por Vini Oliveira, que foi cassado por quebra de decoro parlamentar.",
+        "body_html": "<p>Tak Chung Wu, de 61 anos, advogado e ativista social, tomou posse como vereador na Câmara Municipal de Campinas. Ele foi o primeiro suplente do Cidadania, recebendo 956 votos nas Eleições de 2024.</p>\n<p>A cassação de Vini Oliveira, que ocorreu recentemente, foi resultado de uma investigação que concluiu que ele extrapolou os limites da atuação fiscalizatória ao se reunir com representantes da empresa Smile durante um processo de licitação. Essa decisão gerou um intenso debate sobre a ética na política local e as responsabilidades dos parlamentares.</p>\n<p>Com a posse de Tak Chung Wu, a Câmara Municipal de Campinas passa a contar com um novo integrante, que promete trazer uma perspectiva renovada e engajamento nas questões sociais da cidade.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Tak Chung Wu toma posse como vereador em Campinas",
+          "meta_description": "Tak Chung Wu é empossado como vereador em Campinas após a cassação de Vini Oliveira por quebra de decoro parlamentar.",
+          "slug": "tak-chung-wu-toma-posse-como-vereador-em-campinas",
+          "tags": [
+            "Tak Chung Wu",
+            "Vereador",
+            "Campinas",
+            "Vini Oliveira",
+            "Cassação"
+          ]
+        },
+        "sources_used": [
+          "G1 Campinas e Região"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [
+          "right_of_reply_needed"
+        ],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-17T03:34:12.545Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 0,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 2,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [
+          "right_of_reply_needed"
+        ],
+        "corrected_article": null,
+        "review_summary": "",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-17T03:34:14.842Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-17T03:34:14.887Z"
+    }
+  },
+  {
     "id": "2026-09-17-justica-do-trabalho-determina-desocupacao-de",
     "data": "2026-09-17",
     "escopo": "paulinia",
