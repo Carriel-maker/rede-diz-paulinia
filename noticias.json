@@ -1,5 +1,265 @@
 [
   {
+    "id": "2026-09-17-18h-mutirao-de-emissao-de-laudos-para",
+    "data": "2026-09-17",
+    "escopo": "paulinia",
+    "tag": "mutirão",
+    "selo": "confirmado",
+    "titulo": "Mutirão de emissão de laudos para pessoas com deficiência acontece em Paulínia",
+    "resumo": "Evento será realizado no dia 28 de setembro no Fundo Social, com 45 vagas disponíveis.",
+    "texto_completo": "No dia 28 de setembro, a Prefeitura de Paulínia realizará um mutirão para emissão e atualização de laudos para pessoas com deficiência. O evento será realizado no Fundo Social, das 9h às 13h, e disponibilizará 45 vagas.\n\nAs senhas para o atendimento serão distribuídas a partir das 8h30, por ordem de chegada. Para participar, é necessário realizar a inscrição pelo formulário disponível no site da Prefeitura e apresentar documentos como RG, CPF e laudos médicos relacionados à deficiência.\n\nO que muda\nEsse mutirão tem como objetivo facilitar o acesso das pessoas com deficiência à documentação necessária, promovendo a inclusão e a acessibilidade.\n\nComo participar\nOs interessados devem se inscrever no site paulinia.sp.gov.br/qualificapaulinia e levar a documentação exigida no dia do evento.",
+    "foto": "https://www.paulinia.sp.gov.br/fotos/f7679e6ea09e6cf000e41b88bbfb8a3b.jpg",
+    "foto_credito": "Prefeitura de Paulínia",
+    "fonte_nome": "Prefeitura de Paulínia",
+    "fonte_url": "https://www.paulinia.sp.gov.br/portal/noticias/0/3/8275/fundo-social-de-paulinia-recebe-novo-mutirao-de-emissao-de-laudos-para-pcds",
+    "linha_fina": "Evento será realizado no dia 28 de setembro no Fundo Social, com 45 vagas disponíveis.",
+    "diz_em_resumo": [
+      "O mutirão ocorrerá das 9h às 13h.",
+      "Senhas serão distribuídas a partir das 8h30, por ordem de chegada.",
+      "Inscrições devem ser feitas pelo site da Prefeitura, com apresentação de documentação.",
+      "O evento visa promover a inclusão e acessibilidade das pessoas com deficiência.",
+      "É necessário levar RG, CPF e laudos médicos relacionados à deficiência."
+    ],
+    "body_html": "<p>No dia 28 de setembro, a Prefeitura de Paulínia realizará um mutirão para emissão e atualização de laudos para pessoas com deficiência. O evento será realizado no Fundo Social, das 9h às 13h, e disponibilizará 45 vagas.</p>\n<p>As senhas para o atendimento serão distribuídas a partir das 8h30, por ordem de chegada. Para participar, é necessário realizar a inscrição pelo formulário disponível no site da Prefeitura e apresentar documentos como RG, CPF e laudos médicos relacionados à deficiência.</p>\n<h2>O que muda</h2>\n<p>Esse mutirão tem como objetivo facilitar o acesso das pessoas com deficiência à documentação necessária, promovendo a inclusão e a acessibilidade.</p>\n<h2>Como participar</h2>\n<p>Os interessados devem se inscrever no site <a href=\"https://www.paulinia.sp.gov.br/qualificapaulinia\">paulinia.sp.gov.br/qualificapaulinia</a> e levar a documentação exigida no dia do evento.</p>",
+    "service_box": {
+      "enabled": true,
+      "title": "Informações do Mutirão",
+      "items": [
+        {
+          "title": "Data e horário",
+          "description": "28 de setembro, das 9h às 13h."
+        },
+        {
+          "title": "Local",
+          "description": "Fundo Social de Paulínia."
+        },
+        {
+          "title": "Vagas disponíveis",
+          "description": "45 vagas."
+        },
+        {
+          "title": "Distribuição de senhas",
+          "description": "A partir das 8h30, por ordem de chegada."
+        },
+        {
+          "title": "Documentação necessária",
+          "description": "RG, CPF e laudos médicos relacionados à deficiência."
+        }
+      ]
+    },
+    "seo": {
+      "seo_title": "Mutirão de emissão de laudos para PCDs em Paulínia",
+      "meta_description": "A Prefeitura de Paulínia promove um mutirão de emissão e atualização de laudos para pessoas com deficiência no dia 28 de setembro.",
+      "slug": "mutirao-emissao-laudos-pcds-paulinia",
+      "tags": [
+        "mutirão",
+        "laudos",
+        "pessoas com deficiência",
+        "Paulínia",
+        "inclusão",
+        "acessibilidade"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260917-18H-000007",
+    "run_id": "038aab0a-24c4-47b3-9403-a159a4caa97a",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260917-18H-000007",
+        "decision": "PUBLICAR",
+        "priority": "HIGH",
+        "editorial_score": 80,
+        "geographic_level": 5,
+        "primary_category": "Utilidade Pública",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "NEW",
+        "related_article_id": null,
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "Mutirão de emissão de laudos para PCDs é uma ação de grande relevância social.",
+        "news_fact": "Fundo Social de Paulínia recebe novo mutirão de emissão de laudos para PCDs.",
+        "local_relevance": "Ação de utilidade pública que beneficia pessoas com deficiência em Paulínia.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Foco na inclusão e acessibilidade para pessoas com deficiência.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "038aab0a-24c4-47b3-9403-a159a4caa97a",
+        "timestamp": "2026-09-17T03:18:54.402Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "A Prefeitura de Paulínia realizará um mutirão de emissão e atualização de laudos para pessoas com deficiência no dia 28 de setembro.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "Prefeitura de Paulínia",
+            "url": "https://www.paulinia.sp.gov.br/portal/noticias/0/3/8275/fundo-social-de-paulinia-recebe-novo-mutirao-de-emissao-de-laudos-para-pcds",
+            "type": "oficial",
+            "published_at": "2026-09-16T20:12:00.000Z",
+            "retrieved_at": "2026-09-16T20:12:00.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "O atendimento será no Fundo Social de Paulínia, das 9h às 13h, com 45 vagas disponíveis.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C02",
+            "claim": "As senhas serão distribuídas às 8h30, por ordem de chegada.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C03",
+            "claim": "Para participar, é necessário realizar a inscrição pelo formulário disponível em paulinia.sp.gov.br/qualificapaulinia e apresentar RG, CPF e documentação médica relacionada à deficiência.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": false,
+        "right_of_reply_targets": [],
+        "gaps": [],
+        "recommended_angle": "Foco na inclusão e acessibilidade para pessoas com deficiência.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-17T03:19:02.587Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Utilidade Pública",
+        "headline": "Mutirão de emissão de laudos para pessoas com deficiência acontece em Paulínia",
+        "subheadline": "Evento será realizado no dia 28 de setembro no Fundo Social, com 45 vagas disponíveis.",
+        "diz_em_resumo": [
+          "O mutirão ocorrerá das 9h às 13h.",
+          "Senhas serão distribuídas a partir das 8h30, por ordem de chegada.",
+          "Inscrições devem ser feitas pelo site da Prefeitura, com apresentação de documentação.",
+          "O evento visa promover a inclusão e acessibilidade das pessoas com deficiência.",
+          "É necessário levar RG, CPF e laudos médicos relacionados à deficiência."
+        ],
+        "lead": "No dia 28 de setembro, a Prefeitura de Paulínia realizará um mutirão para emissão e atualização de laudos para pessoas com deficiência, no Fundo Social da cidade.",
+        "body_html": "<p>No dia 28 de setembro, a Prefeitura de Paulínia realizará um mutirão para emissão e atualização de laudos para pessoas com deficiência. O evento será realizado no Fundo Social, das 9h às 13h, e disponibilizará 45 vagas.</p>\n<p>As senhas para o atendimento serão distribuídas a partir das 8h30, por ordem de chegada. Para participar, é necessário realizar a inscrição pelo formulário disponível no site da Prefeitura e apresentar documentos como RG, CPF e laudos médicos relacionados à deficiência.</p>\n<h2>O que muda</h2>\n<p>Esse mutirão tem como objetivo facilitar o acesso das pessoas com deficiência à documentação necessária, promovendo a inclusão e a acessibilidade.</p>\n<h2>Como participar</h2>\n<p>Os interessados devem se inscrever no site <a href=\"https://www.paulinia.sp.gov.br/qualificapaulinia\">paulinia.sp.gov.br/qualificapaulinia</a> e levar a documentação exigida no dia do evento.</p>",
+        "service_box": {
+          "enabled": true,
+          "title": "Informações do Mutirão",
+          "items": [
+            {
+              "title": "Data e horário",
+              "description": "28 de setembro, das 9h às 13h."
+            },
+            {
+              "title": "Local",
+              "description": "Fundo Social de Paulínia."
+            },
+            {
+              "title": "Vagas disponíveis",
+              "description": "45 vagas."
+            },
+            {
+              "title": "Distribuição de senhas",
+              "description": "A partir das 8h30, por ordem de chegada."
+            },
+            {
+              "title": "Documentação necessária",
+              "description": "RG, CPF e laudos médicos relacionados à deficiência."
+            }
+          ]
+        },
+        "seo": {
+          "seo_title": "Mutirão de emissão de laudos para PCDs em Paulínia",
+          "meta_description": "A Prefeitura de Paulínia promove um mutirão de emissão e atualização de laudos para pessoas com deficiência no dia 28 de setembro.",
+          "slug": "mutirao-emissao-laudos-pcds-paulinia",
+          "tags": [
+            "mutirão",
+            "laudos",
+            "pessoas com deficiência",
+            "Paulínia",
+            "inclusão",
+            "acessibilidade"
+          ]
+        },
+        "sources_used": [
+          "Prefeitura de Paulínia"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-17T03:19:07.106Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 0,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 5,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [],
+        "corrected_article": null,
+        "review_summary": "",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-17T03:19:09.146Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-17T03:19:09.268Z"
+    }
+  },
+  {
     "id": "2026-09-17-reuniao-em-paulinia-reune-400-apoiadores",
     "data": "2026-09-17",
     "escopo": "paulinia",
