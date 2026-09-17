@@ -1,5 +1,395 @@
 [
   {
+    "id": "2026-09-17-reuniao-em-paulinia-reune-400-apoiadores",
+    "data": "2026-09-17",
+    "escopo": "paulinia",
+    "tag": "Du Cazellato",
+    "selo": "confirmado",
+    "titulo": "Reunião em Paulínia reúne 400 apoiadores de Du Cazellato",
+    "resumo": "Mobilização foi organizada por Lucas Barros e Bonavita Barros em apoio à candidatura do ex-prefeito.",
+    "texto_completo": "A reunião, que ocorreu no último sábado, 16 de setembro, foi um marco na campanha de Du Cazellato, que busca retornar à Prefeitura de Paulínia. Os organizadores, Lucas Barros e Bonavita Barros, são figuras proeminentes na política local e contaram com a presença de diversos apoiadores.\n\nA mobilização demonstra um forte apoio à candidatura, o que pode impactar as próximas etapas da campanha eleitoral na cidade. O evento foi marcado por discursos e a presença de lideranças locais que reforçaram a importância de Du Cazellato para o futuro de Paulínia.",
+    "foto": "https://tribunapaulinia.com.br/wp-content/uploads/2026/09/lucasdu.jpeg",
+    "foto_credito": "Tribuna Paulínia",
+    "fonte_nome": "Tribuna Paulínia",
+    "fonte_url": "https://tribunapaulinia.com.br/lucas-barros-e-bonavita-barros-reunem-cerca-de-400-pessoas-em-apoio-a-du-cazellato-em-paulinia/",
+    "linha_fina": "Mobilização foi organizada por Lucas Barros e Bonavita Barros em apoio à candidatura do ex-prefeito.",
+    "diz_em_resumo": [
+      "Cerca de 400 pessoas marcaram presença no encontro de apoio a Du Cazellato.",
+      "A mobilização pode influenciar a campanha eleitoral na cidade.",
+      "Lucas Barros e Bonavita Barros são figuras conhecidas na política local."
+    ],
+    "body_html": "<p>A reunião, que ocorreu no último sábado, 16 de setembro, foi um marco na campanha de Du Cazellato, que busca retornar à Prefeitura de Paulínia. Os organizadores, Lucas Barros e Bonavita Barros, são figuras proeminentes na política local e contaram com a presença de diversos apoiadores.</p><p>A mobilização demonstra um forte apoio à candidatura, o que pode impactar as próximas etapas da campanha eleitoral na cidade. O evento foi marcado por discursos e a presença de lideranças locais que reforçaram a importância de Du Cazellato para o futuro de Paulínia.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Reunião de apoio a Du Cazellato em Paulínia",
+      "meta_description": "Cerca de 400 pessoas se reuniram em Paulínia em apoio à candidatura de Du Cazellato, organizada por Lucas Barros e Bonavita Barros.",
+      "slug": "reuniao-apoio-du-cazellato-paulinia",
+      "tags": [
+        "Du Cazellato",
+        "Política",
+        "Paulínia",
+        "Lucas Barros",
+        "Bonavita Barros"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260917-000005",
+    "run_id": "888d2250-b34c-4538-a4f1-5199b176fed1",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260917-000005",
+        "decision": "PUBLICAR",
+        "priority": "HIGH",
+        "editorial_score": 80,
+        "geographic_level": 5,
+        "primary_category": "Política",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "NEW",
+        "related_article_id": null,
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "Reunião de apoio a candidatura de Du Cazellato é relevante para o cenário político local.",
+        "news_fact": "Lucas Barros e Bonavita Barros reúnem cerca de 400 pessoas em apoio a Du Cazellato em Paulínia.",
+        "local_relevance": "Relevante para a política local e engajamento da comunidade.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Analisar o impacto da mobilização em torno da candidatura de Du Cazellato.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "888d2250-b34c-4538-a4f1-5199b176fed1",
+        "timestamp": "2026-09-17T03:16:32.052Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "Lucas Barros e Bonavita Barros reuniram cerca de 400 pessoas em apoio à candidatura de Du Cazellato em Paulínia.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "Tribuna Paulínia",
+            "url": "https://tribunapaulinia.com.br/lucas-barros-e-bonavita-barros-reunem-cerca-de-400-pessoas-em-apoio-a-du-cazellato-em-paulinia/",
+            "type": "notícia",
+            "published_at": "2026-09-16T21:17:42.000Z",
+            "retrieved_at": "2026-09-16T21:17:42.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "Cerca de 400 pessoas participaram do encontro de apoio a Du Cazellato.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": false,
+        "right_of_reply_targets": [],
+        "gaps": [],
+        "recommended_angle": "Analisar o impacto da mobilização em torno da candidatura de Du Cazellato.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-17T03:16:52.730Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Política",
+        "headline": "Reunião em Paulínia reúne 400 apoiadores de Du Cazellato",
+        "subheadline": "Mobilização foi organizada por Lucas Barros e Bonavita Barros em apoio à candidatura do ex-prefeito.",
+        "diz_em_resumo": [
+          "Cerca de 400 pessoas marcaram presença no encontro de apoio a Du Cazellato.",
+          "A mobilização pode influenciar a campanha eleitoral na cidade.",
+          "Lucas Barros e Bonavita Barros são figuras conhecidas na política local."
+        ],
+        "lead": "Cerca de 400 pessoas se reuniram em Paulínia para apoiar a candidatura de Du Cazellato, em um evento organizado por Lucas Barros e Bonavita Barros.",
+        "body_html": "<p>A reunião, que ocorreu no último sábado, 16 de setembro, foi um marco na campanha de Du Cazellato, que busca retornar à Prefeitura de Paulínia. Os organizadores, Lucas Barros e Bonavita Barros, são figuras proeminentes na política local e contaram com a presença de diversos apoiadores.</p><p>A mobilização demonstra um forte apoio à candidatura, o que pode impactar as próximas etapas da campanha eleitoral na cidade. O evento foi marcado por discursos e a presença de lideranças locais que reforçaram a importância de Du Cazellato para o futuro de Paulínia.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Reunião de apoio a Du Cazellato em Paulínia",
+          "meta_description": "Cerca de 400 pessoas se reuniram em Paulínia em apoio à candidatura de Du Cazellato, organizada por Lucas Barros e Bonavita Barros.",
+          "slug": "reuniao-apoio-du-cazellato-paulinia",
+          "tags": [
+            "Du Cazellato",
+            "Política",
+            "Paulínia",
+            "Lucas Barros",
+            "Bonavita Barros"
+          ]
+        },
+        "sources_used": [
+          "Tribuna Paulínia"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-17T03:16:57.649Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 0,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 1,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [],
+        "corrected_article": null,
+        "review_summary": "",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-17T03:16:59.682Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-17T03:16:59.808Z"
+    }
+  },
+  {
+    "id": "2026-09-17-eleicoes-2026-terao-seis-escolhas-na",
+    "data": "2026-09-17",
+    "escopo": "paulinia",
+    "tag": "Eleições 2026",
+    "selo": "confirmado",
+    "titulo": "Eleições 2026 terão seis escolhas na urna eletrônica no primeiro turno",
+    "resumo": "Eleitores poderão votar para Senado, Executivos estadual e federal, além do Legislativo.",
+    "texto_completo": "As Eleições 2026 terão um formato diferente, com os eleitores podendo realizar seis escolhas na urna eletrônica no primeiro turno, que acontecerá em 4 de outubro. Entre as novidades, os eleitores terão direito a dois votos para o Senado, além de escolher representantes para os Executivos estadual e federal e para o Legislativo.\n\nO que muda\nEssa mudança no sistema de votação visa ampliar a participação popular e permitir uma representação mais diversificada nos cargos eletivos. A inclusão de dois votos para o Senado é uma das principais alterações que pode influenciar a dinâmica das campanhas eleitorais e a formação do novo Congresso.\n\nQuem será afetado\nTodos os eleitores que votarem nas eleições de 2026 serão impactados por essas novas regras. A expectativa é que isso gere um maior engajamento da população nas questões políticas e nas escolhas dos representantes.\n\nQuando começa\nO primeiro turno das eleições está agendado para o dia 4 de outubro de 2026, e a preparação para o pleito já está em andamento.",
+    "foto": "https://tribunapaulinia.com.br/wp-content/uploads/2026/09/eleicoes.jpeg",
+    "foto_credito": "Tribuna Paulínia",
+    "fonte_nome": "Tribuna Paulínia",
+    "fonte_url": "https://tribunapaulinia.com.br/eleicoes-2026-terao-seis-escolhas-na-urna-veja-a-funcao-de-cada-cargo/",
+    "linha_fina": "Eleitores poderão votar para Senado, Executivos estadual e federal, além do Legislativo.",
+    "diz_em_resumo": [
+      "Os eleitores terão dois votos para o Senado.",
+      "Serão escolhidos representantes para os Executivos estadual e federal.",
+      "Os eleitores também votarão para o Legislativo.",
+      "O primeiro turno ocorrerá no dia 4 de outubro de 2026.",
+      "As novas escolhas podem impactar a representação política."
+    ],
+    "body_html": "<p>As Eleições 2026 terão um formato diferente, com os eleitores podendo realizar seis escolhas na urna eletrônica no primeiro turno, que acontecerá em 4 de outubro. Entre as novidades, os eleitores terão direito a dois votos para o Senado, além de escolher representantes para os Executivos estadual e federal e para o Legislativo.</p>\n<h2>O que muda</h2>\n<p>Essa mudança no sistema de votação visa ampliar a participação popular e permitir uma representação mais diversificada nos cargos eletivos. A inclusão de dois votos para o Senado é uma das principais alterações que pode influenciar a dinâmica das campanhas eleitorais e a formação do novo Congresso.</p>\n<h2>Quem será afetado</h2>\n<p>Todos os eleitores que votarem nas eleições de 2026 serão impactados por essas novas regras. A expectativa é que isso gere um maior engajamento da população nas questões políticas e nas escolhas dos representantes.</p>\n<h2>Quando começa</h2>\n<p>O primeiro turno das eleições está agendado para o dia 4 de outubro de 2026, e a preparação para o pleito já está em andamento.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Eleições 2026: novas regras de votação",
+      "meta_description": "Entenda as mudanças nas eleições 2026, que contarão com seis escolhas na urna eletrônica, incluindo dois votos para o Senado.",
+      "slug": "eleicoes-2026-novas-regras-votacao",
+      "tags": [
+        "Eleições 2026",
+        "Votação",
+        "Senado",
+        "Legislativo"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260917-000004",
+    "run_id": "888d2250-b34c-4538-a4f1-5199b176fed1",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260917-000004",
+        "decision": "PUBLICAR",
+        "priority": "HIGH",
+        "editorial_score": 75,
+        "geographic_level": 5,
+        "primary_category": "Política",
+        "secondary_categories": [],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "NEW",
+        "related_article_id": null,
+        "reporting_level": "STANDARD",
+        "human_review": false,
+        "source_confidence": "MEDIUM",
+        "reason": "Informação relevante sobre as eleições de 2026, com impacto direto na população.",
+        "news_fact": "Eleições 2026 terão seis escolhas na urna, incluindo novos cargos.",
+        "local_relevance": "Importante para os eleitores de Paulínia.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "Explorar as implicações das novas escolhas na urna para os eleitores.",
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v1",
+        "run_id": "888d2250-b34c-4538-a4f1-5199b176fed1",
+        "timestamp": "2026-09-17T03:16:32.052Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "As Eleições 2026 terão seis escolhas na urna eletrônica no primeiro turno, marcado para 4 de outubro.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "Tribuna Paulínia",
+            "url": "https://tribunapaulinia.com.br/eleicoes-2026-terao-seis-escolhas-na-urna-veja-a-funcao-de-cada-cargo/",
+            "type": "jornalístico",
+            "published_at": "2026-09-16T21:19:34.000Z",
+            "retrieved_at": ""
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "Os eleitores terão dois votos para o Senado e escolherão representantes para os Executivos estadual e federal e para o Legislativo.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": false,
+        "right_of_reply_targets": [],
+        "gaps": [],
+        "recommended_angle": "Explorar as implicações das novas escolhas na urna para os eleitores.",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-17T03:16:52.733Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "Política",
+        "headline": "Eleições 2026 terão seis escolhas na urna eletrônica no primeiro turno",
+        "subheadline": "Eleitores poderão votar para Senado, Executivos estadual e federal, além do Legislativo.",
+        "diz_em_resumo": [
+          "Os eleitores terão dois votos para o Senado.",
+          "Serão escolhidos representantes para os Executivos estadual e federal.",
+          "Os eleitores também votarão para o Legislativo.",
+          "O primeiro turno ocorrerá no dia 4 de outubro de 2026.",
+          "As novas escolhas podem impactar a representação política."
+        ],
+        "lead": "As Eleições 2026, marcadas para o dia 4 de outubro, contarão com seis opções de voto na urna eletrônica, aumentando a participação dos eleitores nas decisões políticas.",
+        "body_html": "<p>As Eleições 2026 terão um formato diferente, com os eleitores podendo realizar seis escolhas na urna eletrônica no primeiro turno, que acontecerá em 4 de outubro. Entre as novidades, os eleitores terão direito a dois votos para o Senado, além de escolher representantes para os Executivos estadual e federal e para o Legislativo.</p>\n<h2>O que muda</h2>\n<p>Essa mudança no sistema de votação visa ampliar a participação popular e permitir uma representação mais diversificada nos cargos eletivos. A inclusão de dois votos para o Senado é uma das principais alterações que pode influenciar a dinâmica das campanhas eleitorais e a formação do novo Congresso.</p>\n<h2>Quem será afetado</h2>\n<p>Todos os eleitores que votarem nas eleições de 2026 serão impactados por essas novas regras. A expectativa é que isso gere um maior engajamento da população nas questões políticas e nas escolhas dos representantes.</p>\n<h2>Quando começa</h2>\n<p>O primeiro turno das eleições está agendado para o dia 4 de outubro de 2026, e a preparação para o pleito já está em andamento.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Eleições 2026: novas regras de votação",
+          "meta_description": "Entenda as mudanças nas eleições 2026, que contarão com seis escolhas na urna eletrônica, incluindo dois votos para o Senado.",
+          "slug": "eleicoes-2026-novas-regras-votacao",
+          "tags": [
+            "Eleições 2026",
+            "Votação",
+            "Senado",
+            "Legislativo"
+          ]
+        },
+        "sources_used": [
+          "Tribuna Paulínia"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-17T03:16:57.651Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 0,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 2,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [],
+        "corrected_article": null,
+        "review_summary": "",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-17T03:16:59.683Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-17T03:16:59.808Z"
+    }
+  },
+  {
     "id": "2026-09-16-18h-mutirao-em-paulinia-facilita-emissao-de",
     "data": "2026-09-16",
     "escopo": "paulinia",
