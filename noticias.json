@@ -1,5 +1,624 @@
 [
   {
+    "id": "2026-09-22-festa-nordestina-de-paulinia-2026-contara",
+    "data": "2026-09-22",
+    "escopo": "paulinia",
+    "tag": "Festa Nordestina",
+    "selo": "confirmado",
+    "titulo": "Festa Nordestina de Paulínia 2026 contará com shows de Bicho de Pé e Circuladô de Fulô",
+    "resumo": "Os artistas foram confirmados pela organização do evento.",
+    "texto_completo": "A Festa Nordestina de Paulínia 2026 já tem atrações confirmadas. Os grupos Bicho de Pé e Circuladô de Fulô se apresentarão durante o evento, que promete celebrar a cultura nordestina na cidade.",
+    "foto": "https://raw.githubusercontent.com/Carriel-maker/rede-diz-paulinia/main/imagens-editadas/shows-gratuitos-em-paulinia-bicho-de-semlogo-1790103009147.png",
+    "foto_credito": "Portal Paulínia (marca removida por IA)",
+    "fonte_nome": "Portal Paulínia",
+    "fonte_url": "https://www.portalpaulinia.com/noticia/3376/paulinia/eventos/shows-gratuitos-em-paulinia-bicho-de-pe-e-circulado-de-fulo-sao-confirmados-na-festa-nordestina-2026.html",
+    "linha_fina": "Os artistas foram confirmados pela organização do evento.",
+    "diz_em_resumo": [
+      "A Festa Nordestina de Paulínia 2026 terá shows gratuitos.",
+      "Os grupos Bicho de Pé e Circuladô de Fulô são atrações confirmadas.",
+      "O evento promete celebrar a cultura nordestina na cidade."
+    ],
+    "body_html": "<p>A Festa Nordestina de Paulínia 2026 já tem atrações confirmadas. Os grupos Bicho de Pé e Circuladô de Fulô se apresentarão durante o evento, que promete celebrar a cultura nordestina na cidade.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Shows de Bicho de Pé e Circuladô de Fulô na Festa Nordestina de Paulínia 2026",
+      "meta_description": "A Festa Nordestina de Paulínia 2026 contará com shows de Bicho de Pé e Circuladô de Fulô, celebrando a cultura nordestina.",
+      "slug": "festa-nordestina-paulinia-2026-shows-bicho-de-pe-circulado-fulo",
+      "tags": [
+        "Festa Nordestina",
+        "Bicho de Pé",
+        "Circuladô de Fulô",
+        "Paulínia",
+        "Cultura"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260922-000004",
+    "run_id": "724fd4ef-e5d8-4436-989a-47fccd39874f",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260922-000004",
+        "decision": "PUBLICAR",
+        "priority": "HIGH",
+        "display_level": "DESTAQUE",
+        "editorial_score": 85,
+        "geographic_scope": "PAULINIA",
+        "primary_category": "CULTURA",
+        "secondary_categories": [
+          "EVENTO"
+        ],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "NEW",
+        "related_article_id": null,
+        "reporting_level": "LIGHT",
+        "human_review": false,
+        "source_confidence": "HIGH",
+        "promotional_risk": false,
+        "political_promotion_risk": false,
+        "reason": "Shows gratuitos são de grande interesse para a comunidade local.",
+        "news_fact": "A Festa Nordestina de Paulínia 2026 terá shows de Bicho de Pé e Circuladô de Fulô.",
+        "why_it_matters": "Os shows gratuitos promovem a cultura local e oferecem entretenimento à população.",
+        "paulinia_connection": "O evento ocorrerá em Paulínia, envolvendo diretamente a comunidade.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "",
+        "warnings": [],
+        "final_gate": {
+          "approved": true,
+          "reason": ""
+        },
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v2",
+        "run_id": "724fd4ef-e5d8-4436-989a-47fccd39874f",
+        "timestamp": "2026-09-22T18:49:30.514Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "A Festa Nordestina de Paulínia 2026 terá shows de Bicho de Pé e Circuladô de Fulô.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "Portal Paulínia",
+            "url": "https://www.portalpaulinia.com/noticia/3376/paulinia/eventos/shows-gratuitos-em-paulinia-bicho-de-pe-e-circulado-de-fulo-sao-confirmados-na-festa-nordestina-2026.html",
+            "type": "notícia",
+            "published_at": "2026-09-22T15:48:19.000Z",
+            "retrieved_at": "2026-09-22T15:48:19.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "A Festa Nordestina de Paulínia 2026 terá shows de Bicho de Pé e Circuladô de Fulô.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": false,
+        "right_of_reply_targets": [],
+        "gaps": [],
+        "recommended_angle": "",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-22T18:50:19.224Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "cultura",
+        "headline": "Festa Nordestina de Paulínia 2026 contará com shows de Bicho de Pé e Circuladô de Fulô",
+        "subheadline": "Os artistas foram confirmados pela organização do evento.",
+        "diz_em_resumo": [
+          "A Festa Nordestina de Paulínia 2026 terá shows gratuitos.",
+          "Os grupos Bicho de Pé e Circuladô de Fulô são atrações confirmadas.",
+          "O evento promete celebrar a cultura nordestina na cidade."
+        ],
+        "lead": "A Festa Nordestina de Paulínia 2026 terá shows de Bicho de Pé e Circuladô de Fulô, confirmados pela organização do evento.",
+        "body_html": "<p>A Festa Nordestina de Paulínia 2026 já tem atrações confirmadas. Os grupos Bicho de Pé e Circuladô de Fulô se apresentarão durante o evento, que promete celebrar a cultura nordestina na cidade.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Shows de Bicho de Pé e Circuladô de Fulô na Festa Nordestina de Paulínia 2026",
+          "meta_description": "A Festa Nordestina de Paulínia 2026 contará com shows de Bicho de Pé e Circuladô de Fulô, celebrando a cultura nordestina.",
+          "slug": "festa-nordestina-paulinia-2026-shows-bicho-de-pe-circulado-fulo",
+          "tags": [
+            "Festa Nordestina",
+            "Bicho de Pé",
+            "Circuladô de Fulô",
+            "Paulínia",
+            "Cultura"
+          ]
+        },
+        "sources_used": [
+          "Portal Paulínia"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-22T18:50:24.409Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 1,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 1,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [],
+        "corrected_article": null,
+        "review_summary": "A matéria está bem estruturada e todas as informações estão suportadas pelo dossiê de apuração. Não foram encontrados problemas factuais ou de atribuição.",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-22T18:50:28.401Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-22T18:50:28.514Z"
+    }
+  },
+  {
+    "id": "2026-09-22-tre-sp-aprova-candidaturas-de-pedro",
+    "data": "2026-09-22",
+    "escopo": "paulinia",
+    "tag": "TRE-SP",
+    "selo": "confirmado",
+    "titulo": "TRE-SP aprova candidaturas de Pedro Bernarde e Robert Paiva a deputado federal",
+    "resumo": "Decisão foi tomada por votação unânime no Tribunal Regional Eleitoral de São Paulo.",
+    "texto_completo": "O Tribunal Regional Eleitoral de São Paulo (TRE-SP) aprovou, por votação unânime, os registros de candidatura a deputado federal de Pedro Bernarde, do Democratas (DC), e Robert Paiva, do PSDB. A decisão foi confirmada em sessão realizada na última terça-feira.",
+    "foto": "https://correiopaulinense.com/wp-content/uploads/2026/09/bernardeepaiva.jpg",
+    "foto_credito": "Correio Paulinense",
+    "fonte_nome": "Correio Paulinense",
+    "fonte_url": "https://correiopaulinense.com/tribunal-regional-eleitoral-aprova-candidaturas-de-bernarde-e-paiva-a-camara-dos-deputados/",
+    "linha_fina": "Decisão foi tomada por votação unânime no Tribunal Regional Eleitoral de São Paulo.",
+    "diz_em_resumo": [
+      "Pedro Bernarde (DC) teve seu registro de candidatura deferido.",
+      "Robert Paiva (PSDB) também teve sua candidatura aprovada pelo TRE-SP.",
+      "Ambos os candidatos concorrem a uma vaga na Câmara dos Deputados."
+    ],
+    "body_html": "<p>O Tribunal Regional Eleitoral de São Paulo (TRE-SP) aprovou, por votação unânime, os registros de candidatura a deputado federal de Pedro Bernarde, do Democratas (DC), e Robert Paiva, do PSDB. A decisão foi confirmada em sessão realizada na última terça-feira.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "TRE-SP aprova candidaturas de Bernarde e Paiva",
+      "meta_description": "O Tribunal Regional Eleitoral de São Paulo (TRE-SP) aprovou as candidaturas a deputado federal de Pedro Bernarde (DC) e Robert Paiva (PSDB).",
+      "slug": "tre-sp-aprova-candidaturas-bernarde-paiva",
+      "tags": [
+        "TRE-SP",
+        "candidaturas",
+        "deputado federal",
+        "Política Paulinia"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260922-000009",
+    "run_id": "724fd4ef-e5d8-4436-989a-47fccd39874f",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260922-000009",
+        "decision": "PUBLICAR",
+        "priority": "HIGH",
+        "display_level": "DESTAQUE",
+        "editorial_score": 82,
+        "geographic_scope": "PAULINIA",
+        "primary_category": "POLÍTICA",
+        "secondary_categories": [
+          "ELEIÇÕES"
+        ],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "NEW",
+        "related_article_id": null,
+        "reporting_level": "LIGHT",
+        "human_review": false,
+        "source_confidence": "HIGH",
+        "promotional_risk": false,
+        "political_promotion_risk": false,
+        "reason": "A aprovação das candidaturas é relevante para o cenário político local.",
+        "news_fact": "Tribunal Regional Eleitoral aprova candidaturas de Bernarde e Paiva à Câmara dos Deputados.",
+        "why_it_matters": "As candidaturas podem influenciar a representação política de Paulínia.",
+        "paulinia_connection": "Os candidatos são figuras conhecidas na política local.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "",
+        "warnings": [],
+        "final_gate": {
+          "approved": true,
+          "reason": ""
+        },
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v2",
+        "run_id": "724fd4ef-e5d8-4436-989a-47fccd39874f",
+        "timestamp": "2026-09-22T18:49:30.514Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "O Tribunal Regional Eleitoral de São Paulo (TRE-SP) aprovou, por votação unânime, o registro de candidatura a deputado federal de Pedro Bernarde (DC) e Robert Paiva (PSDB).",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "Correio Paulinense",
+            "url": "https://correiopaulinense.com/tribunal-regional-eleitoral-aprova-candidaturas-de-bernarde-e-paiva-a-camara-dos-deputados/",
+            "type": "notícia",
+            "published_at": "2026-09-22T01:19:57.000Z",
+            "retrieved_at": "2026-09-22T01:19:57.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "O registro de candidatura a deputado federal de Pedro Bernarde (DC) foi deferido pelo TRE-SP.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          },
+          {
+            "claim_id": "C02",
+            "claim": "O registro de candidatura a deputado federal de Robert Paiva (PSDB) foi deferido pelo TRE-SP.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": false,
+        "right_of_reply_targets": [],
+        "gaps": [],
+        "recommended_angle": "",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-22T18:50:19.225Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "POLÍTICA",
+        "headline": "TRE-SP aprova candidaturas de Pedro Bernarde e Robert Paiva a deputado federal",
+        "subheadline": "Decisão foi tomada por votação unânime no Tribunal Regional Eleitoral de São Paulo.",
+        "diz_em_resumo": [
+          "Pedro Bernarde (DC) teve seu registro de candidatura deferido.",
+          "Robert Paiva (PSDB) também teve sua candidatura aprovada pelo TRE-SP.",
+          "Ambos os candidatos concorrem a uma vaga na Câmara dos Deputados."
+        ],
+        "lead": "O Tribunal Regional Eleitoral de São Paulo (TRE-SP) aprovou, por votação unânime, o registro de candidatura a deputado federal de Pedro Bernarde (DC) e Robert Paiva (PSDB).",
+        "body_html": "<p>O Tribunal Regional Eleitoral de São Paulo (TRE-SP) aprovou, por votação unânime, os registros de candidatura a deputado federal de Pedro Bernarde, do Democratas (DC), e Robert Paiva, do PSDB. A decisão foi confirmada em sessão realizada na última terça-feira.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "TRE-SP aprova candidaturas de Bernarde e Paiva",
+          "meta_description": "O Tribunal Regional Eleitoral de São Paulo (TRE-SP) aprovou as candidaturas a deputado federal de Pedro Bernarde (DC) e Robert Paiva (PSDB).",
+          "slug": "tre-sp-aprova-candidaturas-bernarde-paiva",
+          "tags": [
+            "TRE-SP",
+            "candidaturas",
+            "deputado federal",
+            "Política Paulinia"
+          ]
+        },
+        "sources_used": [
+          "Correio Paulinense"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-22T18:50:24.411Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 0,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 3,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [],
+        "corrected_article": null,
+        "review_summary": "",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-22T18:50:28.403Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-22T18:50:28.515Z"
+    }
+  },
+  {
+    "id": "2026-09-22-inscricoes-abertas-para-nova-fase-do",
+    "data": "2026-09-22",
+    "escopo": "paulinia",
+    "tag": "castração",
+    "selo": "confirmado",
+    "titulo": "Inscrições abertas para nova fase do Programa de Castração de Cães e Gatos em Paulínia",
+    "resumo": "Moradores podem se inscrever para a castração gratuita de seus pets.",
+    "texto_completo": "A Prefeitura de Paulínia anunciou a abertura das inscrições para a nova fase do Programa Municipal de Castração de Cães e Gatos. O programa oferece a castração gratuita de animais, contribuindo para o controle da população de pets na cidade.\n\nOs moradores interessados devem se inscrever para garantir o atendimento. É uma oportunidade para quem deseja cuidar da saúde dos seus animais e, ao mesmo tempo, ajudar na redução do número de animais abandonados.",
+    "foto": "https://www.portalpaulinia.com/arquivos/noticias/3375/inscricoes-abertas-hoje-paulinia-promove-nova-etapa-do-programa-de-castracao-gratuita-de-caes-e-gatos.png",
+    "foto_credito": "Portal Paulínia",
+    "fonte_nome": "Portal Paulínia",
+    "fonte_url": "https://www.portalpaulinia.com/noticia/3375/paulinia/noticias/inscricoes-abertas-hoje-paulinia-promove-nova-etapa-do-programa-de-castracao-gratuita-de-caes-e-gatos.html",
+    "linha_fina": "Moradores podem se inscrever para a castração gratuita de seus pets.",
+    "diz_em_resumo": [
+      "A nova fase do programa é voltada para cães e gatos.",
+      "As inscrições são gratuitas e destinadas a moradores de Paulínia.",
+      "O programa visa controlar a população de animais na cidade."
+    ],
+    "body_html": "<p>A Prefeitura de Paulínia anunciou a abertura das inscrições para a nova fase do Programa Municipal de Castração de Cães e Gatos. O programa oferece a castração gratuita de animais, contribuindo para o controle da população de pets na cidade.</p><p>Os moradores interessados devem se inscrever para garantir o atendimento. É uma oportunidade para quem deseja cuidar da saúde dos seus animais e, ao mesmo tempo, ajudar na redução do número de animais abandonados.</p>",
+    "service_box": {
+      "enabled": false,
+      "title": null,
+      "items": []
+    },
+    "seo": {
+      "seo_title": "Programa de Castração de Cães e Gatos em Paulínia",
+      "meta_description": "Inscrições abertas para a nova fase do Programa Municipal de Castração de Cães e Gatos em Paulínia. Confira como participar.",
+      "slug": "programa-castracao-caes-gatos-paulinia",
+      "tags": [
+        "castração",
+        "cães",
+        "gatos",
+        "saúde animal",
+        "Paulínia"
+      ]
+    },
+    "update_note_required": false,
+    "update_note": null,
+    "story_id": "RD-20260922-000005",
+    "run_id": "724fd4ef-e5d8-4436-989a-47fccd39874f",
+    "mesa_edicao": {
+      "editor": {
+        "story_id": "RD-20260922-000005",
+        "decision": "ATUALIZAR",
+        "priority": "HIGH",
+        "display_level": "NORMAL",
+        "editorial_score": 75,
+        "geographic_scope": "PAULINIA",
+        "primary_category": "SAÚDE",
+        "secondary_categories": [
+          "SERVIÇO"
+        ],
+        "public_interest": true,
+        "audience_interest": true,
+        "duplicate_status": "UPDATE",
+        "related_article_id": "2026-09-21-18h-paulinia-abre-inscricoes-para-castracao-gratuita",
+        "reporting_level": "LIGHT",
+        "human_review": false,
+        "source_confidence": "HIGH",
+        "promotional_risk": false,
+        "political_promotion_risk": false,
+        "reason": "Atualização sobre o programa de castração gratuita, que é de interesse público.",
+        "news_fact": "A Prefeitura de Paulínia abriu inscrições para a nova fase do Programa Municipal de Castração de Cães e Gatos.",
+        "why_it_matters": "O programa é importante para o controle populacional de animais e saúde pública.",
+        "paulinia_connection": "A ação é promovida pela Prefeitura de Paulínia, diretamente relacionada à cidade.",
+        "missing_information": [],
+        "recommended_primary_sources": [],
+        "editorial_angle": "",
+        "warnings": [],
+        "final_gate": {
+          "approved": true,
+          "reason": ""
+        },
+        "model": "gpt-4o-mini",
+        "prompt_version": "editor-v2",
+        "run_id": "724fd4ef-e5d8-4436-989a-47fccd39874f",
+        "timestamp": "2026-09-22T18:49:30.514Z",
+        "ai_parse_ok": true
+      },
+      "apurador": {
+        "reporting_status": "READY_TO_WRITE",
+        "confidence": "HIGH",
+        "verified_news_fact": "A Prefeitura de Paulínia abriu inscrições para a nova fase do Programa Municipal de Castração de Cães e Gatos.",
+        "primary_sources": [
+          {
+            "source_id": "S01",
+            "name": "Portal Paulínia",
+            "url": "https://www.portalpaulinia.com/noticia/3375/paulinia/noticias/inscricoes-abertas-hoje-paulinia-promove-nova-etapa-do-programa-de-castracao-gratuita-de-caes-e-gatos.html",
+            "type": "notícia",
+            "published_at": "2026-09-22T15:48:19.000Z",
+            "retrieved_at": "2026-09-22T15:48:19.000Z"
+          }
+        ],
+        "secondary_sources": [],
+        "verified_claims": [
+          {
+            "claim_id": "C01",
+            "claim": "A Prefeitura de Paulínia abriu inscrições para a nova fase do Programa Municipal de Castração de Cães e Gatos.",
+            "status": "CONFIRMED",
+            "confidence": "HIGH",
+            "source_ids": [
+              "S01"
+            ]
+          }
+        ],
+        "attributed_claims": [],
+        "conflicting_claims": [],
+        "unverified_claims": [],
+        "context": [],
+        "service_information": {},
+        "right_of_reply_required": false,
+        "right_of_reply_targets": [],
+        "gaps": [],
+        "recommended_angle": "",
+        "derived_story": {
+          "exists": false,
+          "suggested_fact": null,
+          "reason": null
+        },
+        "human_review": false,
+        "warnings": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "apurador-v1",
+        "timestamp": "2026-09-22T18:50:19.225Z",
+        "ai_parse_ok": true
+      },
+      "redator": {
+        "section": "saude",
+        "headline": "Inscrições abertas para nova fase do Programa de Castração de Cães e Gatos em Paulínia",
+        "subheadline": "Moradores podem se inscrever para a castração gratuita de seus pets.",
+        "diz_em_resumo": [
+          "A nova fase do programa é voltada para cães e gatos.",
+          "As inscrições são gratuitas e destinadas a moradores de Paulínia.",
+          "O programa visa controlar a população de animais na cidade."
+        ],
+        "lead": "A Prefeitura de Paulínia abriu inscrições para a nova fase do Programa Municipal de Castração de Cães e Gatos, que visa controlar a população de pets na cidade.",
+        "body_html": "<p>A Prefeitura de Paulínia anunciou a abertura das inscrições para a nova fase do Programa Municipal de Castração de Cães e Gatos. O programa oferece a castração gratuita de animais, contribuindo para o controle da população de pets na cidade.</p><p>Os moradores interessados devem se inscrever para garantir o atendimento. É uma oportunidade para quem deseja cuidar da saúde dos seus animais e, ao mesmo tempo, ajudar na redução do número de animais abandonados.</p>",
+        "service_box": {
+          "enabled": false,
+          "title": null,
+          "items": []
+        },
+        "seo": {
+          "seo_title": "Programa de Castração de Cães e Gatos em Paulínia",
+          "meta_description": "Inscrições abertas para a nova fase do Programa Municipal de Castração de Cães e Gatos em Paulínia. Confira como participar.",
+          "slug": "programa-castracao-caes-gatos-paulinia",
+          "tags": [
+            "castração",
+            "cães",
+            "gatos",
+            "saúde animal",
+            "Paulínia"
+          ]
+        },
+        "sources_used": [
+          "Portal Paulínia"
+        ],
+        "update_note_required": false,
+        "update_note": null,
+        "editorial_flags": [],
+        "model": "gpt-4o-mini",
+        "prompt_version": "redator-v1",
+        "timestamp": "2026-09-22T18:50:24.411Z",
+        "ai_parse_ok": true
+      },
+      "revisor": {
+        "review_decision": "APPROVED",
+        "quality_score": 0,
+        "publication_blocked": false,
+        "human_review": false,
+        "issues": [],
+        "fact_check": {
+          "supported_claims": 1,
+          "partially_supported_claims": 0,
+          "unsupported_claims": 0,
+          "contradicted_claims": 0,
+          "misattributed_claims": 0
+        },
+        "headline_check": {
+          "approved": true,
+          "notes": []
+        },
+        "diz_em_resumo_check": {
+          "approved": true,
+          "notes": []
+        },
+        "service_check": {
+          "approved": true,
+          "notes": []
+        },
+        "legal_flags": [],
+        "editorial_flags": [],
+        "corrected_article": null,
+        "review_summary": "",
+        "model": "gpt-4o-mini",
+        "prompt_version": "revisor-v1",
+        "timestamp": "2026-09-22T18:50:28.404Z",
+        "ai_parse_ok": true,
+        "attempt": 1
+      },
+      "published_at": "2026-09-22T18:50:28.517Z"
+    }
+  },
+  {
     "id": "2026-09-21-18h-paulinia-abre-inscricoes-para-castracao-gratuita",
     "data": "2026-09-21",
     "escopo": "paulinia",
