@@ -353,17 +353,25 @@
         var cu = d.uf.filter(function (c) { return c.n === num(m.numero); })[0] || {};
         return { m: m, cm: cm, cu: cu, pos: d.uf.indexOf(cu) + 1 };
       });
-      linhasMon.sort(function (a, b) { return (b.cm.vap || 0) - (a.cm.vap || 0); });
-      var rows = linhasMon.map(function (x) {
-        var m = x.m, cm = x.cm, cu = x.cu, pos = x.pos;
-        return '<tr><td><b>' + esc(m.nome || cu.nome || cm.nome || ('Nº ' + m.numero)) + '</b> <small style="color:#6B7280">' + esc(cu.partido || m.partido || '') + ' ' + m.numero + '</small>' +
-          '<br><small style="color:#6B7280">' + CARGOS[m.cargo].nome + (m.rotulo ? ' · ' + esc(m.rotulo) : '') + '</small></td>' +
-          '<td>' + int(cm.vap) + '<br><small style="color:#6B7280">' + pct(cm.pvap) + '</small></td>' +
-          '<td>' + int(cu.vap) + '<br><small style="color:#6B7280">' + (pos ? pos + 'º no estado' : '—') + '</small></td>' +
-          '<td>' + esc(cu.st || 'Em apuração') + '</td></tr>';
-      }).join('');
-      h += card('Candidatos ligados a Paulínia', '',
-        '<table class="rdap-tbl"><thead><tr><th>Candidato</th><th>Paulínia</th><th>Estado</th><th>Situação</th></tr></thead><tbody>' + rows + '</tbody></table>');
+      // Isonomia: ordem alfabética dentro de cada cargo (não pela votação)
+      function nomeDe(x) { return x.m.nome || x.cu.nome || x.cm.nome || ''; }
+      function tabelaCargo(cargo, titulo) {
+        var lista = linhasMon.filter(function (x) { return x.m.cargo === cargo; });
+        if (!lista.length) return '';
+        lista.sort(function (a, b) { return nomeDe(a).localeCompare(nomeDe(b), 'pt-BR', { sensitivity: 'base' }); });
+        var rows = lista.map(function (x) {
+          var m = x.m, cm = x.cm, cu = x.cu, pos = x.pos;
+          return '<tr><td><b>' + esc(nomeDe(x) || ('Nº ' + m.numero)) + '</b> <small style="color:#6B7280">' + esc(cu.partido || m.partido || '') + ' ' + m.numero + '</small>' +
+            (m.rotulo ? '<br><small style="color:#6B7280">' + esc(m.rotulo) + '</small>' : '') + '</td>' +
+            '<td>' + int(cm.vap) + '<br><small style="color:#6B7280">' + pct(cm.pvap) + '</small></td>' +
+            '<td>' + int(cu.vap) + '<br><small style="color:#6B7280">' + (pos ? pos + 'º no estado' : '—') + '</small></td>' +
+            '<td>' + esc(cu.st || 'Em apuração') + '</td></tr>';
+        }).join('');
+        return card(titulo, 'ordem alfabética',
+          '<table class="rdap-tbl"><thead><tr><th>Candidato</th><th>Paulínia</th><th>Estado</th><th>Situação</th></tr></thead><tbody>' + rows + '</tbody></table>');
+      }
+      h += tabelaCargo('0007', 'Deputados estaduais');
+      h += tabelaCargo('0006', 'Deputados federais');
       return h;
     });
   }
