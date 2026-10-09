@@ -11,7 +11,51 @@
     "foto": "https://raw.githubusercontent.com/Carriel-maker/rede-diz-paulinia/main/imagens-editadas/gigante-americana-planeja-investir-r-10-semlogo-1791543694607.png",
     "foto_credito": "",
     "fonte_nome": "Portal Paulínia",
-    "fonte_url": "https://www.portalpaulinia.com/noticia/3428/paulinia/noticias/gigante-americana-planeja-investir-r-10-bilhoes-em-paulinia-para-transformar-etanol-em-combustivel-sustentavel-de-aviacao.html"
+    "fonte_url": "https://www.portalpaulinia.com/noticia/3428/paulinia/noticias/gigante-americana-planeja-investir-r-10-bilhoes-em-paulinia-para-transformar-etanol-em-combustivel-sustentavel-de-aviacao.html",
+    "destaque_manual": true,
+    "destaque_ate": "2026-10-10"
+  },
+  {
+    "id": "2026-10-09-augusto-cury-declara-apoio-a-flavio",
+    "data": "2026-10-09",
+    "escopo": "brasil",
+    "tag": "Política",
+    "selo": "confirmado",
+    "titulo": "Augusto Cury declara apoio a Flávio Bolsonaro, mas impõe condições",
+    "resumo": "O ex-candidato à presidência Augusto Cury anunciou apoio a Flávio Bolsonaro no segundo turno das eleições, mas ressaltou que não se trata de um 'cheque em branco'. Cury exigiu compromisso em pautas específicas durante a campanha.",
+    "texto_completo": "Augusto Cury, ex-candidato à presidência pelo Avante, informou nesta quinta-feira (8) que decidiu apoiar Flávio Bolsonaro (PL) no segundo turno das eleições de 2026, onde o senador enfrentará Luiz Inácio Lula da Silva (PT). O escritor, que obteve mais de três milhões de votos no primeiro turno, destacou em suas redes sociais que seu suporte não significa um 'cheque em branco' e que ele e a população brasileira irão cobrar compromissos claros do candidato.\n\nCury explicou que sua decisão se deu após uma conversa significativa com Flávio Bolsonaro, na qual o senador aceitou propostas elaboradas por ele. Entre as pautas acordadas estão a defesa da alternância de poder, ampliação da telemedicina, proteção às mulheres, valorização da educação e estímulo ao empreendedorismo. O ex-candidato enfatizou que sua exigência é por um governo que atenda a todos os brasileiros, sem discriminação política.\n\nO apoio foi formalizado após Cury ter optado por um período de silêncio durante a campanha, onde decidiu se manifestar apenas quando considerasse necessário. Ele também deixou claro que sua posição em relação a Lula é motivada por divergências em relação ao projeto de governo do petista, reafirmando seu compromisso com um Brasil melhor, sem ódio ou vinganças.",
+    "foto": "https://s2-g1.glbimg.com/699AVBXLJlgo4rPlRAS1t8CJ3n0=/2338x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/q/U/3nMMyxQHuHNLpNRttBAA/design-sem-nome.jpg",
+    "foto_credito": "",
+    "fonte_nome": "G1",
+    "fonte_url": "https://g1.globo.com/sp/ribeirao-preto-franca/eleicoes/2026/noticia/2026/10/08/cury-diz-que-apoio-a-flavio-bolsonaro-nao-e-cheque-em-branco-eu-e-todo-o-povo-brasileiro-iremos-cobrar.ghtml"
+  },
+  {
+    "id": "2026-10-09-paulinia-promove-2-semana-de-protecao",
+    "data": "2026-10-09",
+    "escopo": "paulinia",
+    "tag": "Utilidade Pública",
+    "selo": "confirmado",
+    "titulo": "Paulínia promove 2ª Semana de Proteção e Defesa Civil com foco em prevenção",
+    "resumo": "A Prefeitura de Paulínia realiza a 2ª Semana de Proteção e Defesa Civil entre 13 e 16 de outubro, com o tema ‘Integração para Resiliência’. O evento busca fortalecer a cultura de prevenção e capacitar profissionais para emergências.",
+    "texto_completo": "A Prefeitura de Paulínia, por meio da Secretaria Municipal de Proteção e Defesa Civil, está promovendo a 2ª Semana de Proteção e Defesa Civil de Paulínia, que ocorrerá de 13 a 16 de outubro. Com o tema ‘Integração para Resiliência’, o evento reúne profissionais, instituições parceiras e a comunidade em uma programação focada na prevenção e resposta a situações de emergência.\n\nApós o sucesso da primeira edição em 2025, a Semana retorna com uma agenda variada, incluindo palestras, painéis, capacitações e simulações. A abertura do evento será no Auditório Carlos Tortelli, no Paço Municipal, e contará com discussões sobre meteorologia, emergências químicas e a importância da capacitação em situações críticas.\n\nEntre as atividades, destaca-se um curso sobre atendimento a emergências químicas, ministrado pela Comissão de Estudos e Prevenção de Acidentes no Transporte Rodoviário de Produtos Perigosos do Estado de São Paulo. Além disso, a programação inclui um exercício simulado digital e uma visita institucional à Refinaria Replan, voltada para representantes da Defesa Civil da Região Metropolitana de Campinas. O Secretário de Proteção e Defesa Civil, Toní Guimarães, enfatiza a importância da integração entre os setores para a criação de uma cultura de prevenção eficaz no município.",
+    "foto": "https://www.paulinia.sp.gov.br/fotos/49a3d2f32dd79e06df383886aba9bd86.jpg",
+    "foto_credito": "",
+    "fonte_nome": "Prefeitura de Paulínia",
+    "fonte_url": "https://www.paulinia.sp.gov.br/portal/noticias/0/3/8298/prefeitura-realiza-2-semana-de-protecao-e-defesa-civil-com-integracao-e-capacitacao-para-prevencao-de-emergencias"
+  },
+  {
+    "id": "2026-10-09-navi-pillay-e-laureada-com-o",
+    "data": "2026-10-09",
+    "escopo": "brasil",
+    "tag": "Política",
+    "selo": "confirmado",
+    "titulo": "Navi Pillay é laureada com o Nobel da Paz 2026 por defesa dos direitos humanos",
+    "resumo": "A jurista sul-africana Navanethem 'Navi' Pillay recebeu o Prêmio Nobel da Paz de 2026, reconhecida por sua atuação na promoção da justiça e dos direitos humanos. Pillay se destacou em sua carreira ao julgar casos de genocídio e lutar contra o apartheid na África do Sul.",
+    "texto_completo": "O Comitê Norueguês do Nobel anunciou, nesta sexta-feira (10), que o Prêmio Nobel da Paz 2026 foi concedido à jurista sul-africana Navanethem 'Navi' Pillay. Com 85 anos, Pillay foi homenageada por sua coragem e integridade em sua trajetória jurídica, bem como por seus esforços em prol da paz e do direito internacional. O presidente do comitê, Jørgen Watne Frydnes, destacou sua contribuição histórica, desde garantir o acesso à defesa de Nelson Mandela até o seu papel como juíza em tribunais internacionais.\n\nPillay, a 21ª mulher a receber o Nobel da Paz, expressou surpresa com a premiação e refletiu sobre a importância de sua luta pelos direitos humanos. Durante sua carreira, ela enfrentou o apartheid na África do Sul e, posteriormente, atuou em tribunais internacionais, incluindo o Tribunal Penal Internacional, onde presidiu casos de genocídio, como o de Ruanda. A premiada também foi a primeira mulher não branca a integrar a Suprema Corte da África do Sul, um marco significativo em sua trajetória.\n\nAlém da medalha de ouro, Pillay receberá 12 milhões de coroas suecas, equivalentes a cerca de R$ 6 milhões. Sua premiação é vista como um recado em defesa do direito internacional, especialmente em um momento em que instituições desse tipo enfrentam desafios globais. O comitê enfatizou que a escolha de Pillay representa um apoio à luta pelos direitos humanos e ao fortalecimento das instituições internacionais.",
+    "foto": "https://s2-g1.glbimg.com/CqKLRojdkrAGKkiOJPyh0J38iSE=/4500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/x/giXcH6TfuCcsH0X08D9g/afp-20261009-d2px49e-v1-highres-norwaynobelpeace.jpg",
+    "foto_credito": "",
+    "fonte_nome": "G1",
+    "fonte_url": "https://g1.globo.com/mundo/noticia/2026/10/09/premio-nobel-da-paz-2026.ghtml"
   },
   {
     "id": "2026-10-09-ultragaz-abre-inscricoes-para-programa-de",
@@ -42,20 +86,6 @@
     "fonte_url": "https://www.paulinia.sp.gov.br/portal/noticias/0/3/8299/conselho-da-pessoa-com-deficiencia-abre-inscricoes-para-novos-integrantes"
   },
   {
-    "id": "2026-10-09-paulinia-promove-2-semana-de-protecao",
-    "data": "2026-10-09",
-    "escopo": "paulinia",
-    "tag": "Utilidade Pública",
-    "selo": "confirmado",
-    "titulo": "Paulínia promove 2ª Semana de Proteção e Defesa Civil com foco em prevenção",
-    "resumo": "A Prefeitura de Paulínia realiza a 2ª Semana de Proteção e Defesa Civil entre 13 e 16 de outubro, com o tema ‘Integração para Resiliência’. O evento busca fortalecer a cultura de prevenção e capacitar profissionais para emergências.",
-    "texto_completo": "A Prefeitura de Paulínia, por meio da Secretaria Municipal de Proteção e Defesa Civil, está promovendo a 2ª Semana de Proteção e Defesa Civil de Paulínia, que ocorrerá de 13 a 16 de outubro. Com o tema ‘Integração para Resiliência’, o evento reúne profissionais, instituições parceiras e a comunidade em uma programação focada na prevenção e resposta a situações de emergência.\n\nApós o sucesso da primeira edição em 2025, a Semana retorna com uma agenda variada, incluindo palestras, painéis, capacitações e simulações. A abertura do evento será no Auditório Carlos Tortelli, no Paço Municipal, e contará com discussões sobre meteorologia, emergências químicas e a importância da capacitação em situações críticas.\n\nEntre as atividades, destaca-se um curso sobre atendimento a emergências químicas, ministrado pela Comissão de Estudos e Prevenção de Acidentes no Transporte Rodoviário de Produtos Perigosos do Estado de São Paulo. Além disso, a programação inclui um exercício simulado digital e uma visita institucional à Refinaria Replan, voltada para representantes da Defesa Civil da Região Metropolitana de Campinas. O Secretário de Proteção e Defesa Civil, Toní Guimarães, enfatiza a importância da integração entre os setores para a criação de uma cultura de prevenção eficaz no município.",
-    "foto": "https://www.paulinia.sp.gov.br/fotos/49a3d2f32dd79e06df383886aba9bd86.jpg",
-    "foto_credito": "",
-    "fonte_nome": "Prefeitura de Paulínia",
-    "fonte_url": "https://www.paulinia.sp.gov.br/portal/noticias/0/3/8298/prefeitura-realiza-2-semana-de-protecao-e-defesa-civil-com-integracao-e-capacitacao-para-prevencao-de-emergencias"
-  },
-  {
     "id": "2026-10-09-flavio-bolsonaro-lidera-o-primeiro-turno",
     "data": "2026-10-09",
     "escopo": "brasil",
@@ -68,34 +98,6 @@
     "foto_credito": "",
     "fonte_nome": "G1",
     "fonte_url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/08/quantos-votos-teve-flavio-bolsonaro-no-primeiro-turno.ghtml"
-  },
-  {
-    "id": "2026-10-09-navi-pillay-e-laureada-com-o",
-    "data": "2026-10-09",
-    "escopo": "brasil",
-    "tag": "Política",
-    "selo": "confirmado",
-    "titulo": "Navi Pillay é laureada com o Nobel da Paz 2026 por defesa dos direitos humanos",
-    "resumo": "A jurista sul-africana Navanethem 'Navi' Pillay recebeu o Prêmio Nobel da Paz de 2026, reconhecida por sua atuação na promoção da justiça e dos direitos humanos. Pillay se destacou em sua carreira ao julgar casos de genocídio e lutar contra o apartheid na África do Sul.",
-    "texto_completo": "O Comitê Norueguês do Nobel anunciou, nesta sexta-feira (10), que o Prêmio Nobel da Paz 2026 foi concedido à jurista sul-africana Navanethem 'Navi' Pillay. Com 85 anos, Pillay foi homenageada por sua coragem e integridade em sua trajetória jurídica, bem como por seus esforços em prol da paz e do direito internacional. O presidente do comitê, Jørgen Watne Frydnes, destacou sua contribuição histórica, desde garantir o acesso à defesa de Nelson Mandela até o seu papel como juíza em tribunais internacionais.\n\nPillay, a 21ª mulher a receber o Nobel da Paz, expressou surpresa com a premiação e refletiu sobre a importância de sua luta pelos direitos humanos. Durante sua carreira, ela enfrentou o apartheid na África do Sul e, posteriormente, atuou em tribunais internacionais, incluindo o Tribunal Penal Internacional, onde presidiu casos de genocídio, como o de Ruanda. A premiada também foi a primeira mulher não branca a integrar a Suprema Corte da África do Sul, um marco significativo em sua trajetória.\n\nAlém da medalha de ouro, Pillay receberá 12 milhões de coroas suecas, equivalentes a cerca de R$ 6 milhões. Sua premiação é vista como um recado em defesa do direito internacional, especialmente em um momento em que instituições desse tipo enfrentam desafios globais. O comitê enfatizou que a escolha de Pillay representa um apoio à luta pelos direitos humanos e ao fortalecimento das instituições internacionais.",
-    "foto": "https://s2-g1.glbimg.com/CqKLRojdkrAGKkiOJPyh0J38iSE=/4500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/x/giXcH6TfuCcsH0X08D9g/afp-20261009-d2px49e-v1-highres-norwaynobelpeace.jpg",
-    "foto_credito": "",
-    "fonte_nome": "G1",
-    "fonte_url": "https://g1.globo.com/mundo/noticia/2026/10/09/premio-nobel-da-paz-2026.ghtml"
-  },
-  {
-    "id": "2026-10-09-augusto-cury-declara-apoio-a-flavio",
-    "data": "2026-10-09",
-    "escopo": "brasil",
-    "tag": "Política",
-    "selo": "confirmado",
-    "titulo": "Augusto Cury declara apoio a Flávio Bolsonaro, mas impõe condições",
-    "resumo": "O ex-candidato à presidência Augusto Cury anunciou apoio a Flávio Bolsonaro no segundo turno das eleições, mas ressaltou que não se trata de um 'cheque em branco'. Cury exigiu compromisso em pautas específicas durante a campanha.",
-    "texto_completo": "Augusto Cury, ex-candidato à presidência pelo Avante, informou nesta quinta-feira (8) que decidiu apoiar Flávio Bolsonaro (PL) no segundo turno das eleições de 2026, onde o senador enfrentará Luiz Inácio Lula da Silva (PT). O escritor, que obteve mais de três milhões de votos no primeiro turno, destacou em suas redes sociais que seu suporte não significa um 'cheque em branco' e que ele e a população brasileira irão cobrar compromissos claros do candidato.\n\nCury explicou que sua decisão se deu após uma conversa significativa com Flávio Bolsonaro, na qual o senador aceitou propostas elaboradas por ele. Entre as pautas acordadas estão a defesa da alternância de poder, ampliação da telemedicina, proteção às mulheres, valorização da educação e estímulo ao empreendedorismo. O ex-candidato enfatizou que sua exigência é por um governo que atenda a todos os brasileiros, sem discriminação política.\n\nO apoio foi formalizado após Cury ter optado por um período de silêncio durante a campanha, onde decidiu se manifestar apenas quando considerasse necessário. Ele também deixou claro que sua posição em relação a Lula é motivada por divergências em relação ao projeto de governo do petista, reafirmando seu compromisso com um Brasil melhor, sem ódio ou vinganças.",
-    "foto": "https://s2-g1.glbimg.com/699AVBXLJlgo4rPlRAS1t8CJ3n0=/2338x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/q/U/3nMMyxQHuHNLpNRttBAA/design-sem-nome.jpg",
-    "foto_credito": "",
-    "fonte_nome": "G1",
-    "fonte_url": "https://g1.globo.com/sp/ribeirao-preto-franca/eleicoes/2026/noticia/2026/10/08/cury-diz-que-apoio-a-flavio-bolsonaro-nao-e-cheque-em-branco-eu-e-todo-o-povo-brasileiro-iremos-cobrar.ghtml"
   },
   {
     "id": "2026-10-09-lollapalooza-2027-festival-em-sao-paulo",
@@ -320,8 +322,8 @@
     "foto_credito": "",
     "fonte_nome": "",
     "fonte_url": "",
-    "destaque_manual": true,
-    "destaque_ate": "2026-10-10"
+    "destaque_manual": false,
+    "destaque_ate": ""
   },
   {
     "id": "2026-10-06-pavilhao-de-eventos-em-paulinia-se",
@@ -1238,8 +1240,8 @@
     "foto_credito": "",
     "fonte_nome": "Rede Diz",
     "fonte_url": "",
-    "destaque_manual": true,
-    "destaque_ate": "2026-12-31"
+    "destaque_manual": false,
+    "destaque_ate": ""
   },
   {
     "id": "2026-09-30-sabesp-preve-normalizacao-do-abastecimento-de",
