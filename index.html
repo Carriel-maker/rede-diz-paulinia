@@ -407,8 +407,12 @@ body = '<div class="grid-2">' + itens.slice(0,4).map(cardHtml).join('') + '</div
 return '<section class="cat-section" id="' + id + '"><div class="section-header"><h2>' + cfg.icon + ' ' + esc(cfg.tag) + '</h2></div>' + body + '</section>';
 }
 
-fetch('noticias.json').then(function(r){ return r.json(); }).then(function(lista){
-lista = lista || [];
+Promise.all([
+fetch('noticias.json').then(function(r){ return r.json(); }),
+fetch('colunas.json').then(function(r){ return r.json(); }).catch(function(){ return []; })
+]).then(function(res){
+var lista = res[0] || [];
+var colunas = res[1] || [];
 function byDataDesc(a,b){ return (b.data||'').localeCompare(a.data||''); }
 var hoje = new Date().toISOString().slice(0,10);
 var pinned = lista.filter(function(it){ return it.destaque_manual === true && it.destaque_ate && it.destaque_ate >= hoje; });
@@ -431,14 +435,21 @@ track.innerHTML = h + h;
 } else { track.closest('.manchetes-bar').style.display = 'none'; }
 }
 
+function hrefOf(it){ return it._href || ('materia.html?id=' + encodeURIComponent(it.id)); }
+var heroNoticias = 4;
 /* HERO */
 var dpGrid = document.querySelector('.dp-grid');
 if(dpGrid){
-var top5 = ordenada.slice(0,5);
+/* coluna Diz que Diz em destaque (destaque_ate em colunas.json) */
+var colDest = colunas.filter(function(c){ return c.destaque_ate && c.destaque_ate >= hoje; }).sort(byDataDesc).slice(0,1).map(function(c){
+return { id: c.id, titulo: c.titulo, resumo: c.resumo, foto: c.foto, tag: 'Diz que Diz \u00b7 ' + (c.autor||'O Vizinho'), _href: 'coluna.html?id=' + encodeURIComponent(c.id) };
+});
+var top5 = colDest.concat(ordenada).slice(0,5);
+heroNoticias = 4 - colDest.length;
 if(top5.length){
 var principal = top5[0];
 var secundarias = top5.slice(1,4);
-var html = '<a class="dp-principal" href="materia.html?id=' + encodeURIComponent(principal.id) + '">' +
+var html = '<a class="dp-principal" href="' + hrefOf(principal) + '">' +
 (principal.foto ? '<img src="' + principal.foto + '" alt="">' : '') +
 '<div class="dp-overlay"><span class="tag-pill">' + esc(principal.tag||'') + '</span><h2>' + esc(principal.titulo) + '</h2><p>' + esc(principal.resumo||'') + '</p></div></a>';
 html += '<div class="dp-secundarias">';
@@ -447,14 +458,14 @@ var wide = secundarias[2];
 if(top2.length){
 html += '<div class="dp-sec-top">';
 top2.forEach(function(it){
-html += '<a class="dp-sec-card" href="materia.html?id=' + encodeURIComponent(it.id) + '">' +
+html += '<a class="dp-sec-card" href="' + hrefOf(it) + '">' +
 (it.foto ? '<img src="' + it.foto + '" alt="">' : '') +
 '<div class="dp-sec-body"><span class="tag-small">' + esc(it.tag||'') + '</span><h3>' + esc(it.titulo) + '</h3></div></a>';
 });
 html += '</div>';
 }
 if(wide){
-html += '<a class="dp-sec-item" href="materia.html?id=' + encodeURIComponent(wide.id) + '">' +
+html += '<a class="dp-sec-item" href="' + hrefOf(wide) + '">' +
 (wide.foto ? '<img src="' + wide.foto + '" alt="">' : '') +
 '<div class="dp-sec-body"><span class="tag-small">' + esc(wide.tag||'') + '</span><h3>' + esc(wide.titulo) + '</h3></div></a>';
 }
@@ -468,7 +479,7 @@ document.querySelector('.destaques-principais').style.display = 'none';
 /* MAIS NOTICIAS - proximos 4 depois do hero */
 var maisGrid = document.getElementById('maisNoticiasGrid');
 if(maisGrid){
-var proximos = ordenada.slice(5,9);
+var proximos = ordenada.slice(heroNoticias, heroNoticias + 4);
 if(!proximos.length) proximos = ordenada.slice(0,4);
 maisGrid.innerHTML = proximos.map(cardHtml).join('');
 }
