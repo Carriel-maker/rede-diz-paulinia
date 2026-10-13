@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-10-13-alerta-laranja-tempestades-paulinia-quarta",
+    "data": "2026-10-13",
+    "escopo": "paulinia",
+    "tag": "Cidade",
+    "selo": "confirmado",
+    "titulo": "Quarta-feira será de alerta para tempestades em Paulínia, com ventos que podem chegar a 100 km/h",
+    "resumo": "Inmet emite alerta laranja para esta quarta (14), com previsão de chuva intensa e possibilidade de granizo. Aviso chega três dias após temporal que provocou estragos na cidade.",
+    "texto_completo": "Paulínia está sob alerta para novas tempestades nesta quarta-feira (14). O Instituto Nacional de Meteorologia (Inmet) emitiu um aviso de perigo, classificado na cor laranja, que prevê chuvas intensas, possibilidade de granizo e rajadas de vento que podem chegar a 100 km/h. O alerta é válido durante todo o dia.\n\nA previsão preocupa especialmente após o forte temporal registrado no último domingo (11), quando a cidade acumulou 73 milímetros de chuva em aproximadamente 27 minutos. Segundo balanço da Defesa Civil municipal, foram registradas oito quedas de árvores, três pontos de alagamento, quatro ocorrências envolvendo fiação elétrica, duas vias interditadas e a queda de um muro. Não houve vítimas.\n\nPara esta terça-feira (13), o Inmet já mantém Paulínia sob alerta amarelo, de perigo potencial, com previsão de chuvas entre 20 e 30 milímetros por hora e ventos de 40 a 60 km/h.\n\nNa quarta-feira, o nível de atenção aumenta. O alerta laranja prevê precipitações de 30 a 60 milímetros por hora, ou acumulados entre 50 e 100 milímetros ao longo do dia, além de ventos entre 60 e 100 km/h. As condições podem provocar quedas de árvores, alagamentos, danos à rede elétrica e interrupções no fornecimento de energia.\n\nA instabilidade deve permanecer na região durante a quinta (15) e a sexta-feira (16), com possibilidade de novos episódios de chuva forte. No sábado (17), a tendência é de diminuição das precipitações, enquanto o domingo (18) deverá ter tempo firme.\n\nOs índices divulgados pelo Inmet representam as condições previstas para a área abrangida pelo alerta e não significam que os volumes máximos de chuva ou as rajadas mais intensas serão necessariamente registrados em Paulínia.\n\nDiante da previsão, a orientação é evitar abrigo debaixo de árvores durante tempestades, não estacionar veículos próximos a estruturas que possam cair e manter distância de áreas alagadas ou com fiação elétrica danificada.\n\nEm situações de emergência, a população pode acionar a Defesa Civil pelo telefone 199 ou o Corpo de Bombeiros pelo 193.\n\nA previsão meteorológica poderá ser atualizada conforme a evolução das condições do tempo nos próximos dias.",
+    "foto": "https://raw.githubusercontent.com/Carriel-maker/rede-diz-paulinia/main/imagens-editadas/alerta-laranja-paulinia-20261013.jpg",
+    "foto_credito": "Arte: Rede Diz",
+    "fonte_nome": "Rede Diz",
+    "fonte_url": "",
+    "destaque_manual": true,
+    "destaque_ate": "2026-10-14"
+  },
+  {
     "id": "2026-10-13-estacoes-do-metro-em-sp-sao",
     "data": "2026-10-13",
     "escopo": "brasil",
