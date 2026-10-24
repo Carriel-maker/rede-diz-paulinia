@@ -1,5 +1,47 @@
 [
   {
+    "id": "2026-10-24-18h-lula-encerra-campanha-na-avenida-paulista",
+    "data": "2026-10-24",
+    "escopo": "brasil",
+    "tag": "Política",
+    "selo": "confirmado",
+    "titulo": "Lula encerra campanha na Avenida Paulista com multidão e fala sobre mobilização popular",
+    "resumo": "O presidente e candidato à reeleição, Luiz Inácio Lula da Silva, realizou seu último ato de campanha na Avenida Paulista, atraindo uma grande multidão. Durante o evento, ele destacou a importância da mobilização popular na corrida eleitoral e expressou confiança na vitória.",
+    "texto_completo": "Neste sábado (24), Luiz Inácio Lula da Silva, atual presidente e candidato à reeleição pelo PT, escolheu a Avenida Paulista como o local para o encerramento de sua campanha para as eleições de 2026. O ato atraiu uma multidão que ocupou 14 dos 18 quarteirões da famosa avenida, dificultando a mobilidade dos veículos que transportavam o candidato e seus aliados, incluindo a esposa Rosangela da Silva e o vice Geraldo Alckmin.\n\nDurante seu discurso, Lula comparou a mobilização da sociedade neste segundo turno com a histórica campanha de 1989, enfatizando que a participação popular é um elemento crucial nesta eleição. Ele afirmou que a eleição não deve ser vista como uma disputa entre partidos, mas sim como uma responsabilidade coletiva do povo. “Estamos vendo uma mobilização que há muitos anos não se via”, ressaltou o presidente, mostrando otimismo em relação ao resultado das urnas.\n\nO evento também contou com a presença de outros políticos e apoiadores, que se uniram em torno da mensagem de defesa da democracia e do futuro do país. A organização do ato passou por reuniões de segurança com as autoridades locais para garantir a segurança do evento, incluindo a solicitação de medidas adicionais para evitar vandalismo e assegurar a fluidez do trânsito na região. A dispersão do público foi planejada para ocorrer na Praça do Ciclista, visando manter a ordem na movimentada Avenida Paulista.",
+    "foto": "https://s2-g1.glbimg.com/9p3fDJXuhPL2VG9E8guaTmPngYo=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/X/kBAJhsTcmJGd1CN8X5jA/hn-geral-ato-lula-moto-link-20261024-1434-frame-241658.jpeg",
+    "foto_credito": "",
+    "fonte_nome": "G1",
+    "fonte_url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/10/24/ato-pro-lula-avenida-paulista.ghtml"
+  },
+  {
+    "id": "2026-10-24-18h-pgr-solicita-ao-stf-suspensao-de",
+    "data": "2026-10-24",
+    "escopo": "brasil",
+    "tag": "Política",
+    "selo": "confirmado",
+    "titulo": "PGR solicita ao STF suspensão de exigência para transporte de indígenas nas eleições",
+    "resumo": "A Procuradoria-Geral da República pediu ao STF a suspensão da autorização prévia para o transporte de eleitores indígenas, alegando que a exigência pode dificultar o acesso ao voto. A medida ocorre a poucos dias do segundo turno das eleições, marcado para este domingo (25).",
+    "texto_completo": "A Procuradoria-Geral da República (PGR) protocolou um pedido junto ao Supremo Tribunal Federal (STF) para que seja suspensa a exigência de autorização prévia da Justiça Eleitoral para o transporte de eleitores indígenas durante o segundo turno das eleições, que ocorrerá no próximo domingo. O procurador-geral, Paulo Gonet, argumenta que essa medida burocrática pode inibir o acesso de milhares de indígenas às urnas, especialmente após uma abstenção de 26% registrada entre eles no primeiro turno, em comparação à média nacional de 20%.\n\nNa última quinta-feira, uma decisão da Justiça Federal do Pará determinou que a União adotasse providências para garantir o transporte gratuito dos indígenas e moradores de comunidades tradicionais até os locais de votação. Essa decisão inclui o uso de veículos e embarcações de órgãos públicos e prevê suporte financeiro e logístico. Entretanto, a nova regra do Tribunal Superior Eleitoral (TSE), que exige aprovação específica para cada operação de transporte, foi vista pela PGR como um entrave. O pedido da PGR visa restabelecer a autorização de transporte mediante comunicação prévia, sem a necessidade de uma autorização individual para cada deslocamento.\n\nO caso é particularmente relevante para comunidades indígenas no Vale do Javari, no Amazonas, onde a Justiça Eleitoral havia negado pedidos de transporte devido a questões burocráticas e logísticas. Com a dificuldade de navegação nos rios da região, a realização do transporte se torna ainda mais complexa. A PGR destaca que medidas de controle, como a identificação de veículos e proibições de propaganda durante o transporte, seriam mantidas para garantir a integridade do processo eleitoral.",
+    "foto": "https://s2-g1.glbimg.com/VqxU1dNewUC6HQrMR9PYV3-XKys=/1500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/T/OKUxfkQJWRJeTAEmZORg/whatsapp-image-2026-10-21-at-09.18.55.jpeg",
+    "foto_credito": "",
+    "fonte_nome": "G1",
+    "fonte_url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/24/pgr-pede-ao-stf-para-derrubar-exigencia-de-autorizacao-previa-para-transporte-de-indigenas-no-2o-turno.ghtml"
+  },
+  {
+    "id": "2026-10-24-18h-vitoria-enfrenta-athletico-pr-em-busca",
+    "data": "2026-10-24",
+    "escopo": "brasil",
+    "tag": "Esporte",
+    "selo": "confirmado",
+    "titulo": "Vitória enfrenta Athletico-PR em busca de pontos no Brasileirão",
+    "resumo": "A partida entre Vitória e Athletico-PR acontece no Barradão, com o time da casa buscando se distanciar do rebaixamento. O Furacão, por sua vez, almeja recuperar a terceira posição na tabela do campeonato.",
+    "texto_completo": "O jogo entre Vitória e Athletico-PR será realizado no Estádio Barradão, em Salvador, e é crucial para ambos os times no Campeonato Brasileiro. O Vitória, que luta para se afastar da zona de rebaixamento, precisa de uma vitória para melhorar sua situação na tabela e garantir um pouco mais de tranquilidade para seus torcedores.\n\nDo outro lado, o Athletico-PR entra em campo determinado a conquistar os três pontos para retomar a terceira colocação, um objetivo importante para a equipe que busca uma vaga na Libertadores. A partida promete ser intensa, com as duas equipes lutando por metas distintas, o que pode proporcionar um grande espetáculo aos fãs do futebol.",
+    "foto": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/11/barradao-vitoria-mirassol-e1764442973284.jpeg?w=820&amp;h=460&amp;crop=1",
+    "foto_credito": "",
+    "fonte_nome": "CNN Brasil",
+    "fonte_url": "https://www.cnnbrasil.com.br/esportes/brasileirao/vitoria-x-athletico-pr-escalacoes-e-onde-assistir-ao-jogo-do-brasileirao/"
+  },
+  {
     "id": "2026-10-24-curso-gratuito-de-manicure-e-pedicure",
     "data": "2026-10-24",
     "escopo": "paulinia",
