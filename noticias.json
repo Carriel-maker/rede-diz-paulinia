@@ -1,5 +1,47 @@
 [
   {
+    "id": "2026-10-25-18h-tse-suspende-apuracao-apos-prorrogacao-do",
+    "data": "2026-10-25",
+    "escopo": "brasil",
+    "tag": "Política",
+    "selo": "confirmado",
+    "titulo": "TSE suspende apuração após prorrogação do horário de votação para 19h",
+    "resumo": "A apuração dos votos do segundo turno das Eleições 2026 foi interrompida após decisão do ministro Cristiano Zanin, que estendeu o prazo de votação até as 19h. A coligação de Lula havia solicitado a prorrogação devido a problemas no transporte público em várias regiões do Brasil.",
+    "texto_completo": "O Tribunal Superior Eleitoral (TSE) decidiu pausar a apuração dos votos do segundo turno das Eleições 2026 após uma determinação do ministro Cristiano Zanin, do Supremo Tribunal Federal (STF), que prorrogou a votação até às 19h. A medida foi tomada em resposta a relatos de dificuldades enfrentadas por eleitores em diversas partes do país, principalmente devido a problemas no transporte público.\n\nSegundo a última atualização do TSE, realizada às 17h06, 1.225 seções eleitorais já haviam apurado seus votos, com o presidente Luiz Inácio Lula da Silva (PT) liderando com 57,66% dos votos, enquanto o senador Flávio Bolsonaro (PL-RJ) registrava 42,34%. A coligação de Lula havia protocolado um pedido de urgência ao TSE, solicitando a prorrogação do horário de encerramento da votação, especialmente em estados como São Paulo, Alagoas e Pernambuco, que relataram dificuldades significativas no transporte.\n\nEntre as irregularidades apontadas, destacam-se a baixa circulação de ônibus em São Paulo, a falta de transporte complementar em Alagoas e a recusa de empresas em cumprir rotas eleitorais em Roraima. Além disso, a campanha de Flávio Bolsonaro também solicitou ao TSE uma prorrogação de duas horas em municípios de Minas Gerais e Rio Grande do Sul que enfrentavam fortes chuvas e problemas de energia elétrica em locais de votação. A situação continua a ser monitorada pelas autoridades eleitorais e pela Polícia Federal, que foi acionada para lidar com possíveis obstruções ao direito de voto.",
+    "foto": "https://s2-g1.glbimg.com/5C7S8uK_oDrjZgrPNFTevldFu0s=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/1/w/waKlfASTu3QMY8m63JRw/g1-2026-10-25t143507.558.jpg",
+    "foto_credito": "",
+    "fonte_nome": "G1",
+    "fonte_url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/25/eleicoes-2026-apuracao-dos-votos-e-pausada-apos-zanin-prorrogar-tempo-de-votacao-ate-as-19h.ghtml"
+  },
+  {
+    "id": "2026-10-25-18h-campanha-de-flavio-bolsonaro-solicita-prorrogacao",
+    "data": "2026-10-25",
+    "escopo": "brasil",
+    "tag": "Política",
+    "selo": "confirmado",
+    "titulo": "Campanha de Flávio Bolsonaro solicita prorrogação do horário de votação em MG e RS devido a chuvas",
+    "resumo": "A campanha do candidato à presidência Flávio Bolsonaro pediu ao TSE a extensão do horário de votação em municípios de Minas Gerais e Rio Grande do Sul afetados por fortes chuvas. A solicitação visa garantir que os eleitores possam votar até as 19h, considerando problemas de energia e transporte na região.",
+    "texto_completo": "Neste domingo, a campanha de Flávio Bolsonaro (PL-RJ) protocolou um pedido ao Tribunal Superior Eleitoral (TSE) solicitando a prorrogação do horário de votação em alguns municípios de Minas Gerais e do Rio Grande do Sul, que enfrentam severas condições climáticas. De acordo com a petição, a votação, que normalmente termina às 17h, deveria ser estendida até as 19h para permitir que os eleitores possam chegar às seções eleitorais, considerando os alagamentos e a falta de energia elétrica que afetam a mobilidade na região.\n\nEntre as cidades citadas na solicitação estão Belo Horizonte e Poços de Caldas em Minas Gerais, além de São Borja, Itaqui e Uruguaiana no Rio Grande do Sul. A campanha argumenta que os problemas causados pelas chuvas, como interrupções no fornecimento de energia e dificuldades de deslocamento, podem impedir que muitos eleitores exerçam o seu direito de voto. Relatórios preliminares indicam que, em Minas Gerais, ao menos 163 locais de votação ficaram sem energia, sendo 18 em Belo Horizonte e 65 na Região Metropolitana.\n\nCaso o TSE não possa atender ao pedido de forma abrangente, a campanha sugere alternativas, como a extensão do horário em locais específicos que enfrentam problemas, ou a autorização para que juízes eleitorais locais possam decidir pela prorrogação da votação nas seções afetadas. A proposta ainda inclui que, se autorizada a extensão, a divulgação dos resultados da eleição presidencial só ocorra após o término da votação nos locais abrangidos pela medida, garantindo a integridade do processo eleitoral.",
+    "foto": "https://s2-g1.glbimg.com/bxGiQZl0bjwyU-UsVIf8Tgp8pJk=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/D/U7JSE4Ry6mhgCgFJCvBg/design-sem-nome-17-.png",
+    "foto_credito": "",
+    "fonte_nome": "G1",
+    "fonte_url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/25/campanha-de-flavio-bolsonaro-pede-pede-ao-tse-extensao-do-horario-de-votacao-em-mg-e-rs-por-chuvas.ghtml"
+  },
+  {
+    "id": "2026-10-25-18h-el-clasico-barcelona-e-real-madrid",
+    "data": "2026-10-25",
+    "escopo": "brasil",
+    "tag": "Esporte",
+    "selo": "confirmado",
+    "titulo": "El Clásico: Barcelona e Real Madrid se enfrentam no Camp Nou pela LaLiga",
+    "resumo": "Barcelona e Real Madrid se enfrentam na décima rodada da LaLiga, no Camp Nou. Uma vitória do Barcelona pode ampliar a vantagem para nove pontos sobre os rivais merengues.",
+    "texto_completo": "Neste final de semana, Barcelona e Real Madrid se encontram no icônico Camp Nou para mais um aguardado El Clásico, válido pela décima rodada da LaLiga. As duas equipes, arquirrivais no futebol espanhol, prometem um grande espetáculo para os torcedores.\n\nO Barcelona, jogando em casa, tem a chance de abrir uma vantagem significativa na tabela. Caso consiga a vitória, a equipe poderá aumentar sua diferença para nove pontos em relação ao Real Madrid, o que pode ser um fator crucial na corrida pelo título nesta temporada. Os fãs do futebol estão ansiosos para ver como as duas potências do esporte se comportarão em um dos jogos mais emocionantes do calendário futebolístico.",
+    "foto": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/barcelona-real-madrid-laliga-5-e1792952051659.jpg?w=1200&amp;h=630&amp;crop=1",
+    "foto_credito": "",
+    "fonte_nome": "CNN Brasil",
+    "fonte_url": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/futebol-espanhol/barcelona-x-real-madrid-escalacoes-e-onde-assistir-ao-el-clasico-de-laliga/"
+  },
+  {
     "id": "2026-10-25-mobilizacoes-em-apoio-a-lula-e",
     "data": "2026-10-25",
     "escopo": "brasil",
