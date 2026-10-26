@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-10-25-lula-e-reeleito-e-conquista-quarto-mandato",
+    "data": "2026-10-25",
+    "escopo": "brasil",
+    "tag": "Política",
+    "selo": "confirmado",
+    "titulo": "Lula é reeleito presidente e conquista quarto mandato após virada sobre Flávio Bolsonaro",
+    "resumo": "Com 98,27% das seções apuradas, Lula tem 51,75% dos votos válidos contra 48,25% de Flávio Bolsonaro. Petista reverteu a desvantagem do 1º turno e governa até 2030; posse será em 5 de janeiro de 2027.",
+    "texto_completo": "Luiz Inácio Lula da Silva (PT) foi reeleito presidente da República neste domingo (25), ao vencer o senador Flávio Bolsonaro (PL) no segundo turno das Eleições 2026. Com 98,27% das seções totalizadas pelo Tribunal Superior Eleitoral (TSE), Lula somava 51,75% dos votos válidos, contra 48,25% do adversário — vantagem que já tornava o resultado matematicamente definido.\n\nA vitória veio de virada. No primeiro turno, em 4 de outubro, Flávio Bolsonaro terminou na frente, com 47,03% dos votos válidos (cerca de 56,1 milhões de votos), enquanto Lula ficou com 45,16% (cerca de 53,9 milhões). Nas três semanas de segunda etapa, o petista conseguiu inverter a diferença de mais de 2 milhões de votos.\n\nCom o resultado, Lula conquista o quarto mandato presidencial, algo inédito na história do país. Ele governou o Brasil entre 2003 e 2010, voltou ao Palácio do Planalto em 2023 e agora seguirá no cargo até o fim de 2030, tendo Geraldo Alckmin (PSB) novamente como vice. Aos 80 anos, será o presidente mais velho a assumir um mandato no Brasil.\n\nA eleição repetiu o embate entre PT e PL que marcou a disputa de 2022, desta vez com o filho mais velho do ex-presidente Jair Bolsonaro como candidato do partido. A apuração foi acirrada no início da noite: nas primeiras parciais, Flávio chegou a aparecer à frente, até que a contagem das demais seções consolidou a vantagem de Lula.\n\nO novo mandato começa em 5 de janeiro de 2027. A data da posse mudou com a Emenda Constitucional 111, de 2021, que deixou de lado o tradicional 1º de janeiro. Até lá, a Justiça Eleitoral fará a diplomação dos eleitos, prevista para até 19 de dezembro, e o governo dá início à preparação do novo ciclo.\n\nO próximo mandato terá pela frente um Congresso em que o PL tem a maior bancada tanto na Câmara quanto no Senado, o que deve exigir negociação intensa para aprovar a agenda do governo.",
+    "foto": "https://raw.githubusercontent.com/Carriel-maker/rede-diz-paulinia/main/imagens-editadas/lula-reeleito-quarto-mandato-20261025.jpg",
+    "foto_credito": "",
+    "fonte_nome": "TSE",
+    "fonte_url": "https://resultados.tse.jus.br/",
+    "destaque_manual": true,
+    "destaque_ate": "2026-10-27"
+  },
+  {
     "id": "2026-10-25-18h-tse-suspende-apuracao-apos-prorrogacao-do",
     "data": "2026-10-25",
     "escopo": "brasil",
