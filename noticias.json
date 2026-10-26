@@ -16,6 +16,22 @@
     "destaque_ate": "2026-10-27"
   },
   {
+    "id": "2026-10-25-flavio-bolsonaro-e-o-mais-votado-em-paulinia",
+    "data": "2026-10-25",
+    "escopo": "paulinia",
+    "tag": "Política",
+    "selo": "confirmado",
+    "titulo": "Em Paulínia, Flávio Bolsonaro é o mais votado no 2º turno",
+    "resumo": "Candidato do PL superou Lula na cidade neste domingo (25), repetindo a vantagem do 1º turno, quando teve 56,28% dos votos válidos em Paulínia. No placar nacional, Lula foi reeleito.",
+    "texto_completo": "Flávio Bolsonaro (PL) foi o candidato a presidente mais votado em Paulínia no segundo turno das Eleições 2026, realizado neste domingo (25). Na cidade, o senador superou Luiz Inácio Lula da Silva (PT), que acabou reeleito para o quarto mandato com a soma dos votos de todo o país.\n\nO resultado local confirma a tendência que já havia aparecido no primeiro turno, em 4 de outubro. Naquela rodada, Flávio venceu com folga em Paulínia: foram 39.264 votos (56,28% dos válidos), contra 23.575 de Lula (33,79%) — uma diferença de mais de 15 mil votos.\n\nO comportamento do eleitorado paulinense também segue o padrão das eleições recentes. Em 2022, no segundo turno entre Jair Bolsonaro e Lula, o então presidente teve 59,20% dos votos válidos na cidade, contra 40,80% do petista. Nas eleições estaduais deste ano, Tarcísio de Freitas (Republicanos) também teve ampla vantagem no município.\n\nMesmo com a preferência local por Flávio, a eleição presidencial é decidida pela soma dos votos válidos de todo o Brasil. No placar nacional, Lula terminou à frente e governará o país de 2027 a 2030.\n\nA totalização oficial dos votos, inclusive o detalhamento por município, é feita pelo Tribunal Superior Eleitoral (TSE).",
+    "foto": "https://raw.githubusercontent.com/Carriel-maker/rede-diz-paulinia/main/imagens-editadas/flavio-mais-votado-paulinia-20261025.jpg",
+    "foto_credito": "",
+    "fonte_nome": "TSE",
+    "fonte_url": "https://resultados.tse.jus.br/",
+    "destaque_manual": true,
+    "destaque_ate": "2026-10-27"
+  },
+  {
     "id": "2026-10-25-18h-tse-suspende-apuracao-apos-prorrogacao-do",
     "data": "2026-10-25",
     "escopo": "brasil",
