@@ -1,5 +1,47 @@
 [
   {
+    "id": "2026-10-30-18h-desemprego-no-brasil-atinge-menor-taxa",
+    "data": "2026-10-30",
+    "escopo": "brasil",
+    "tag": "Economia",
+    "selo": "confirmado",
+    "titulo": "Desemprego no Brasil atinge menor taxa em 14 anos, ficando em 5,2% no 3º trimestre",
+    "resumo": "O Brasil registrou uma taxa de desemprego de 5,2% no terceiro trimestre de 2026, a menor desde 2012, segundo dados do IBGE. O número de pessoas desocupadas caiu para 5,6 milhões, refletindo uma redução significativa em relação ao ano anterior.",
+    "texto_completo": "Dados divulgados pelo Instituto Brasileiro de Geografia e Estatística (IBGE) mostram que a taxa de desemprego no Brasil caiu para 5,2% no terceiro trimestre de 2026, o menor índice para este período desde 2012. Essa redução representa uma queda de 0,2 ponto percentual em comparação ao trimestre anterior e de 0,4 ponto percentual em relação ao mesmo período de 2025. O número total de pessoas desocupadas atingiu 5,6 milhões, uma diminuição de 4% em relação aos três meses anteriores.\n\nA população ocupada, por sua vez, alcançou 103,6 milhões, o maior registro desde o início da série histórica em 2012. O crescimento de 0,6% no trimestre, equivalente a 581 mil novas contratações, demonstra o avanço do mercado de trabalho. Entre os setores que mais contribuíram para essa alta está a construção civil, que registrou um aumento de 2,8% no número de trabalhadores. O setor público também registrou aumento, com 13,2 milhões de pessoas empregadas, refletindo um crescimento de 2,5% em relação ao ano anterior.\n\nApesar dos bons resultados, o analista do IBGE, William Kratochwill, observa que o ritmo de contratações pode ter sido afetado por incertezas políticas, especialmente em um ano eleitoral. A taxa de subutilização da força de trabalho se manteve em 13,0%, enquanto a renda real habitual dos trabalhadores apresentou crescimento de 3,7% em relação ao ano anterior, atingindo R$ 3.777. A massa de rendimento totalizou R$ 385,6 bilhões, também um recorde histórico, refletindo a recuperação econômica do país.",
+    "foto": "https://s2-g1.glbimg.com/4uKLXuYuA_toRVwbIu8uLutG1yc=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/u/p/5BX3wqTXe0o9FxOBf5gg/remedios.jpg",
+    "foto_credito": "",
+    "fonte_nome": "G1",
+    "fonte_url": "https://g1.globo.com/economia/noticia/2026/10/30/desocupacao-fica-em-52percent-a-menor-para-um-terceiro-trimestre-desde-2012.ghtml"
+  },
+  {
+    "id": "2026-10-30-18h-christa-pike-sobrevive-a-injecao-letal",
+    "data": "2026-10-30",
+    "escopo": "brasil",
+    "tag": "Segurança",
+    "selo": "confirmado",
+    "titulo": "Christa Pike sobrevive a injeção letal e relata dor e confusão após falha na execução",
+    "resumo": "Christa Pike, condenada à morte, sobreviveu a uma injeção letal e descreve sua experiência como confusa e dolorosa. Ela expressou gratidão pelo apoio recebido e refletiu sobre a dor causada à família da vítima.",
+    "texto_completo": "Christa Pike, mulher que sobreviveu a uma tentativa de execução por injeção letal nos Estados Unidos, compartilhou sua experiência angustiante após o incidente. Condenada pelo assassinato de uma colega no Tennessee, Pike foi submetida a duas doses de um medicamento letal no mês passado, mas a execução falhou, levando o estado a suspender as execuções. Desde então, ela passou uma semana internada e retornou à prisão, onde fez sua primeira declaração pública nesta sexta-feira (30) por meio de seus advogados.\n\nEm sua declaração, Pike revelou que acordou em um hospital confusa e em dor constante. Ela descreveu uma série de desconfortos físicos, incluindo dores nos braços, mãos e garganta, além de dificuldades para falar. Pike também expressou sua indignação com a situação e lamentou a dor que a falha na execução causou à família da vítima, lembrando que nunca havia imaginado uma vida além da data programada para sua morte.\n\nA condenada demonstrou gratidão aos profissionais de saúde que ajudaram a salvá-la e às pessoas que lhe ofereceram apoio. \"Estou tentando me recuperar, um dia de cada vez\", afirmou, enquanto refletia sobre a incerteza de seu futuro. Pike finalizou sua declaração enfatizando a importância do amor e da bondade que recebeu, que a ajudaram a enfrentar esse momento difícil e a lembrar que não está sozinha.",
+    "foto": "https://s2-g1.glbimg.com/BqTO74ny3Tbe3yQ6T0DokUg31H0=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/4/z/vV6TuCRR20M0XhMDJprw/copia-de-sem-nome-1200-x-900-px-10-.png",
+    "foto_credito": "",
+    "fonte_nome": "G1",
+    "fonte_url": "https://g1.globo.com/mundo/noticia/2026/10/30/mulher-que-sobreviveu-a-injecao-letal-nos-eua-disse-que-acordou-confusa-e-com-dor.ghtml"
+  },
+  {
+    "id": "2026-10-30-18h-xabi-alonso-garante-que-estevao-tera",
+    "data": "2026-10-30",
+    "escopo": "brasil",
+    "tag": "Esporte",
+    "selo": "confirmado",
+    "titulo": "Xabi Alonso garante que Estêvão terá oportunidades no Chelsea",
+    "resumo": "O treinador do Chelsea, Xabi Alonso, afirmou que o atacante brasileiro Estêvão não sairá do clube e terá chances de jogar. O jogador, que não atuou na recente eliminação da equipe na Copa da Liga Inglesa, deve ganhar mais minutos ao longo da temporada.",
+    "texto_completo": "O técnico do Chelsea, Xabi Alonso, comentou sobre a situação do atacante brasileiro Estêvão, que tem recebido críticas pela sua falta de minutos em campo. Durante uma coletiva, Alonso descartou qualquer possibilidade de saída do jogador, afirmando que ele faz parte dos planos da equipe para a temporada.\n\nEstêvão, que não foi utilizado na partida contra o Liverpool, que resultou na eliminação do Chelsea na Copa da Liga Inglesa, deverá ter mais oportunidades nas próximas rodadas. Alonso ressaltou que a gestão do elenco é importante e que o jogador terá sua chance de mostrar seu talento ao longo da temporada.",
+    "foto": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/GettyImages-2271108016_79a033-e1777056820739.jpg?w=1200&amp;h=630&amp;crop=1",
+    "foto_credito": "",
+    "fonte_nome": "CNN Brasil",
+    "fonte_url": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/futebol-ingles/xabi-alonso-descarta-saida-de-estevao-do-chelsea-e-explica-poucos-minutos/"
+  },
+  {
     "id": "2026-10-30-vereadores-de-paulinia-comentam-reeleicao-de",
     "data": "2026-10-30",
     "escopo": "paulinia",
