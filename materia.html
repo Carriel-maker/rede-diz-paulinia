@@ -86,6 +86,7 @@ header{background:var(--navy);color:#fff;}
 /* BODY */
 .materia-corpo p{margin-bottom:18px;font-size:16.5px;color:var(--text);}
 .materia-corpo{margin-bottom:20px;}
+.nota-rodape{font-size:12px;color:var(--muted);margin:-8px 0 30px;font-style:italic;}
 
 /* LEIA TAMBEM CALLOUT */
 .callout{background:#eef2fb;border-left:4px solid var(--navy);border-radius:6px;padding:18px 20px;margin:26px 0;}
@@ -262,6 +263,7 @@ conteudo.innerHTML =
 calloutHtml +
 '<div class="ad-slot"><div class="ad-label">Publicidade</div><a href="https://instagram.com/redediz.oficial" target="_blank" rel="noopener" style="display:block;border-radius:8px;overflow:hidden;"><img src="ads/anuncio-b-materia.jpg" alt="Anuncie aqui - sua marca na Rede Diz" style="width:100%;height:auto;display:block;"></a></div>' +
 '<div class="materia-corpo">' + depoisHtml + '</div>' +
+(item.nota_rodape ? '<p class="nota-rodape">' + escapeHtml(item.nota_rodape) + '</p>' : '') +
 '<div class="follow-cta"><h3>Segue a Rede Diz pra não perder nada de Paulínia</h3><div class="redes">' +
 '<a class="rede-btn" href="https://instagram.com/redediz.oficial" target="_blank" rel="noopener">📷 Instagram @redediz.oficial</a>' +
 '<a class="rede-btn" href="https://wa.me/5519996736881" target="_blank" rel="noopener">💬 WhatsApp</a>' +
