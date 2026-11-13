@@ -86,6 +86,8 @@ header{background:var(--navy);color:#fff;}
 /* BODY */
 .materia-corpo p{margin-bottom:18px;font-size:16.5px;color:var(--text);}
 .materia-corpo{margin-bottom:20px;}
+.materia-corpo h2.intertitulo{font-size:21px;font-weight:800;color:var(--navy);margin:30px 0 12px;line-height:1.3;}
+.materia-linha-fina{font-size:18px;font-weight:400;color:#555;line-height:1.45;margin:0 0 14px;}
 .nota-rodape{font-size:12px;color:var(--muted);margin:-8px 0 30px;font-style:italic;}
 
 /* LEIA TAMBEM CALLOUT */
@@ -234,8 +236,13 @@ relacionadas = relacionadas.concat(extras).slice(0, 4);
 }
 
 var meio = Math.max(1, Math.floor(paragrafos.length / 2));
-var antesHtml = paragrafos.slice(0, meio).map(function(p){ return '<p>' + escapeHtml(p) + '</p>'; }).join('');
-var depoisHtml = paragrafos.slice(meio).map(function(p){ return '<p>' + escapeHtml(p) + '</p>'; }).join('');
+function paragrafoHtml(p){
+var t = p.trim();
+if(/^##\s+/.test(t)) return '<h2 class="intertitulo">' + escapeHtml(t.replace(/^##\s+/, '')) + '</h2>';
+return '<p>' + escapeHtml(p) + '</p>';
+}
+var antesHtml = paragrafos.slice(0, meio).map(paragrafoHtml).join('');
+var depoisHtml = paragrafos.slice(meio).map(paragrafoHtml).join('');
 
 var calloutHtml = '';
 if(relacionadas.length){
@@ -249,6 +256,7 @@ conteudo.innerHTML =
 '<span class="tag-pill" style="background:' + escopoCor + ';">' + escopoLabel + '</span>' +
 '<span class="tag">' + escapeHtml(item.tag || '') + '</span>' +
 '<h1 class="materia-titulo">' + escapeHtml(item.titulo || '') + '</h1>' +
+(item.linha_fina ? '<p class="materia-linha-fina">' + escapeHtml(item.linha_fina) + '</p>' : '') +
 '<div class="byline">' +
 '<div class="byline-info">Por <b>Rede Diz</b> em ' + formatarData(item.data) + '</div>' +
 '<div class="share-bar">' +
