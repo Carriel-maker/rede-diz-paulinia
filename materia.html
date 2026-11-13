@@ -219,6 +219,12 @@ return '<a class="noticia-card" href="materia.html?id=' + encodeURIComponent(it.
 '<div class="noticia-body"><span class="tag">' + escapeHtml(it.tag||'') + '</span><h3>' + escapeHtml(it.titulo) + '</h3><div class="data-item">' + formatarData(it.data) + '</div></div></a>';
 }
 
+function legendaFotoHtml(item){
+var credito = (item.foto_credito || '').trim();
+var ehColuna = item.tag === 'Diz que Diz' || /diz-que-diz/.test(item.id || '');
+if(!credito && ehColuna) return '';
+return '<figcaption class="materia-legenda-foto">(' + escapeHtml(credito || 'Imagem: Internet/reprodução') + ')</figcaption>';
+}
 function render(item, lista){
 var conteudo = document.getElementById('conteudo');
 var corpo = item.texto_completo || item.resumo || '';
@@ -267,7 +273,7 @@ conteudo.innerHTML =
 '<a class="share-btn" title="X" href="https://twitter.com/intent/tweet?url=' + encodeURIComponent(pageUrl) + '&text=' + encodeURIComponent(item.titulo) + '" target="_blank" rel="noopener">✖</a>' +
 '<a class="share-btn" title="Copiar link" href="' + pageUrl + '" onclick="navigator.clipboard&&navigator.clipboard.writeText(\'' + pageUrl + '\');return false;">🔗</a>' +
 '</div></div>' +
-(item.foto ? '<figure class="materia-figura"><img class="materia-foto" src="' + item.foto + '" alt="' + escapeHtml(item.titulo) + '"><figcaption class="materia-legenda-foto">(' + escapeHtml((item.foto_credito || '').trim() || 'Imagem: Internet/reprodução') + ')</figcaption></figure>' : '') +
+(item.foto ? '<figure class="materia-figura"><img class="materia-foto" src="' + item.foto + '" alt="' + escapeHtml(item.titulo) + '">' + legendaFotoHtml(item) + '</figure>' : '') +
 '<div style="margin-bottom:26px;"></div>' +
 '<div class="materia-corpo">' + antesHtml + '</div>' +
 calloutHtml +
