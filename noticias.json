@@ -1,5 +1,47 @@
 [
   {
+    "id": "2026-11-17-18h-votacao-de-destaques-do-ajuste-fiscal",
+    "data": "2026-11-17",
+    "escopo": "brasil",
+    "tag": "Política",
+    "selo": "confirmado",
+    "titulo": "Votação de destaques do ajuste fiscal no Senado é adiada para quarta-feira",
+    "resumo": "O Senado adiou para quarta-feira a análise de propostas de mudanças no projeto de ajuste fiscal do governo. A decisão ocorreu devido à falta de consenso entre os senadores sobre as propostas a serem votadas.",
+    "texto_completo": "O Senado Federal decidiu adiar para a próxima quarta-feira, 18 de outubro, a votação dos destaques do projeto de lei complementar (PLP) que propõe ajustes fiscais. A expectativa inicial era que a análise ocorresse nesta terça-feira, 17, mas a falta de acordo entre os senadores sobre quais propostas deveriam ser aceitas levou ao adiamento da votação.\n\nNa última quinta-feira, o plenário havia aprovado o texto-base do projeto que visa conter o crescimento das despesas públicas e aumentar a arrecadação, buscando estabilizar a dívida pública sem comprometer as políticas sociais. Para concluir a votação, os senadores precisam deliberar sobre quatro destaques que incluem propostas para limitar o uso de créditos tributários, endurecer o controle de gastos e alterar repasses da Lei Kandir a estados e municípios.\n\nEntre os destaques, um dos mais significativos sugere a exclusão da autorização que permite ao governo restringir a compensação de tributos por empresas, o que geraria um impacto significativo nas arrecadações futuras. Além disso, há propostas que visam modificar os limites de crescimento das despesas federais e impedir a criação de um teto para compensações previdenciárias, que também estão gerando debates acalorados entre os parlamentares e representantes de entidades empresariais e municipais.",
+    "foto": "https://s2-g1.glbimg.com/wPSq_NK6mRslSm2Z20VysL9LMS0=/2646x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/5/p/B2UrCXQDeyS5FWTwQjlA/55649772539-eccc8e95e3-o.jpg",
+    "foto_credito": "",
+    "fonte_nome": "G1",
+    "fonte_url": "https://g1.globo.com/politica/noticia/2026/11/17/senado-adia-votacao-de-destaques-ao-projeto-de-ajuste-fiscal-do-governo-para-quarta-feira.ghtml"
+  },
+  {
+    "id": "2026-11-17-18h-senado-autoriza-ampliacao-de-r-13",
+    "data": "2026-11-17",
+    "escopo": "brasil",
+    "tag": "Economia",
+    "selo": "confirmado",
+    "titulo": "Senado autoriza ampliação de R$13,5 bilhões para o Plano Brasil Soberano",
+    "resumo": "A medida provisória visa beneficiar exportadores e setores industriais brasileiros diante de tarifas elevadas dos Estados Unidos. A aprovação busca fortalecer o comércio exterior do país.",
+    "texto_completo": "O Senado Federal aprovou uma medida provisória que amplia em até R$13,5 bilhões os recursos do Plano Brasil Soberano. Essa iniciativa tem como objetivo apoiar exportadores e fornecedores, além de fortalecer setores industriais que enfrentam desafios no comércio exterior, especialmente em decorrência das tarifas elevadas impostas pelos Estados Unidos.\n\nA proposta foi elaborada em resposta ao cenário adverso que o Brasil vem enfrentando no comércio internacional, onde as altas taxas tarifárias prejudicam a competitividade dos produtos brasileiros. A aprovação no Senado é um passo importante para a implementação de políticas que busquem mitigar os impactos negativos e garantir suporte aos setores mais afetados.\n\nCom essa ampliação, o governo espera criar um ambiente mais favorável para os negócios, estimulando o crescimento econômico e promovendo a recuperação do comércio exterior nacional. A medida agora segue para sanção presidencial, onde poderá ser transformada em lei.",
+    "foto": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/plenario_do_senado.jpg?w=1200&amp;h=630&amp;crop=1",
+    "foto_credito": "",
+    "fonte_nome": "CNN Brasil",
+    "fonte_url": "https://www.cnnbrasil.com.br/politica/senado-aprova-ampliacao-de-ate-r135-bilhoes-para-o-plano-brasil-soberano/"
+  },
+  {
+    "id": "2026-11-17-18h-conmebol-designa-arbitro-para-a-final",
+    "data": "2026-11-17",
+    "escopo": "brasil",
+    "tag": "Esporte",
+    "selo": "confirmado",
+    "titulo": "Conmebol designa árbitro para a final da Libertadores entre Palmeiras e Estudiantes",
+    "resumo": "A final da Libertadores será realizada no dia 28 de novembro, às 17 horas, em Montevidéu. O Estádio Centenário será o palco da decisão entre Palmeiras e Estudiantes.",
+    "texto_completo": "A Conmebol anunciou a designação do árbitro para a final da Copa Libertadores, que reunirá Palmeiras e Estudiantes. A partida está marcada para o dia 28 de novembro, um sábado, e terá início às 17 horas, no horário de Brasília.\n\nO Estádio Centenário, localizado em Montevidéu, Uruguai, foi escolhido como o local para a grande decisão. Esta competição é um dos principais torneios de clubes da América do Sul e atrai a atenção de torcedores de todo o continente.",
+    "foto": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/jesusvalenzuela.webp?w=660&amp;h=371&amp;crop=1",
+    "foto_credito": "",
+    "fonte_nome": "CNN Brasil",
+    "fonte_url": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/libertadores-da-america/palmeiras-x-estudiantes-conmebol-define-arbitro-para-final-da-libertadores/"
+  },
+  {
     "id": "2026-11-17-diz-que-diz-11",
     "data": "2026-11-17",
     "escopo": "paulinia",
