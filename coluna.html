@@ -206,6 +206,7 @@
 
 <script src="logo-data.js"></script>
 <script src="dqd-logo-data.js"></script>
+<script src="colunas-historico.js"></script>
 
 <script>
 function formatarData(iso){
@@ -252,8 +253,10 @@ function renderItem(item){
     '<h1 class="materia-titulo">' + escapeHtml(item.titulo || '') + '</h1>' +
     '<p class="materia-data">Por ' + escapeHtml(item.autor || 'O Vizinho') + ' · ' + formatarData(item.data) + '</p>' +
     '<div class="materia-corpo">' + paragrafosHtml + '</div>' +
-    (item.nota_rodape ? '<p class="nota-rodape">' + escapeHtml(item.nota_rodape) + '</p>' : '');
+    (item.nota_rodape ? '<p class="nota-rodape">' + escapeHtml(item.nota_rodape) + '</p>' : '') +
+    '<div id="historicoColunas"></div>';
   document.title = (item.titulo || 'Diz que Diz') + ' — Rede Diz Paulínia';
+  RDColunasHistorico.render(document.getElementById('historicoColunas'), item.id);
 }
 
 function renderErro(msg){
@@ -263,11 +266,7 @@ function renderErro(msg){
 var params = new URLSearchParams(window.location.search);
 var id = params.get('id');
 
-fetch('colunas.json')
-  .then(function(res){
-    if(!res.ok) throw new Error('colunas.json indisponível');
-    return res.json();
-  })
+RDColunasHistorico.carregar()
   .then(function(lista){
     lista = lista || [];
     if(id){
