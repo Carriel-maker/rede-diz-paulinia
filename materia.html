@@ -184,7 +184,9 @@ footer strong{color:#fff;}
 </div>
 </div>
 
+<div id="historicoColunasWrap" class="article-wrap"></div>
 <div id="relacionadasWrap"></div>
+<script src="colunas-historico.js"></script>
 
 <footer>
 <p><strong>Rede Diz Paulínia</strong> — Notícias, comércio e cultura da nossa cidade.</p>
@@ -286,6 +288,9 @@ calloutHtml +
 '</div></div>';
 
 document.title = (item.titulo || 'Matéria') + ' — Rede Diz Paulínia';
+if(item.tag === 'Diz que Diz' || /diz-que-diz/.test(item.id || '')){
+RDColunasHistorico.render(document.getElementById('historicoColunasWrap'), item.id);
+}
 
 var relWrap = document.getElementById('relacionadasWrap');
 if(relacionadas.length){
