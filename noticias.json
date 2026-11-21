@@ -1,5 +1,47 @@
 [
   {
+    "id": "2026-11-21-18h-trump-comenta-sobre-ataque-hacker-a",
+    "data": "2026-11-21",
+    "escopo": "brasil",
+    "tag": "Segurança",
+    "selo": "confirmado",
+    "titulo": "Trump comenta sobre ataque hacker a banco de dados do FBI",
+    "resumo": "O presidente dos Estados Unidos, Donald Trump, abordou o recente ataque ao sistema de informações criminais do FBI, sugerindo que isso poderia trazer à tona informações relevantes. Segundo ele, a situação deve ser analisada para extrair possíveis benefícios para o país.",
+    "texto_completo": "O presidente dos Estados Unidos, Donald Trump, fez declarações sobre o ataque hacker que comprometeu o banco de dados do FBI, conhecido por armazenar informações criminais. Durante suas considerações, Trump minimizou a gravidade do incidente, apontando que o ataque poderia revelar dados úteis para o governo americano.\n\nTrump enfatizou a importância de compreender o que foi exposto neste ataque, sugerindo que as informações obtidas poderiam ser aproveitadas para aprimorar as ações de segurança nacional. O presidente destacou que, apesar da preocupação com a invasão, há uma oportunidade de aprendizado que pode beneficiar o país em suas estratégias de defesa contra ciberataques.",
+    "foto": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Trump.png?w=1200&amp;h=630&amp;crop=1",
+    "foto_credito": "",
+    "fonte_nome": "CNN Brasil",
+    "fonte_url": "https://www.cnnbrasil.com.br/internacional/trump-minimiza-suposto-ataque-hacker-contra-banco-de-dados-do-fbi/"
+  },
+  {
+    "id": "2026-11-21-18h-lula-defende-ajuste-fiscal-e-critica",
+    "data": "2026-11-21",
+    "escopo": "brasil",
+    "tag": "Política",
+    "selo": "confirmado",
+    "titulo": "Lula defende ajuste fiscal e critica mercado financeiro em live",
+    "resumo": "Durante uma transmissão ao vivo, o presidente Luiz Inácio Lula da Silva elogiou o ajuste fiscal do governo e se opôs às críticas do mercado financeiro. Ele reafirmou que não cortará recursos sociais e anunciou a criação de um ministério para a população idosa.",
+    "texto_completo": "O presidente Luiz Inácio Lula da Silva utilizou uma live nas redes sociais, realizada no último sábado, para defender o projeto de ajuste fiscal do governo, que já recebeu aprovação do Senado e será discutido pela Câmara dos Deputados na próxima semana. Lula criticou o mercado financeiro, afirmando que essa parcela do empresariado está mais preocupada em aumentar seus lucros do que com as condições de vida dos mais pobres. \"Não é o sistema financeiro que vai me ensinar a dirigir o país\", afirmou o presidente.\n\nLula detalhou que cerca de R$ 33 bilhões do ajuste fiscal devem ser alcançados através da redução de isenções e limitações em compensações tributárias para grandes empresas, sem que isso signifique cortes em programas sociais. O presidente destacou a competência do ministro do Planejamento, Bruno Moretti, enfatizando que não haverá retirada de recursos dos pobres para equilibrar as contas públicas. Além disso, Lula também abordou a questão da Previdência Social, assegurando que não haverá aumento na idade mínima para aposentadoria em seu governo.\n\nNa transmissão, o presidente anunciou a intenção de criar um ministério voltado para a população idosa, destacando a crescente necessidade de cuidados para essa faixa etária, que já representa 15,8% da população brasileira. Lula também defendeu a proposta de tarifa zero para o transporte público aos finais de semana, buscando ampliar o acesso ao lazer e à convivência familiar. A PEC sobre o tema já foi enviada ao Congresso, com o objetivo de financiar a medida por meio de emendas parlamentares.",
+    "foto": "https://imagens.ebc.com.br/T_WhGYuiyrLdmyV7jiZvaoXDzbo=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/21/55665688641_6f69a21e62_o.jpg?itok=cj9NYzaq",
+    "foto_credito": "",
+    "fonte_nome": "Agência Brasil",
+    "fonte_url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/o-sistema-financeiro-nao-vai-me-ensinar-dirigir-o-brasil-diz-lula"
+  },
+  {
+    "id": "2026-11-21-18h-bahia-e-coritiba-se-enfrentam-na",
+    "data": "2026-11-21",
+    "escopo": "brasil",
+    "tag": "Esporte",
+    "selo": "confirmado",
+    "titulo": "Bahia e Coritiba se enfrentam na Arena Fonte Nova pelo Brasileirão",
+    "resumo": "As equipes Bahia e Coritiba disputam a 36ª rodada do Campeonato Brasileiro na Arena Fonte Nova, em Salvador. O confronto promete ser decisivo para os dois times na competição.",
+    "texto_completo": "O Campeonato Brasileiro continua sua trajetória e, nesta rodada, Bahia e Coritiba se encontram na Arena Fonte Nova, em Salvador. O duelo, que faz parte da 36ª rodada, é crucial para ambas as equipes em busca de pontos importantes na tabela.\n\nAmbos os times vêm de resultados que podem impactar suas posições, e a expectativa é alta para a partida. O Bahia, jogando em casa, pretende contar com o apoio da torcida para conquistar uma vitória, enquanto o Coritiba busca melhorar seu desempenho fora de casa. Essa partida pode ser decisiva para as aspirações de cada um na competição.",
+    "foto": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/04/Inter-Bahia-Fonte-Nova-e1786589889603.jpg?w=1200&amp;h=630&amp;crop=1",
+    "foto_credito": "",
+    "fonte_nome": "CNN Brasil",
+    "fonte_url": "https://www.cnnbrasil.com.br/esportes/brasileirao/bahia-x-coritiba-escalacoes-e-onde-assistir-ao-jogo-do-brasileirao/"
+  },
+  {
     "id": "2026-11-21-gilmar-mendes-comenta-sobre-sigilo-de",
     "data": "2026-11-21",
     "escopo": "brasil",
